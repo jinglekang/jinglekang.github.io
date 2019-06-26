@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CentOS on 天空博客</title>
+    <link>www.tiankong.info/tags/centos/</link>
+    <description>Recent content in CentOS on 天空博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 27 Aug 2017 17:14:19 +0000</lastBuildDate>
+    
+	<atom:link href="www.tiankong.info/tags/centos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>在CentOS上搭建PHP服务器环境</title>
+      <link>www.tiankong.info/2017/08/28/%E5%9C%A8centos%E4%B8%8A%E6%90%AD%E5%BB%BAphp%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83/</link>
+      <pubDate>Sun, 27 Aug 2017 17:14:19 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2017/08/28/%E5%9C%A8centos%E4%B8%8A%E6%90%AD%E5%BB%BAphp%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83/</guid>
+      <description>&lt;div&gt;
+  安装apache:
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;div&gt;
+  yum install httpd httpd-devel
+&lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;div&gt;
+  启动apache:
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;div&gt;
+  /etc/init.d/httpd start
+&lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;div&gt;
+  此时输入服务器的IP地址，应该看到apache的服务页面，端口不用输，apache默认就是使用80端口
+&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

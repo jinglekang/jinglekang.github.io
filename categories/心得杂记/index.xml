@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>心得杂记 on 天空博客</title>
+    <link>www.tiankong.info/categories/%E5%BF%83%E5%BE%97%E6%9D%82%E8%AE%B0/</link>
+    <description>Recent content in 心得杂记 on 天空博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 26 Jun 2018 15:18:28 +0000</lastBuildDate>
+    
+	<atom:link href="www.tiankong.info/categories/%E5%BF%83%E5%BE%97%E6%9D%82%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MySQL跳过密码登录</title>
+      <link>www.tiankong.info/2018/06/26/mysql%E8%B7%B3%E8%BF%87%E5%AF%86%E7%A0%81%E7%99%BB%E5%BD%95/</link>
+      <pubDate>Tue, 26 Jun 2018 15:18:28 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2018/06/26/mysql%E8%B7%B3%E8%BF%87%E5%AF%86%E7%A0%81%E7%99%BB%E5%BD%95/</guid>
+      <description>编辑MySQL的配置文件my.ini，在[mysqld]下添加：
+skip-grant-tables 重启MySQL服务器，然后输入：
+mysql -u root -p 回车键跳过密码即可登陆，或者双击mysql.exe登陆数据库。</description>
+    </item>
+    
+    <item>
+      <title>MySQL忘记密码的解决办法</title>
+      <link>www.tiankong.info/2018/04/24/mysql%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</link>
+      <pubDate>Tue, 24 Apr 2018 02:36:25 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2018/04/24/mysql%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</guid>
+      <description>&lt;p&gt;MySQL密码忘记了，在网上找了好几个教程，只有这个适合我的环境，特地记录一下，服务器是winser2008，mysql版本5.5。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>如何删除系统中多余的的EFI分区</title>
+      <link>www.tiankong.info/2018/04/02/%E5%A6%82%E4%BD%95%E5%88%A0%E9%99%A4%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%A4%9A%E4%BD%99%E7%9A%84%E7%9A%84efi%E5%88%86%E5%8C%BA/</link>
+      <pubDate>Mon, 02 Apr 2018 04:48:26 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2018/04/02/%E5%A6%82%E4%BD%95%E5%88%A0%E9%99%A4%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%A4%9A%E4%BD%99%E7%9A%84%E7%9A%84efi%E5%88%86%E5%8C%BA/</guid>
+      <description>&lt;p&gt;　　各种双系统安装后的后遗症，计算机管理中的磁盘管理可以删除其他分区，唯独EFI分区不能删除，如果不想借助第三方DiskGenius或者PE等工具，利用Windows自带的Diskpart工具也是可以的。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>恶心的中国移动</title>
+      <link>www.tiankong.info/2018/03/15/%E6%81%B6%E5%BF%83%E7%9A%84%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8/</link>
+      <pubDate>Thu, 15 Mar 2018 04:58:38 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2018/03/15/%E6%81%B6%E5%BF%83%E7%9A%84%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8/</guid>
+      <description>&lt;p&gt;　　众所周知手机卡套餐一般都是长期的，用户自己不更换套餐，运营商受工信部限制，不可自主更换用户的手机套餐，所以就有了运营商客服各种电话忽悠你更换或升级你的手机套餐的情况。但是从移动吃了05年动感地带的亏后，后续就开始刷小聪明了，有些操作着实让人反感。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>VMware Workstation 14由于意外关闭虚拟机黑屏的解决办法</title>
+      <link>www.tiankong.info/2017/12/06/vmware-workstation-14%E7%94%B1%E4%BA%8E%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%84%8F%E5%A4%96%E5%85%B3%E9%97%AD%E9%87%8D%E6%96%B0%E6%89%93%E5%BC%80%E9%BB%91%E5%B1%8F%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E/</link>
+      <pubDate>Wed, 06 Dec 2017 05:03:25 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2017/12/06/vmware-workstation-14%E7%94%B1%E4%BA%8E%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%84%8F%E5%A4%96%E5%85%B3%E9%97%AD%E9%87%8D%E6%96%B0%E6%89%93%E5%BC%80%E9%BB%91%E5%B1%8F%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E/</guid>
+      <description>&lt;p&gt;今天开着虚拟机处理文件的时候，电脑意外卡死，然虚拟机打开时就黑屏了，没有任何反应，重试了几遍电脑都无法正常解决，于是在网上找到了办法， 特此备用&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>等待PayPal倒闭那一天！</title>
+      <link>www.tiankong.info/2017/12/01/%E7%AD%89%E5%BE%85paypal%E5%80%92%E9%97%AD%E9%82%A3%E4%B8%80%E5%A4%A9/</link>
+      <pubDate>Fri, 01 Dec 2017 09:42:25 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2017/12/01/%E7%AD%89%E5%BE%85paypal%E5%80%92%E9%97%AD%E9%82%A3%E4%B8%80%E5%A4%A9/</guid>
+      <description>&lt;p&gt;就因为2013年淘宝买了10美元，被永久限制，不得申诉，已经过去4年了，刚打电话申诉，那傲慢的语气，快倒闭吧！&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>如何简单安装Arch Linux操作系统？（编辑中）</title>
+      <link>www.tiankong.info/2017/12/01/%E5%A6%82%E4%BD%95%E7%AE%80%E5%8D%95%E5%AE%89%E8%A3%85arch-linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%BC%96%E8%BE%91%E4%B8%AD/</link>
+      <pubDate>Fri, 01 Dec 2017 08:00:53 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2017/12/01/%E5%A6%82%E4%BD%95%E7%AE%80%E5%8D%95%E5%AE%89%E8%A3%85arch-linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%BC%96%E8%BE%91%E4%B8%AD/</guid>
+      <description>&lt;p&gt;Arch Linux操作系统是个有魅力的Linux发行版，系统简洁优雅，所有的一切都需要自己配置，适合对操作系统有严格要求的人，另外系统采用滚动式更新，优缺点就不说了，这里简单说一下如何简单快速安装Arch Linux操作系统。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>如何下载 Google Chrome 离线安装包</title>
+      <link>www.tiankong.info/2017/11/30/%E5%A6%82%E4%BD%95%E4%BB%8E%E5%AE%98%E7%BD%91%E4%B8%8B%E8%BD%BD-google-chrome-%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%E5%8C%85/</link>
+      <pubDate>Thu, 30 Nov 2017 09:16:41 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2017/11/30/%E5%A6%82%E4%BD%95%E4%BB%8E%E5%AE%98%E7%BD%91%E4%B8%8B%E8%BD%BD-google-chrome-%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%E5%8C%85/</guid>
+      <description>&lt;p&gt;Google Chrome 离线安装包下载地址，个人备用&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>网站被攻击了，好厉害</title>
+      <link>www.tiankong.info/2017/09/19/%E7%BD%91%E7%AB%99%E8%A2%AB%E6%94%BB%E5%87%BB%E4%BA%86%E5%A5%BD%E5%8E%89%E5%AE%B3/</link>
+      <pubDate>Tue, 19 Sep 2017 13:14:52 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2017/09/19/%E7%BD%91%E7%AB%99%E8%A2%AB%E6%94%BB%E5%87%BB%E4%BA%86%E5%A5%BD%E5%8E%89%E5%AE%B3/</guid>
+      <description>&lt;p&gt;你确实起作用了，我那免费服务器确实经不起你那折腾，我现在换了谷歌服务器了，你来吧&lt;/p&gt;
+
+&lt;p&gt;这阵子经常被关闭，看了下日志，有时候访问量突然访问量就到了1000左右，然后阿里云就给关闭了，反反复复好多次，还以为阿里云坑我，这点承载旧挂了，就换成了谷歌的服务器，免费1年，先凑合一年，我看你一年后还来不来。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>专业显卡与游戏卡我该选择哪个？</title>
+      <link>www.tiankong.info/2017/09/16/%E4%B8%93%E4%B8%9A%E6%98%BE%E5%8D%A1%E4%B8%8E%E6%B8%B8%E6%88%8F%E5%8D%A1%E6%88%91%E8%AF%A5%E9%80%89%E6%8B%A9%E5%93%AA%E4%B8%AA/</link>
+      <pubDate>Sat, 16 Sep 2017 03:14:15 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2017/09/16/%E4%B8%93%E4%B8%9A%E6%98%BE%E5%8D%A1%E4%B8%8E%E6%B8%B8%E6%88%8F%E5%8D%A1%E6%88%91%E8%AF%A5%E9%80%89%E6%8B%A9%E5%93%AA%E4%B8%AA/</guid>
+      <description>&lt;!--StartFragment --&gt;
+
+&lt;p&gt;　　“我需要专业显卡吗？专业显卡对我的工作有很大帮助吗？”相信很多处于专业领域的人都会遇到这个问题，现在来给大家分析一下专业显卡与游戏卡的详细介绍，相信大家看过之后会对自己的需求有些理解。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>开发环境、生产环境、测试环境的基本理解和区别</title>
+      <link>www.tiankong.info/2017/06/28/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3%E5%92%8C%E5%8C%BA%E5%88%AB/</link>
+      <pubDate>Wed, 28 Jun 2017 02:17:05 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2017/06/28/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3%E5%92%8C%E5%8C%BA%E5%88%AB/</guid>
+      <description>&lt;p&gt;　　摘要: 对开发环境、生产环境和测试环境的字面概念做简单称述，并且指出基本区别。&lt;/p&gt;
+
+&lt;p&gt;　　对于刚刚来到一个新的团队或是新环境的“新人”来说，当你无所事事且故作投入之时，听着几个“老人”在自己可视范围之外或严肃或轻松的讨论着业务，其措辞拿捏精准，语气抑扬顿挫，期间，涉及到一些的概念可能难免让你不明觉厉……然默默道：“高端，大气，上档次！”&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>浅谈linux中的reboot和shutdown -r now区别</title>
+      <link>www.tiankong.info/2017/06/27/%E6%B5%85%E8%B0%88linux%E4%B8%AD%E7%9A%84reboot%E5%92%8Cshutdown-r-now%E5%8C%BA%E5%88%AB/</link>
+      <pubDate>Tue, 27 Jun 2017 02:22:17 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2017/06/27/%E6%B5%85%E8%B0%88linux%E4%B8%AD%E7%9A%84reboot%E5%92%8Cshutdown-r-now%E5%8C%BA%E5%88%AB/</guid>
+      <description>&lt;p&gt;在linux命令中reboot是重新启动，shutdown -r now是立即停止后重新启动；虽然都为重启其实是有一定的区别的.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>我结婚了</title>
+      <link>www.tiankong.info/2017/05/06/%E6%88%91%E7%BB%93%E5%A9%9A%E4%BA%86/</link>
+      <pubDate>Sat, 06 May 2017 11:49:36 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2017/05/06/%E6%88%91%E7%BB%93%E5%A9%9A%E4%BA%86/</guid>
+      <description>五月3号，四月初八。</description>
+    </item>
+    
+    <item>
+      <title>迟来的新年快乐！</title>
+      <link>www.tiankong.info/2017/02/22/%E8%BF%9F%E6%9D%A5%E7%9A%84%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/</link>
+      <pubDate>Wed, 22 Feb 2017 08:31:47 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2017/02/22/%E8%BF%9F%E6%9D%A5%E7%9A%84%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/</guid>
+      <description>&lt;p&gt;　　网站荒废太久了，连我自己都不来了，自从做个和网络不相干的工作，兴趣都被转移了吗？是时候更新一波文章了。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>UC网盘下线，百度云还能走多远？</title>
+      <link>www.tiankong.info/2016/03/23/uc%E7%BD%91%E7%9B%98%E4%B8%8B%E7%BA%BF%E7%99%BE%E5%BA%A6%E4%BA%91%E8%BF%98%E8%83%BD%E8%B5%B0%E5%A4%9A%E8%BF%9C/</link>
+      <pubDate>Wed, 23 Mar 2016 14:48:01 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2016/03/23/uc%E7%BD%91%E7%9B%98%E4%B8%8B%E7%BA%BF%E7%99%BE%E5%BA%A6%E4%BA%91%E8%BF%98%E8%83%BD%E8%B5%B0%E5%A4%9A%E8%BF%9C/</guid>
+      <description>&lt;p&gt;&lt;code&gt;尊敬的UC网盘用户：&amp;lt;br /&amp;gt;
+您好，为配合国家关于利用云盘传播淫秽色情信息专项整治行动，UC网盘即日起调整服务功能，包括以下（不仅限于）措施&amp;lt;br /&amp;gt;
+1、停止网盘存储服务。请您在2016年4月15号中午12点前，登陆UC网盘，下载备份您的文件。&amp;lt;br /&amp;gt;
+2、我们将配合国家有关部门积极开展网盘上涉黄、涉盗版内容的清查工作，一经发现将自动清理，对于此类内容将无法提供备份下载服务。&amp;lt;br /&amp;gt;
+3、停止UC网盘的上传服务/离线资源存至网盘功能/视频转码服务。&amp;lt;br /&amp;gt;
+4、即日起至4月15号期间，为支持用户下载备份网盘文件，离线下载服务器将暂停“下载至本地”功能。&amp;lt;br /&amp;gt;
+感谢您一直以来对UC网盘的关怀和帮助，也对此次服务调整给您带来的不便深表歉意。&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>博客好久没有更新了，最近沉迷游戏了</title>
+      <link>www.tiankong.info/2014/05/05/%E5%8D%9A%E5%AE%A2%E5%A5%BD%E4%B9%85%E6%B2%A1%E6%9C%89%E6%9B%B4%E6%96%B0%E4%BA%86%E6%9C%80%E8%BF%91%E6%B2%89%E8%BF%B7%E6%B8%B8%E6%88%8F%E4%BA%86/</link>
+      <pubDate>Mon, 05 May 2014 13:31:05 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2014/05/05/%E5%8D%9A%E5%AE%A2%E5%A5%BD%E4%B9%85%E6%B2%A1%E6%9C%89%E6%9B%B4%E6%96%B0%E4%BA%86%E6%9C%80%E8%BF%91%E6%B2%89%E8%BF%B7%E6%B8%B8%E6%88%8F%E4%BA%86/</guid>
+      <description>感觉兴趣被转移了，真心对不起我的网站，我意志不坚决啊，希望以后我可以坚持继续更新，我会努力的</description>
+    </item>
+    
+    <item>
+      <title>我的大学梦原来就是这样的</title>
+      <link>www.tiankong.info/2014/01/10/%E6%88%91%E7%9A%84%E5%A4%A7%E5%AD%A6%E6%A2%A6%E5%8E%9F%E6%9D%A5%E5%B0%B1%E6%98%AF%E8%BF%99%E6%A0%B7%E7%9A%84/</link>
+      <pubDate>Fri, 10 Jan 2014 07:32:59 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2014/01/10/%E6%88%91%E7%9A%84%E5%A4%A7%E5%AD%A6%E6%A2%A6%E5%8E%9F%E6%9D%A5%E5%B0%B1%E6%98%AF%E8%BF%99%E6%A0%B7%E7%9A%84/</guid>
+      <description>&lt;p&gt;小时候，上学就是为了考大学，家长一再嘱托，要好好学习，将来要考上大学。那时候学习是那么努力，没完没了的学，不过也和老师留下写不完的作业有关。时光飞逝，小学5年，初中3年，高中3年，我最终以一个全班倒数的成绩上了大学。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>事实证明UC浏览器的离线下载用处非常大</title>
+      <link>www.tiankong.info/2013/12/15/2013-12-15-%E5%AE%9E%E6%97%B6%E8%AF%81%E6%98%8Euc%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E7%A6%BB%E7%BA%BF%E4%B8%8B%E8%BD%BD%E7%94%A8%E5%A4%84%E9%9D%9E%E5%B8%B8%E5%A4%A7/</link>
+      <pubDate>Sun, 15 Dec 2013 12:04:20 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2013/12/15/2013-12-15-%E5%AE%9E%E6%97%B6%E8%AF%81%E6%98%8Euc%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E7%A6%BB%E7%BA%BF%E4%B8%8B%E8%BD%BD%E7%94%A8%E5%A4%84%E9%9D%9E%E5%B8%B8%E5%A4%A7/</guid>
+      <description>&lt;p&gt;迅雷的会员前几天到期了，不准备再续费了，因为我开了会员下载文件还是不如旋风的速度，直接被抢的进度条都不动，彻底对迅雷无语了。但旋风虽然说下载文件速度还不错，也仅限于下载热门文件，如果在80S下载视频还是不行，10M的宽带下载也只有50K/S，开了会员也不行。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>天空博客的初衷</title>
+      <link>www.tiankong.info/2013/11/29/%E5%A4%A9%E7%A9%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%88%9D%E8%A1%B7/</link>
+      <pubDate>Fri, 29 Nov 2013 10:47:48 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2013/11/29/%E5%A4%A9%E7%A9%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%88%9D%E8%A1%B7/</guid>
+      <description>&lt;p&gt;两个月前，我注册了tiankong.info域名，办起了天空博客，现在这个博客连起步都不算，而我本人也是一个没什么本事的学生，没什么技术，也不会写文章，我拥有的只是兴趣，一切按照兴趣而写。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于最近更换DNS的一些感慨</title>
+      <link>www.tiankong.info/2013/11/22/%E5%85%B3%E4%BA%8E%E6%9C%80%E8%BF%91%E6%9B%B4%E6%8D%A2dns%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/</link>
+      <pubDate>Fri, 22 Nov 2013 13:10:31 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2013/11/22/%E5%85%B3%E4%BA%8E%E6%9C%80%E8%BF%91%E6%9B%B4%E6%8D%A2dns%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/</guid>
+      <description>&lt;p&gt;我有好几个域名，一直不知道怎么处理，卖了又卖不到钱，留着续费又贵，扔了又不舍得，真是食之无肉,弃之有味啊！于是就像把这几个域名全部转向到&lt;a href=&#34;http://www.tiankong.info&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;tiankong.info&lt;/a&gt;上。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>学会放弃也是一种能力</title>
+      <link>www.tiankong.info/2013/11/21/%E5%AD%A6%E4%BC%9A%E6%94%BE%E5%BC%83%E4%B9%9F%E6%98%AF%E4%B8%80%E7%A7%8D%E8%83%BD%E5%8A%9B/</link>
+      <pubDate>Thu, 21 Nov 2013 05:58:23 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2013/11/21/%E5%AD%A6%E4%BC%9A%E6%94%BE%E5%BC%83%E4%B9%9F%E6%98%AF%E4%B8%80%E7%A7%8D%E8%83%BD%E5%8A%9B/</guid>
+      <description>有时候，即时舍不得，也要学会放弃。
+努力了很久，并不一定可以换来回报，适当的放弃，可以让我们过的更好。</description>
+    </item>
+    
+    <item>
+      <title>世界上最遥远的距离-很喜欢的一首诗</title>
+      <link>www.tiankong.info/2013/11/12/%E4%B8%96%E7%95%8C%E4%B8%8A%E6%9C%80%E9%81%A5%E8%BF%9C%E7%9A%84%E8%B7%9D%E7%A6%BB-%E5%BE%88%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E9%A6%96%E8%AF%97/</link>
+      <pubDate>Tue, 12 Nov 2013 03:38:03 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2013/11/12/%E4%B8%96%E7%95%8C%E4%B8%8A%E6%9C%80%E9%81%A5%E8%BF%9C%E7%9A%84%E8%B7%9D%E7%A6%BB-%E5%BE%88%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E9%A6%96%E8%AF%97/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;color: #000000;&#34;&gt;&lt;strong&gt;世界上最遥远的距离&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;color: #000000;&#34;&gt;&lt;strong&gt;不是生与死的距离&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;color: #000000;&#34;&gt;&lt;strong&gt;而是我站在你面前&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;color: #000000;&#34;&gt;&lt;strong&gt;你不知道我爱你&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>孩子！当你还很小的时候，我教了你很多很多</title>
+      <link>www.tiankong.info/2013/11/06/%E5%AD%A9%E5%AD%90%E5%BD%93%E4%BD%A0%E8%BF%98%E5%BE%88%E5%B0%8F%E7%9A%84%E6%97%B6%E5%80%99%E6%88%91%E6%95%99%E4%BA%86%E4%BD%A0%E5%BE%88%E5%A4%9A%E5%BE%88%E5%A4%9A/</link>
+      <pubDate>Wed, 06 Nov 2013 05:27:42 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2013/11/06/%E5%AD%A9%E5%AD%90%E5%BD%93%E4%BD%A0%E8%BF%98%E5%BE%88%E5%B0%8F%E7%9A%84%E6%97%B6%E5%80%99%E6%88%91%E6%95%99%E4%BA%86%E4%BD%A0%E5%BE%88%E5%A4%9A%E5%BE%88%E5%A4%9A/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;font-size: x-large;&#34;&gt;        孩子！当你还很小的时候，我花了很多时间，教你慢慢用汤匙、用筷子吃东西。教你系鞋带、扣扣子、溜滑梯、教你穿衣服、梳头发、拧鼻涕。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>独木大大的博客无法访问了，希望快点恢复</title>
+      <link>www.tiankong.info/2013/11/05/%E7%8B%AC%E6%9C%A8%E5%A4%A7%E5%A4%A7%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E4%BA%86%E5%B8%8C%E6%9C%9B%E5%BF%AB%E5%B8%A6%E4%BD%A0%E6%81%A2%E5%A4%8D/</link>
+      <pubDate>Tue, 05 Nov 2013 11:35:01 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2013/11/05/%E7%8B%AC%E6%9C%A8%E5%A4%A7%E5%A4%A7%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E4%BA%86%E5%B8%8C%E6%9C%9B%E5%BF%AB%E5%B8%A6%E4%BD%A0%E6%81%A2%E5%A4%8D/</guid>
+      <description>一直喜欢独木成林，我建博客也是因为独木成林，今天发现无法访问了，不知出了什么原因，希望快点恢复吧。附独木链接：http://www.guofs.com/</description>
+    </item>
+    
+    <item>
+      <title>因为一个错误，博客内容全部丢失</title>
+      <link>www.tiankong.info/2013/11/02/%E5%9B%A0%E4%B8%BA%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E5%8D%9A%E5%AE%A2%E5%86%85%E5%AE%B9%E5%85%A8%E9%83%A8%E4%B8%A2%E5%A4%B1/</link>
+      <pubDate>Fri, 01 Nov 2013 19:57:52 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2013/11/02/%E5%9B%A0%E4%B8%BA%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E5%8D%9A%E5%AE%A2%E5%86%85%E5%AE%B9%E5%85%A8%E9%83%A8%E4%B8%A2%E5%A4%B1/</guid>
+      <description>一个无法修复的错误，造成了严重的后果。数据库被我清空了，所有文章丢失，并且还没有备份。
+因为这一个错误，我的博客需要重新制作，感谢一直支持我的兄弟姐妹，我会继续努力更新我的博客，给大家一个良好的阅读环境，谢谢大家的支持。如果兄弟们有需要原来博客的帖子，请在反馈区反馈一下，可以的话，我会尽快补上。</description>
+    </item>
+    
+  </channel>
+</rss>

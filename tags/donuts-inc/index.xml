@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Donuts Inc on 天空博客</title>
+    <link>www.tiankong.info/tags/donuts-inc/</link>
+    <description>Recent content in Donuts Inc on 天空博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 14 Dec 2017 03:52:07 +0000</lastBuildDate>
+    
+	<atom:link href="www.tiankong.info/tags/donuts-inc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>谈一谈域名被serverHold怎么处理</title>
+      <link>www.tiankong.info/2017/12/14/%E8%B0%88%E4%B8%80%E8%B0%88%E5%9F%9F%E5%90%8D%E8%A2%ABserverhold%E6%80%8E%E4%B9%88%E5%A4%84%E7%90%86/</link>
+      <pubDate>Thu, 14 Dec 2017 03:52:07 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2017/12/14/%E8%B0%88%E4%B8%80%E8%B0%88%E5%9F%9F%E5%90%8D%E8%A2%ABserverhold%E6%80%8E%E4%B9%88%E5%A4%84%E7%90%86/</guid>
+      <description>&lt;p&gt;不巧，前几天收到腾讯企业邮箱的通知，说我的备用域名（div.ltd）MX记录没了。MX记录有大半年没改过了，不可能无缘无故消失，吓我还以为域名被盗，不过去NameSilo查看没发现问题，就没有放在心上，连续几天通知我记录丢失，才查到域名状态是serverHold了。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

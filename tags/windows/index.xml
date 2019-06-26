@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on 天空博客</title>
+    <link>www.tiankong.info/tags/windows/</link>
+    <description>Recent content in Windows on 天空博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 01 Jun 2015 02:15:05 +0000</lastBuildDate>
+    
+	<atom:link href="www.tiankong.info/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Microsoft已经向Win7/Win8正版用户推送Windows 10预定</title>
+      <link>www.tiankong.info/2015/06/01/windows-10%E5%B7%B2%E7%BB%8F%E5%90%91win7win8%E6%AD%A3%E7%89%88%E7%94%A8%E6%88%B7%E6%8E%A8%E9%80%81%E9%A2%84%E5%AE%9A/</link>
+      <pubDate>Mon, 01 Jun 2015 02:15:05 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2015/06/01/windows-10%E5%B7%B2%E7%BB%8F%E5%90%91win7win8%E6%AD%A3%E7%89%88%E7%94%A8%E6%88%B7%E6%8E%A8%E9%80%81%E9%A2%84%E5%AE%9A/</guid>
+      <description>&lt;p&gt;今天早晨全球的Windows 7/8正版用户都收到了来自微软的Windows 10免费升级提示，用户可以在弹窗中“预订免费升级版”，与预览版本不同，用户在预订这一版本后，仍然需要等待通知，等Windows 10正式发布就可以下载3GB大小的安装包，安装后就可以平滑升级到Windows 10，目前OEM版暂时未收到推送提醒，原因未知。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

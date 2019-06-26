@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gravatar on 天空博客</title>
+    <link>www.tiankong.info/tags/gravatar/</link>
+    <description>Recent content in Gravatar on 天空博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 18 Sep 2015 22:55:01 +0000</lastBuildDate>
+    
+	<atom:link href="www.tiankong.info/tags/gravatar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>解决WordPress无法显示Gravatar头像的问题</title>
+      <link>www.tiankong.info/2015/09/19/%E8%A7%A3%E5%86%B3wordpress%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BAgravatar%E5%A4%B4%E5%83%8F%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Fri, 18 Sep 2015 22:55:01 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2015/09/19/%E8%A7%A3%E5%86%B3wordpress%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BAgravatar%E5%A4%B4%E5%83%8F%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+      <description>&lt;p&gt;因为国内的一些政策，Gravatar被屏蔽了，导致无数WordPress网站头像无法显示，并且导致网站迟迟加载不完全，很多人尝试用本地缓存的方法，不过如果博客访问量很高的话，对服务器的负载很大，使用以下方法可以完美解决这个问题。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

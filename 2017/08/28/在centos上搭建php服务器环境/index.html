@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#1b1b1b">
+	<title>在CentOS上搭建PHP服务器环境 | 天空博客</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="在CentOS上搭建PHP服务器环境" />
+<meta property="og:description" content="
+  安装apache:
+
+
+
+
+  yum install httpd httpd-devel
+
+
+
+
+  启动apache:
+
+
+
+
+  /etc/init.d/httpd start
+
+
+
+
+  此时输入服务器的IP地址，应该看到apache的服务页面，端口不用输，apache默认就是使用80端口
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="www.tiankong.info/2017/08/28/%E5%9C%A8centos%E4%B8%8A%E6%90%AD%E5%BB%BAphp%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83/" />
+<meta property="article:published_time" content="2017-08-27T17:14:19&#43;00:00"/>
+<meta property="article:modified_time" content="2017-08-27T17:14:19&#43;00:00"/>
+
+	<link rel="stylesheet" href="/www.tiankong.info/css/main.css">
+	<link rel="stylesheet" href="/www.tiankong.info/css/themes/dark-blue.css">
+	<link rel="icon" href="/www.tiankong.info/icons/16.png" sizes="16x16" type="image/png">
+	<link rel="icon" href="/www.tiankong.info/icons/32.png" sizes="32x32" type="image/png">
+		
+</head>
+<body>
+	<header class="header">
+	<a class="logo" href="/www.tiankong.info/">天空博客</a>
+	
+<nav class="main-nav" role="navigation">
+	<button id="toggle" class="main-nav__btn" aria-label="Menu toggle" aria-expanded="false" tabindex="0">
+		<div class="main-nav__btn-box" tabindex="-1">
+			<svg class="main-nav__icon icon-menu" width="18" height="18" viewBox="0 0 18 18">
+				<path class="icon-menu__burger" d="M18 0v3.6H0V0h18zM0 10.8h18V7.2H0v3.6zM0 18h18v-3.6H0V18z"/>
+				<path class="icon-menu__x" d="M11.55 9L18 15.45 15.45 18 9 11.55 2.55 18 0 15.45 6.45 9 0 2.55 2.55 0 9 6.45 15.45 0 18 2.55 11.55 9z"/>
+			</svg>
+		</div>
+	</button>
+	<ul id="menu" class="main-nav__list">
+		<li class="main-nav__item"><a class="main-nav__link" href="www.tiankong.info/">主页</a></li>
+		<li class="main-nav__item"><a class="main-nav__link" href="www.tiankong.info/record">记录</a></li>
+		<li class="main-nav__item"><a class="main-nav__link" href="www.tiankong.info/privacy">隐私</a></li>
+		<li class="main-nav__item"><a class="main-nav__link" href="www.tiankong.info/links">友联</a></li>
+		<li class="main-nav__item"><a class="main-nav__link" href="www.tiankong.info/about">关于</a></li>
+	</ul>
+</nav>
+</header>
+	<div class="primary">
+	
+	<main class="main">
+		<div class="single block">
+			<article class="post">
+	<div class="post__meta meta mb">
+<time class="post__meta-published meta-published" datetime="2017-08-27T17:14:19">August 27, 2017</time>
+<span class="post__meta-categories meta-categories">
+	<span class="meta-categories__list">Categories: <a class="meta-categories__link" href="/www.tiankong.info/categories/%e7%bd%91%e7%ab%99%e5%bb%ba%e8%ae%be" rel="category">网站建设</a></span>
+</span>
+	</div>
+
+				<h1 class="post__title">在CentOS上搭建PHP服务器环境</h1>
+				<div class="post__content"><div>
+  安装apache:
+</div>
+
+<blockquote>
+<div>
+  yum install httpd httpd-devel
+</div>
+</blockquote>
+
+<div>
+  启动apache:
+</div>
+
+<blockquote>
+<div>
+  /etc/init.d/httpd start
+</div>
+</blockquote>
+
+<div>
+  此时输入服务器的IP地址，应该看到apache的服务页面，端口不用输，apache默认就是使用80端口
+</div>
+
+<div>
+</div>
+
+<div>
+  安装mysql:
+</div>
+
+<blockquote>
+<div>
+  yum install mysql mysql-server
+</div>
+</blockquote>
+
+<div>
+  启动mysql:
+</div>
+
+<blockquote>
+<div>
+  /etc/init.d/mysqld start
+</div>
+</blockquote>
+
+<div>
+</div>
+
+<div>
+  安装php
+</div>
+
+<blockquote>
+<div>
+  yum install php php-devel
+</div>
+</blockquote>
+
+<div>
+  重启apache使php生效
+</div>
+
+<blockquote>
+<div>
+  /etc/init.d/httpd restart
+</div>
+</blockquote>
+
+<div>
+  此时可以在目录：/var/www/html/下建立一个PHP文件
+</div>
+
+<div>
+  代码：
+</div>
+
+<blockquote>
+<div>
+  <?php phpinfo(); ?>
+</div>
+</blockquote>
+
+<div>
+  <code></code><br /> 然后访问这个文件，就能看到PHP的一些信息，php.ini配置文件的路径可以在这个页面上看到
+</div>
+
+<div>
+</div>
+
+<div>
+  安装php的扩展
+</div>
+
+<blockquote>
+<div>
+  yum install php-mysql php-gd php-imap php-ldap php-odbc php-pear php-xml php-xmlrpc
+</div>
+</blockquote>
+
+<div>
+  安装完扩展之后需要再次重启apache
+</div>
+
+<blockquote>
+<div>
+  /etc/init.d/httpd restart
+</div>
+</blockquote>
+
+<div>
+</div>
+
+<div>
+  测试mysql是否链接成功的php代码
+</div>
+
+<blockquote>
+<div>
+  <?php
+</div>
+
+<div>
+  $con = mysql_connect(&#8220;127.0.0.1&#8243;,&#8221;root&#8221;,&#8221;&#8221;);
+</div>
+
+<div>
+  if (!$con)
+</div>
+
+<div>
+    {
+</div>
+
+<div>
+    die(&#8216;Could not connect: &#8216; . mysql_error());
+</div>
+
+<div>
+    }
+</div>
+
+<div>
+
+</div>
+
+<div>
+  mysql_select_db(&#8220;mydb&#8221;, $con);
+</div>
+
+<div>
+
+</div>
+
+<div>
+  $result = mysql_query(&#8220;SELECT * FROM sys_user&#8221;);
+</div>
+
+<div>
+
+</div>
+
+<div>
+  while($row = mysql_fetch_array($result))
+</div>
+
+<div>
+    {
+</div>
+
+<div>
+    echo $row[&#8216;UserName&#8217;] . &#8221; &#8221; . $row[&#8216;PassWord&#8217;] . &#8221; &#8221; . $row[&#8216;id&#8217;];
+</div>
+
+<div>
+    echo &#8220;<br />&#8221;;
+</div>
+
+<div>
+    }
+</div>
+
+<div>
+
+</div>
+
+<div>
+  mysql_close($con);
+</div>
+
+<div>
+  ?>
+</div>
+</blockquote>
+
+<div>
+  可以把上面的代码传入目录/var/www/html/
+</div>
+
+<div>
+  就可以看到执行情况
+</div>
+
+<div>
+</div>
+
+<div>
+  转自网络，原文地址：<a href="http://www.cnblogs.com/liulun/p/3535346.html" target="_blank" rel="noopener noreferrer">http://www.cnblogs.com/liulun/p/3535346.html</a>
+</div></div>
+				
+				<footer class="post__footer">
+					
+
+
+<div class="post__tags">
+	<a class="post__tag btn" href="/www.tiankong.info/tags/centos">CentOS</a><a class="post__tag btn" href="/www.tiankong.info/tags/php">PHP</a>
+</div>
+
+
+					
+				</footer>
+				
+			</article>
+		</div>
+	</main>
+	
+<div class="authorbox block">
+	<div class="author">
+		<figure class="author__avatar">
+			<img class="author__img" alt="浮云 avatar" src="/www.tiankong.info/img/avatar.png" height="90" width="90">
+		</figure>
+		<div class="author__body">
+			<div class="author__name">
+				浮云
+			</div>
+			<div class="author__bio">江天一色无纤尘，皎皎空中孤月轮。</div>
+		</div>
+	</div>
+</div>
+	
+
+
+
+	
+
+	</div>
+	<footer class="footer">
+<div class="footer__social social">
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="mailto:service@tiankong.info">
+			<svg class="social__icon" aria-label="Email" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="M299 268l124 106c-4 4-10 7-17 7H106c-7 0-13-3-17-7l124-106 43 38 43-38zm-43 13L89 138c4-4 10-7 17-7h300c7 0 13 3 17 7L256 281zm54-23l121-105v208L310 258zM81 153l121 105L81 361V153z"/></svg>
+		</a>
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="https://github.com/jinglekang">
+			<svg class="social__icon" aria-label="Github" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="M335 499c14 0 12 17 12 17H165s-2-17 12-17c13 0 16-6 16-12l-1-50c-71 16-86-28-86-28-12-30-28-37-28-37-24-16 1-16 1-16 26 2 40 26 40 26 22 39 59 28 74 22 2-17 9-28 16-35-57-6-116-28-116-126 0-28 10-51 26-69-3-6-11-32 3-67 0 0 21-7 70 26 42-12 86-12 128 0 49-33 70-26 70-26 14 35 6 61 3 67 16 18 26 41 26 69 0 98-60 120-117 126 10 8 18 24 18 48l-1 70c0 6 3 12 16 12z"/></svg>
+		</a>
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/users/11146079">
+			<svg class="social__icon" aria-label="Stack Overflow" role="img" width="32" height="32" viewBox="0 0 512 512"><g stroke-width="30"><path fill="none" d="M125 297v105h241V297"/><path d="M170 341h150m-144-68l148 31M199 204l136 64m-95-129l115 97M293 89l90 120"/></g></svg>
+		</a>
+</div>
+	<div class="footer__copyright">© 2019 天空博客. <span class="footer__copyright-credits">Powered by <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/vimux/binario" rel="nofollow noopener" target="_blank">Binario</a> theme.</span></div>
+</footer>
+<script src="/www.tiankong.info/js/menu.js"></script></body>
+</html>

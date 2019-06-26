@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>uProxy on 天空博客</title>
+    <link>www.tiankong.info/tags/uproxy/</link>
+    <description>Recent content in uProxy on 天空博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 20 Nov 2013 01:41:48 +0000</lastBuildDate>
+    
+	<atom:link href="www.tiankong.info/tags/uproxy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google将推出反网络审查uProxy代理工具</title>
+      <link>www.tiankong.info/2013/11/20/google%E5%B0%86%E6%8E%A8%E5%87%BA%E5%8F%8D%E7%BD%91%E7%BB%9C%E5%AE%A1%E6%9F%A5uproxy%E4%BB%A3%E7%90%86%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Wed, 20 Nov 2013 01:41:48 +0000</pubDate>
+      
+      <guid>www.tiankong.info/2013/11/20/google%E5%B0%86%E6%8E%A8%E5%87%BA%E5%8F%8D%E7%BD%91%E7%BB%9C%E5%AE%A1%E6%9F%A5uproxy%E4%BB%A3%E7%90%86%E5%B7%A5%E5%85%B7/</guid>
+      <description>&lt;p&gt;据报道，Google在纽约展示了一款网络代理软件uProxy,该软件可以帮助网民绕过网络审查，达到自由访问互联网的目的，原理是将两个用户已以加密的形式连接起来，构成一个虚拟网络，最终绕过网络审查，但uProxy不像Tor那样匿名代理，不允许文件共享，不提供加密连接，是一个由华盛顿大学和非功利组织Brave New Software研发的开放源代码的产品。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
