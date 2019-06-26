@@ -6,10 +6,21 @@
     <description>Recent content in Posts on 天空博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 25 Jun 2019 13:31:25 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jun 2019 14:24:12 +0800</lastBuildDate>
     
 	<atom:link href="http://www.tiankong.info/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Markdown语法练习</title>
+      <link>http://www.tiankong.info/2019/06/26/markdown%E8%AF%AD%E6%B3%95%E7%BB%83%E4%B9%A0/</link>
+      <pubDate>Wed, 26 Jun 2019 14:24:12 +0800</pubDate>
+      
+      <guid>http://www.tiankong.info/2019/06/26/markdown%E8%AF%AD%E6%B3%95%E7%BB%83%E4%B9%A0/</guid>
+      <description>标题 # 一级标题 ## 二级标题 ### 三级标题 #### 四级标题 ##### 五级标题 ###### 六级标题  一级标题 二级标题 三级标题 四级标题 五级标题 六级标题 分割线： ------  加粗和斜体： 标准文字Markdown，加粗后：**Markdown**，倾斜后：*Markdown*  标准文字Markdown，加粗后：Markdown，倾斜后：Markdown
+引用一段话： &amp;gt; 世界上一成不变的东西，只有“任何事物都是在不断变化的”这条真理。 —— 斯里兰卡   世界上一成不变的东西，只有“任何事物都是在不断变化的”这条真理。 —— 斯里兰卡
+ 无序排列： * 北京市 * 上海市 * 郑州市   北京市 上海市 郑州市  引用加无序组合： &amp;gt; * 北京市 &amp;gt; * 上海市 &amp;gt; * 郑州市    北京市 上海市 郑州市   引用图片 !</description>
+    </item>
     
     <item>
       <title>我的第一篇使用Hugo发布的文章</title>
