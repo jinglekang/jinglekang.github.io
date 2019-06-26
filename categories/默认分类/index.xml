@@ -81,7 +81,7 @@ apt upgrade
       
       <guid>http://www.tiankong.info/2018/09/04/sublime-text-3%E9%87%8C%E9%9D%A2%E6%8A%8Atab%E6%9B%BF%E6%8D%A2%E6%88%90%E7%A9%BA%E6%A0%BC/</guid>
       <description>打开Sublime ，打开Preferences/Settings，在右边大括号里面粘贴下面的内容保存即可
-&#34;tab_size&#34;: 4, &#34;translate_tabs_to_spaces&#34;: true, </description>
+&amp;quot;tab_size&amp;quot;: 4, &amp;quot;translate_tabs_to_spaces&amp;quot;: true,  </description>
     </item>
     
     <item>
@@ -122,12 +122,13 @@ set password = password(&amp;quot;password&amp;quot;);</description>
     </item>
     
     <item>
-      <title></title>
-      <link>http://www.tiankong.info/2018/05/13/917/</link>
+      <title>娱乐至死</title>
+      <link>http://www.tiankong.info/2018/05/13/%E4%B8%80%E5%88%87%E5%85%AC%E4%BC%97%E8%AF%9D%E8%AF%AD%E6%97%A5%E6%B8%90%E4%BB%A5%E5%A8%B1%E4%B9%90%E7%9A%84%E6%96%B9%E5%BC%8F%E5%87%BA%E7%8E%B0/</link>
       <pubDate>Sun, 13 May 2018 12:46:11 +0000</pubDate>
       
-      <guid>http://www.tiankong.info/2018/05/13/917/</guid>
-      <description>一切公众话语日渐以娱乐的方式出现，并成为一种文化精神。我们的政治、宗教、新闻、体育、教育和商业都心甘情愿地成为娱乐的附庸，毫无怨言，甚至无声无息，其结果是我们成了一个娱乐至死的物种。</description>
+      <guid>http://www.tiankong.info/2018/05/13/%E4%B8%80%E5%88%87%E5%85%AC%E4%BC%97%E8%AF%9D%E8%AF%AD%E6%97%A5%E6%B8%90%E4%BB%A5%E5%A8%B1%E4%B9%90%E7%9A%84%E6%96%B9%E5%BC%8F%E5%87%BA%E7%8E%B0/</guid>
+      <description> 一切公众话语日渐以娱乐的方式出现，并成为一种文化精神。我们的政治、宗教、新闻、体育、教育和商业都心甘情愿地成为娱乐的附庸，毫无怨言，甚至无声无息，其结果是我们成了一个娱乐至死的物种。
+ </description>
     </item>
     
     <item>

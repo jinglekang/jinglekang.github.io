@@ -9,9 +9,9 @@
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 		<meta property="og:title" content="开发环境、生产环境、测试环境的基本理解和区别" />
-<meta property="og:description" content="　　摘要: 对开发环境、生产环境和测试环境的字面概念做简单称述，并且指出基本区别。
+<meta property="og:description" content="摘要: 对开发环境、生产环境和测试环境的字面概念做简单称述，并且指出基本区别。
 
-　　对于刚刚来到一个新的团队或是新环境的“新人”来说，当你无所事事且故作投入之时，听着几个“老人”在自己可视范围之外或严肃或轻松的讨论着业务，其措辞拿捏精准，语气抑扬顿挫，期间，涉及到一些的概念可能难免让你不明觉厉……然默默道：“高端，大气，上档次！”" />
+对于刚刚来到一个新的团队或是新环境的“新人”来说，当你无所事事且故作投入之时，听着几个“老人”在自己可视范围之外或严肃或轻松的讨论着业务，其措辞拿捏精准，语气抑扬顿挫，期间，涉及到一些的概念可能难免让你不明觉厉……然默默道：“高端，大气，上档次！”" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://www.tiankong.info/2017/06/28/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3%E5%92%8C%E5%8C%BA%E5%88%AB/" />
 <meta property="article:published_time" content="2017-06-28T02:17:05&#43;00:00"/>
@@ -53,28 +53,34 @@
 	<div class="post__meta meta mb">
 <time class="post__meta-published meta-published" datetime="2017-06-28T02:17:05">2017年6月28日</time>
 <span class="post__meta-categories meta-categories">
-	<span class="meta-categories__list">Categories: <a class="meta-categories__link" href="/categories/%e5%bf%83%e5%be%97%e6%9d%82%e8%ae%b0" rel="category">心得杂记</a></span>
+	<span class="meta-categories__list">分类: <a class="meta-categories__link" href="/categories/%e5%bf%83%e5%be%97%e6%9d%82%e8%ae%b0" rel="category">心得杂记</a></span>
 </span>
 	</div>
 
 				<h1 class="post__title">开发环境、生产环境、测试环境的基本理解和区别</h1>
-				<div class="post__content"><p>　　摘要: 对开发环境、生产环境和测试环境的字面概念做简单称述，并且指出基本区别。</p>
+				<div class="post__content"><h4 id="摘要-对开发环境-生产环境和测试环境的字面概念做简单称述-并且指出基本区别">摘要: 对开发环境、生产环境和测试环境的字面概念做简单称述，并且指出基本区别。</h4>
 
-<p>　　对于刚刚来到一个新的团队或是新环境的“新人”来说，当你无所事事且故作投入之时，听着几个“老人”在自己可视范围之外或严肃或轻松的讨论着业务，其措辞拿捏精准，语气抑扬顿挫，期间，涉及到一些的概念可能难免让你不明觉厉……然默默道：“高端，大气，上档次！”</p>
+<p>对于刚刚来到一个新的团队或是新环境的“新人”来说，当你无所事事且故作投入之时，听着几个“老人”在自己可视范围之外或严肃或轻松的讨论着业务，其措辞拿捏精准，语气抑扬顿挫，期间，涉及到一些的概念可能难免让你不明觉厉……然默默道：“高端，大气，上档次！”</p>
 
-<p>“不识庐山真面目，只缘身在此山中”，对于一些术语，它既有官方称呼，也有通俗叫法，对于不明觉厉的我只是正巧漫步在这座叫做大山的山中啊！</p>
+<blockquote>
+<p>“不识庐山真面目，只缘身在此山中”</p>
+</blockquote>
 
-<p>　　菜鸟话多……</p>
+<p>对于一些术语，它既有官方称呼，也有通俗叫法，对于不明觉厉的我只是正巧漫步在这座叫做大山的山中啊！</p>
 
-<p>　　开发环境：开发环境是程序猿们专门用于开发的服务器，配置可以比较随意， 为了开发调试方便，一般打开全部错误报告。</p>
+<p>菜鸟话多……</p>
 
-<p>　　测试环境：一般是克隆一份生产环境的配置，一个程序在测试环境工作不正常，那么肯定不能把它发布到生产机上。</p>
+<blockquote>
+<p>开发环境：开发环境是程序猿们专门用于开发的服务器，配置可以比较随意， 为了开发调试方便，一般打开全部错误报告。</p>
 
-<p>　　生产环境：是值正式提供对外服务的，一般会关掉错误报告，打开错误日志。</p>
+<p>测试环境：一般是克隆一份生产环境的配置，一个程序在测试环境工作不正常，那么肯定不能把它发布到生产机上。</p>
 
-<p>　　三个环境也可以说是系统开发的三个阶段：开发-&gt;测试-&gt;上线，其中生产环境也就是通常说的真实环境。</p>
+<p>生产环境：是值正式提供对外服务的，一般会关掉错误报告，打开错误日志。</p>
+</blockquote>
 
-<p>转自oschina，源地址<a href="https://my.oschina.net/sancuo/blog/214904" target="_blank" rel="noopener noreferrer"><a href="https://my.oschina.net/sancuo/blog/214904">https://my.oschina.net/sancuo/blog/214904</a></a></p></div>
+<p>三个环境也可以说是系统开发的三个阶段：开发-&gt;测试-&gt;上线，其中生产环境也就是通常说的真实环境。</p>
+
+<p>转自oschina，源地址：<a href="https://my.oschina.net/sancuo/blog/214904" target="_blank">开发环境、生产环境、测试环境的基本理解和区别</a></p></div>
 				
 			</article>
 		</div>

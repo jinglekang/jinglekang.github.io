@@ -69,10 +69,10 @@ mysql -u root -p 回车键跳过密码即可登陆，或者双击mysql.exe登陆
     
     <item>
       <title>如何简单安装Arch Linux操作系统？（编辑中）</title>
-      <link>http://www.tiankong.info/2017/12/01/%E5%A6%82%E4%BD%95%E7%AE%80%E5%8D%95%E5%AE%89%E8%A3%85arch-linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%BC%96%E8%BE%91%E4%B8%AD/</link>
+      <link>http://www.tiankong.info/2017/12/01/%E5%A6%82%E4%BD%95%E7%AE%80%E5%8D%95%E5%AE%89%E8%A3%85arch-linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E5%BE%85%E7%BB%AD/</link>
       <pubDate>Fri, 01 Dec 2017 08:00:53 +0000</pubDate>
       
-      <guid>http://www.tiankong.info/2017/12/01/%E5%A6%82%E4%BD%95%E7%AE%80%E5%8D%95%E5%AE%89%E8%A3%85arch-linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%BC%96%E8%BE%91%E4%B8%AD/</guid>
+      <guid>http://www.tiankong.info/2017/12/01/%E5%A6%82%E4%BD%95%E7%AE%80%E5%8D%95%E5%AE%89%E8%A3%85arch-linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E5%BE%85%E7%BB%AD/</guid>
       <description>&lt;p&gt;Arch Linux操作系统是个有魅力的Linux发行版，系统简洁优雅，所有的一切都需要自己配置，适合对操作系统有严格要求的人，另外系统采用滚动式更新，优缺点就不说了，这里简单说一下如何简单快速安装Arch Linux操作系统。&lt;/p&gt;</description>
     </item>
     
@@ -86,14 +86,12 @@ mysql -u root -p 回车键跳过密码即可登陆，或者双击mysql.exe登陆
     </item>
     
     <item>
-      <title>网站被攻击了，好厉害</title>
-      <link>http://www.tiankong.info/2017/09/19/%E7%BD%91%E7%AB%99%E8%A2%AB%E6%94%BB%E5%87%BB%E4%BA%86%E5%A5%BD%E5%8E%89%E5%AE%B3/</link>
+      <title>博客被攻击了</title>
+      <link>http://www.tiankong.info/2017/09/19/%E5%8D%9A%E5%AE%A2%E8%A2%AB%E6%94%BB%E5%87%BB%E4%BA%86/</link>
       <pubDate>Tue, 19 Sep 2017 13:14:52 +0000</pubDate>
       
-      <guid>http://www.tiankong.info/2017/09/19/%E7%BD%91%E7%AB%99%E8%A2%AB%E6%94%BB%E5%87%BB%E4%BA%86%E5%A5%BD%E5%8E%89%E5%AE%B3/</guid>
-      <description>&lt;p&gt;你确实起作用了，我那免费服务器确实经不起你那折腾，我现在换了谷歌服务器了，你来吧&lt;/p&gt;
-
-&lt;p&gt;这阵子经常被关闭，看了下日志，有时候访问量突然访问量就到了1000左右，然后阿里云就给关闭了，反反复复好多次，还以为阿里云坑我，这点承载旧挂了，就换成了谷歌的服务器，免费1年，先凑合一年，我看你一年后还来不来。&lt;/p&gt;</description>
+      <guid>http://www.tiankong.info/2017/09/19/%E5%8D%9A%E5%AE%A2%E8%A2%AB%E6%94%BB%E5%87%BB%E4%BA%86/</guid>
+      <description>&lt;p&gt;不得不说，你确实起作用了，我那免费服务器经不起你那折腾，三番五次崩溃，免费的还是靠不住。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -102,9 +100,11 @@ mysql -u root -p 回车键跳过密码即可登陆，或者双击mysql.exe登陆
       <pubDate>Sat, 16 Sep 2017 03:14:15 +0000</pubDate>
       
       <guid>http://www.tiankong.info/2017/09/16/%E4%B8%93%E4%B8%9A%E6%98%BE%E5%8D%A1%E4%B8%8E%E6%B8%B8%E6%88%8F%E5%8D%A1%E6%88%91%E8%AF%A5%E9%80%89%E6%8B%A9%E5%93%AA%E4%B8%AA/</guid>
-      <description>&lt;!--StartFragment --&gt;
+      <description>&lt;blockquote&gt;
+&lt;p&gt;“我需要专业显卡吗？专业显卡对我的工作有很大帮助吗？”&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;　　“我需要专业显卡吗？专业显卡对我的工作有很大帮助吗？”相信很多处于专业领域的人都会遇到这个问题，现在来给大家分析一下专业显卡与游戏卡的详细介绍，相信大家看过之后会对自己的需求有些理解。&lt;/p&gt;</description>
+&lt;p&gt;相信很多处于专业领域的人都会遇到这个问题，现在来给大家分析一下专业显卡与游戏卡的详细介绍，相信大家看过之后会对自己的需求有些理解。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -113,9 +113,9 @@ mysql -u root -p 回车键跳过密码即可登陆，或者双击mysql.exe登陆
       <pubDate>Wed, 28 Jun 2017 02:17:05 +0000</pubDate>
       
       <guid>http://www.tiankong.info/2017/06/28/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3%E5%92%8C%E5%8C%BA%E5%88%AB/</guid>
-      <description>&lt;p&gt;　　摘要: 对开发环境、生产环境和测试环境的字面概念做简单称述，并且指出基本区别。&lt;/p&gt;
+      <description>&lt;h4 id=&#34;摘要-对开发环境-生产环境和测试环境的字面概念做简单称述-并且指出基本区别&#34;&gt;摘要: 对开发环境、生产环境和测试环境的字面概念做简单称述，并且指出基本区别。&lt;/h4&gt;
 
-&lt;p&gt;　　对于刚刚来到一个新的团队或是新环境的“新人”来说，当你无所事事且故作投入之时，听着几个“老人”在自己可视范围之外或严肃或轻松的讨论着业务，其措辞拿捏精准，语气抑扬顿挫，期间，涉及到一些的概念可能难免让你不明觉厉……然默默道：“高端，大气，上档次！”&lt;/p&gt;</description>
+&lt;p&gt;对于刚刚来到一个新的团队或是新环境的“新人”来说，当你无所事事且故作投入之时，听着几个“老人”在自己可视范围之外或严肃或轻松的讨论着业务，其措辞拿捏精准，语气抑扬顿挫，期间，涉及到一些的概念可能难免让你不明觉厉……然默默道：“高端，大气，上档次！”&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -124,7 +124,7 @@ mysql -u root -p 回车键跳过密码即可登陆，或者双击mysql.exe登陆
       <pubDate>Tue, 27 Jun 2017 02:22:17 +0000</pubDate>
       
       <guid>http://www.tiankong.info/2017/06/27/%E6%B5%85%E8%B0%88linux%E4%B8%AD%E7%9A%84reboot%E5%92%8Cshutdown-r-now%E5%8C%BA%E5%88%AB/</guid>
-      <description>&lt;p&gt;在linux命令中reboot是重新启动，shutdown -r now是立即停止后重新启动；虽然都为重启其实是有一定的区别的.&lt;/p&gt;</description>
+      <description>&lt;p&gt;在linux命令中reboot是重新启动，shutdown -r now是立即停止后重新启动；虽然都为重启其实是有一定的区别的。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -133,7 +133,7 @@ mysql -u root -p 回车键跳过密码即可登陆，或者双击mysql.exe登陆
       <pubDate>Sat, 06 May 2017 11:49:36 +0000</pubDate>
       
       <guid>http://www.tiankong.info/2017/05/06/%E6%88%91%E7%BB%93%E5%A9%9A%E4%BA%86/</guid>
-      <description>五月3号，四月初八。</description>
+      <description> 五月3号，四月初八。 </description>
     </item>
     
     <item>
@@ -142,7 +142,7 @@ mysql -u root -p 回车键跳过密码即可登陆，或者双击mysql.exe登陆
       <pubDate>Wed, 22 Feb 2017 08:31:47 +0000</pubDate>
       
       <guid>http://www.tiankong.info/2017/02/22/%E8%BF%9F%E6%9D%A5%E7%9A%84%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/</guid>
-      <description>&lt;p&gt;　　网站荒废太久了，连我自己都不来了，自从做个和网络不相干的工作，兴趣都被转移了吗？是时候更新一波文章了。&lt;/p&gt;</description>
+      <description>&lt;p&gt;网站荒废太久了，连我自己都不来了，自从做个和网络不相干的工作，兴趣都被转移了吗？是时候更新一波文章了。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -231,12 +231,15 @@ mysql -u root -p 回车键跳过密码即可登陆，或者双击mysql.exe登陆
     </item>
     
     <item>
-      <title>独木大大的博客无法访问了，希望快点恢复</title>
-      <link>http://www.tiankong.info/2013/11/05/%E7%8B%AC%E6%9C%A8%E5%A4%A7%E5%A4%A7%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E4%BA%86%E5%B8%8C%E6%9C%9B%E5%BF%AB%E5%B8%A6%E4%BD%A0%E6%81%A2%E5%A4%8D/</link>
+      <title>独木成林博客无法访问了</title>
+      <link>http://www.tiankong.info/2013/11/05/%E7%8B%AC%E6%9C%A8%E6%88%90%E6%9E%97%E5%8D%9A%E5%AE%A2%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E4%BA%86/</link>
       <pubDate>Tue, 05 Nov 2013 11:35:01 +0000</pubDate>
       
-      <guid>http://www.tiankong.info/2013/11/05/%E7%8B%AC%E6%9C%A8%E5%A4%A7%E5%A4%A7%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E4%BA%86%E5%B8%8C%E6%9C%9B%E5%BF%AB%E5%B8%A6%E4%BD%A0%E6%81%A2%E5%A4%8D/</guid>
-      <description>一直喜欢独木成林，我建博客也是因为独木成林，今天发现无法访问了，不知出了什么原因，希望快点恢复吧。附独木链接：http://www.guofs.com/</description>
+      <guid>http://www.tiankong.info/2013/11/05/%E7%8B%AC%E6%9C%A8%E6%88%90%E6%9E%97%E5%8D%9A%E5%AE%A2%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E4%BA%86/</guid>
+      <description>一直很喜欢独木成林博客，里面分享了各种安全的破解软件，虽然支持正版是理所应当，但我作为一个学生，暂时做不到为每一个使用过的软件都去付费。
+今天突然发现无法访问，不知什么原因，只希望快点恢复吧。
+ 附独木成林博客链接：独木成林
+ 2013年12月3号更新： 事后得知网站已经关闭了，破解站生存困难</description>
     </item>
     
     <item>

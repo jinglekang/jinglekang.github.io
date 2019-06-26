@@ -174,7 +174,7 @@ apt upgrade
       
       <guid>http://www.tiankong.info/2018/09/04/sublime-text-3%E9%87%8C%E9%9D%A2%E6%8A%8Atab%E6%9B%BF%E6%8D%A2%E6%88%90%E7%A9%BA%E6%A0%BC/</guid>
       <description>打开Sublime ，打开Preferences/Settings，在右边大括号里面粘贴下面的内容保存即可
-&#34;tab_size&#34;: 4, &#34;translate_tabs_to_spaces&#34;: true, </description>
+&amp;quot;tab_size&amp;quot;: 4, &amp;quot;translate_tabs_to_spaces&amp;quot;: true,  </description>
     </item>
     
     <item>
@@ -235,12 +235,13 @@ set password = password(&amp;quot;password&amp;quot;);</description>
     </item>
     
     <item>
-      <title></title>
-      <link>http://www.tiankong.info/2018/05/13/917/</link>
+      <title>娱乐至死</title>
+      <link>http://www.tiankong.info/2018/05/13/%E4%B8%80%E5%88%87%E5%85%AC%E4%BC%97%E8%AF%9D%E8%AF%AD%E6%97%A5%E6%B8%90%E4%BB%A5%E5%A8%B1%E4%B9%90%E7%9A%84%E6%96%B9%E5%BC%8F%E5%87%BA%E7%8E%B0/</link>
       <pubDate>Sun, 13 May 2018 12:46:11 +0000</pubDate>
       
-      <guid>http://www.tiankong.info/2018/05/13/917/</guid>
-      <description>一切公众话语日渐以娱乐的方式出现，并成为一种文化精神。我们的政治、宗教、新闻、体育、教育和商业都心甘情愿地成为娱乐的附庸，毫无怨言，甚至无声无息，其结果是我们成了一个娱乐至死的物种。</description>
+      <guid>http://www.tiankong.info/2018/05/13/%E4%B8%80%E5%88%87%E5%85%AC%E4%BC%97%E8%AF%9D%E8%AF%AD%E6%97%A5%E6%B8%90%E4%BB%A5%E5%A8%B1%E4%B9%90%E7%9A%84%E6%96%B9%E5%BC%8F%E5%87%BA%E7%8E%B0/</guid>
+      <description> 一切公众话语日渐以娱乐的方式出现，并成为一种文化精神。我们的政治、宗教、新闻、体育、教育和商业都心甘情愿地成为娱乐的附庸，毫无怨言，甚至无声无息，其结果是我们成了一个娱乐至死的物种。
+ </description>
     </item>
     
     <item>
@@ -346,10 +347,10 @@ set password = password(&amp;quot;password&amp;quot;);</description>
     
     <item>
       <title>如何简单安装Arch Linux操作系统？（编辑中）</title>
-      <link>http://www.tiankong.info/2017/12/01/%E5%A6%82%E4%BD%95%E7%AE%80%E5%8D%95%E5%AE%89%E8%A3%85arch-linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%BC%96%E8%BE%91%E4%B8%AD/</link>
+      <link>http://www.tiankong.info/2017/12/01/%E5%A6%82%E4%BD%95%E7%AE%80%E5%8D%95%E5%AE%89%E8%A3%85arch-linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E5%BE%85%E7%BB%AD/</link>
       <pubDate>Fri, 01 Dec 2017 08:00:53 +0000</pubDate>
       
-      <guid>http://www.tiankong.info/2017/12/01/%E5%A6%82%E4%BD%95%E7%AE%80%E5%8D%95%E5%AE%89%E8%A3%85arch-linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%BC%96%E8%BE%91%E4%B8%AD/</guid>
+      <guid>http://www.tiankong.info/2017/12/01/%E5%A6%82%E4%BD%95%E7%AE%80%E5%8D%95%E5%AE%89%E8%A3%85arch-linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E5%BE%85%E7%BB%AD/</guid>
       <description>&lt;p&gt;Arch Linux操作系统是个有魅力的Linux发行版，系统简洁优雅，所有的一切都需要自己配置，适合对操作系统有严格要求的人，另外系统采用滚动式更新，优缺点就不说了，这里简单说一下如何简单快速安装Arch Linux操作系统。&lt;/p&gt;</description>
     </item>
     
@@ -372,14 +373,12 @@ set password = password(&amp;quot;password&amp;quot;);</description>
     </item>
     
     <item>
-      <title>网站被攻击了，好厉害</title>
-      <link>http://www.tiankong.info/2017/09/19/%E7%BD%91%E7%AB%99%E8%A2%AB%E6%94%BB%E5%87%BB%E4%BA%86%E5%A5%BD%E5%8E%89%E5%AE%B3/</link>
+      <title>博客被攻击了</title>
+      <link>http://www.tiankong.info/2017/09/19/%E5%8D%9A%E5%AE%A2%E8%A2%AB%E6%94%BB%E5%87%BB%E4%BA%86/</link>
       <pubDate>Tue, 19 Sep 2017 13:14:52 +0000</pubDate>
       
-      <guid>http://www.tiankong.info/2017/09/19/%E7%BD%91%E7%AB%99%E8%A2%AB%E6%94%BB%E5%87%BB%E4%BA%86%E5%A5%BD%E5%8E%89%E5%AE%B3/</guid>
-      <description>&lt;p&gt;你确实起作用了，我那免费服务器确实经不起你那折腾，我现在换了谷歌服务器了，你来吧&lt;/p&gt;
-
-&lt;p&gt;这阵子经常被关闭，看了下日志，有时候访问量突然访问量就到了1000左右，然后阿里云就给关闭了，反反复复好多次，还以为阿里云坑我，这点承载旧挂了，就换成了谷歌的服务器，免费1年，先凑合一年，我看你一年后还来不来。&lt;/p&gt;</description>
+      <guid>http://www.tiankong.info/2017/09/19/%E5%8D%9A%E5%AE%A2%E8%A2%AB%E6%94%BB%E5%87%BB%E4%BA%86/</guid>
+      <description>&lt;p&gt;不得不说，你确实起作用了，我那免费服务器经不起你那折腾，三番五次崩溃，免费的还是靠不住。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -397,9 +396,11 @@ set password = password(&amp;quot;password&amp;quot;);</description>
       <pubDate>Sat, 16 Sep 2017 03:14:15 +0000</pubDate>
       
       <guid>http://www.tiankong.info/2017/09/16/%E4%B8%93%E4%B8%9A%E6%98%BE%E5%8D%A1%E4%B8%8E%E6%B8%B8%E6%88%8F%E5%8D%A1%E6%88%91%E8%AF%A5%E9%80%89%E6%8B%A9%E5%93%AA%E4%B8%AA/</guid>
-      <description>&lt;!--StartFragment --&gt;
+      <description>&lt;blockquote&gt;
+&lt;p&gt;“我需要专业显卡吗？专业显卡对我的工作有很大帮助吗？”&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;　　“我需要专业显卡吗？专业显卡对我的工作有很大帮助吗？”相信很多处于专业领域的人都会遇到这个问题，现在来给大家分析一下专业显卡与游戏卡的详细介绍，相信大家看过之后会对自己的需求有些理解。&lt;/p&gt;</description>
+&lt;p&gt;相信很多处于专业领域的人都会遇到这个问题，现在来给大家分析一下专业显卡与游戏卡的详细介绍，相信大家看过之后会对自己的需求有些理解。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -431,33 +432,19 @@ set password = password(&amp;quot;password&amp;quot;);</description>
     
     <item>
       <title>在CentOS上搭建PHP服务器环境</title>
-      <link>http://www.tiankong.info/2017/08/28/%E5%9C%A8centos%E4%B8%8A%E6%90%AD%E5%BB%BAphp%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83/</link>
+      <link>http://www.tiankong.info/2017/08/27/%E5%9C%A8centos%E4%B8%8A%E6%90%AD%E5%BB%BAphp%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83/</link>
       <pubDate>Sun, 27 Aug 2017 17:14:19 +0000</pubDate>
       
-      <guid>http://www.tiankong.info/2017/08/28/%E5%9C%A8centos%E4%B8%8A%E6%90%AD%E5%BB%BAphp%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83/</guid>
-      <description>&lt;div&gt;
-  安装apache:
-&lt;/div&gt;
+      <guid>http://www.tiankong.info/2017/08/27/%E5%9C%A8centos%E4%B8%8A%E6%90%AD%E5%BB%BAphp%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83/</guid>
+      <description>&lt;p&gt;安装apache:&lt;/p&gt;
 
-&lt;blockquote&gt;
-&lt;div&gt;
-  yum install httpd httpd-devel
-&lt;/div&gt;
-&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;yum install httpd httpd-devel
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;div&gt;
-  启动apache:
-&lt;/div&gt;
+&lt;p&gt;启动apache:&lt;/p&gt;
 
-&lt;blockquote&gt;
-&lt;div&gt;
-  /etc/init.d/httpd start
-&lt;/div&gt;
-&lt;/blockquote&gt;
-
-&lt;div&gt;
-  此时输入服务器的IP地址，应该看到apache的服务页面，端口不用输，apache默认就是使用80端口
-&lt;/div&gt;</description>
+&lt;pre&gt;&lt;code&gt;/etc/init.d/httpd start
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
     <item>
@@ -466,9 +453,9 @@ set password = password(&amp;quot;password&amp;quot;);</description>
       <pubDate>Wed, 28 Jun 2017 02:17:05 +0000</pubDate>
       
       <guid>http://www.tiankong.info/2017/06/28/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3%E5%92%8C%E5%8C%BA%E5%88%AB/</guid>
-      <description>&lt;p&gt;　　摘要: 对开发环境、生产环境和测试环境的字面概念做简单称述，并且指出基本区别。&lt;/p&gt;
+      <description>&lt;h4 id=&#34;摘要-对开发环境-生产环境和测试环境的字面概念做简单称述-并且指出基本区别&#34;&gt;摘要: 对开发环境、生产环境和测试环境的字面概念做简单称述，并且指出基本区别。&lt;/h4&gt;
 
-&lt;p&gt;　　对于刚刚来到一个新的团队或是新环境的“新人”来说，当你无所事事且故作投入之时，听着几个“老人”在自己可视范围之外或严肃或轻松的讨论着业务，其措辞拿捏精准，语气抑扬顿挫，期间，涉及到一些的概念可能难免让你不明觉厉……然默默道：“高端，大气，上档次！”&lt;/p&gt;</description>
+&lt;p&gt;对于刚刚来到一个新的团队或是新环境的“新人”来说，当你无所事事且故作投入之时，听着几个“老人”在自己可视范围之外或严肃或轻松的讨论着业务，其措辞拿捏精准，语气抑扬顿挫，期间，涉及到一些的概念可能难免让你不明觉厉……然默默道：“高端，大气，上档次！”&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -477,7 +464,7 @@ set password = password(&amp;quot;password&amp;quot;);</description>
       <pubDate>Tue, 27 Jun 2017 02:22:17 +0000</pubDate>
       
       <guid>http://www.tiankong.info/2017/06/27/%E6%B5%85%E8%B0%88linux%E4%B8%AD%E7%9A%84reboot%E5%92%8Cshutdown-r-now%E5%8C%BA%E5%88%AB/</guid>
-      <description>&lt;p&gt;在linux命令中reboot是重新启动，shutdown -r now是立即停止后重新启动；虽然都为重启其实是有一定的区别的.&lt;/p&gt;</description>
+      <description>&lt;p&gt;在linux命令中reboot是重新启动，shutdown -r now是立即停止后重新启动；虽然都为重启其实是有一定的区别的。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -486,7 +473,7 @@ set password = password(&amp;quot;password&amp;quot;);</description>
       <pubDate>Sat, 06 May 2017 11:49:36 +0000</pubDate>
       
       <guid>http://www.tiankong.info/2017/05/06/%E6%88%91%E7%BB%93%E5%A9%9A%E4%BA%86/</guid>
-      <description>五月3号，四月初八。</description>
+      <description> 五月3号，四月初八。 </description>
     </item>
     
     <item>
@@ -495,7 +482,7 @@ set password = password(&amp;quot;password&amp;quot;);</description>
       <pubDate>Wed, 22 Feb 2017 08:31:47 +0000</pubDate>
       
       <guid>http://www.tiankong.info/2017/02/22/%E8%BF%9F%E6%9D%A5%E7%9A%84%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/</guid>
-      <description>&lt;p&gt;　　网站荒废太久了，连我自己都不来了，自从做个和网络不相干的工作，兴趣都被转移了吗？是时候更新一波文章了。&lt;/p&gt;</description>
+      <description>&lt;p&gt;网站荒废太久了，连我自己都不来了，自从做个和网络不相干的工作，兴趣都被转移了吗？是时候更新一波文章了。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -504,7 +491,7 @@ set password = password(&amp;quot;password&amp;quot;);</description>
       <pubDate>Wed, 07 Dec 2016 06:45:45 +0000</pubDate>
       
       <guid>http://www.tiankong.info/2016/12/07/%E5%AE%89%E8%A3%85%E9%94%81%E5%8C%BAsteam%E8%BD%AF%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
-      <description>&lt;p&gt;　　对于中国用户来说，有一些steam软件和游戏被锁区，访问会提示“您所在的地区目前不提供此物品”，例如谷歌地球VR和DOTA2等。用户可以通过下面方法安装此软件或游戏，在IE浏览器里输入steam://rungameid/游戏软件ID，然后点允许即可。&lt;/p&gt;</description>
+      <description>&lt;p&gt;对于中国用户来说，有一些steam软件和游戏被锁区，访问会提示“您所在的地区目前不提供此物品”，例如谷歌地球VR和DOTA2等。用户可以通过下面方法安装此软件或游戏，在IE浏览器里输入steam://rungameid/游戏软件ID，然后点允许即可。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -540,15 +527,6 @@ set password = password(&amp;quot;password&amp;quot;);</description>
 3、停止UC网盘的上传服务/离线资源存至网盘功能/视频转码服务。&amp;lt;br /&amp;gt;
 4、即日起至4月15号期间，为支持用户下载备份网盘文件，离线下载服务器将暂停“下载至本地”功能。&amp;lt;br /&amp;gt;
 感谢您一直以来对UC网盘的关怀和帮助，也对此次服务调整给您带来的不便深表歉意。&lt;/code&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>成功在GoDaddy退款一个域名ARFUN.ORG</title>
-      <link>http://www.tiankong.info/2016/02/12/%E6%88%90%E5%8A%9F%E5%9C%A8godaddy%E9%80%80%E6%AC%BE%E4%B8%80%E4%B8%AA%E5%9F%9F%E5%90%8Darfun-org/</link>
-      <pubDate>Fri, 12 Feb 2016 09:04:19 +0000</pubDate>
-      
-      <guid>http://www.tiankong.info/2016/02/12/%E6%88%90%E5%8A%9F%E5%9C%A8godaddy%E9%80%80%E6%AC%BE%E4%B8%80%E4%B8%AA%E5%9F%9F%E5%90%8Darfun-org/</guid>
-      <description>&lt;p&gt;　　最近看了关于谷歌纸盒的商品，心血来潮注册了两个关于AR和VR的域名，想着做几个有关的网站，冷静下来就后悔了，我并不能接触很多VR和AR的产品，动辄上万的商品买不起，现在的技术对我来说也太遥远，域名续费还挺贵，就想起了退款。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -602,7 +580,7 @@ set password = password(&amp;quot;password&amp;quot;);</description>
       <pubDate>Tue, 10 Nov 2015 07:16:27 +0000</pubDate>
       
       <guid>http://www.tiankong.info/2015/11/10/wordress%E9%A6%96%E8%A1%8C%E7%BC%A9%E8%BF%9B%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
-      <description>&lt;p&gt;　　按照中文的输入习惯，还是喜欢首行空两个空格的，而WP只有全局缩进，并不符合中文的输入习惯，文章都是顶格的，很多人对此不习惯。下面提供几种解决办法，大家可以参考一下，找一个适合自己的方式。&lt;/p&gt;</description>
+      <description>&lt;p&gt;按照中文的输入习惯，还是喜欢首行空两个空格的，而WP只有全局缩进，并不符合中文的输入习惯，文章都是顶格的，很多人对此不习惯。下面提供几种解决办法，大家可以参考一下，找一个适合自己的方式。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -611,7 +589,9 @@ set password = password(&amp;quot;password&amp;quot;);</description>
       <pubDate>Tue, 10 Nov 2015 06:52:19 +0000</pubDate>
       
       <guid>http://www.tiankong.info/2015/11/10/%E5%9F%9F%E5%90%8D%E5%A4%87%E6%A1%88%E5%AE%8C%E6%88%90%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B9%9F%E6%8D%A2%E9%98%BF%E9%87%8C%E4%BA%91%E4%BA%86/</guid>
-      <description>&lt;p&gt;　　专科3年转眼时间就没了，现在我们也开始顶岗实习了，我去年报的驾校，因为懒的原因，一直没有去练习，惭愧&amp;#8230;如果毕业了就该回家了，那驾校的钱就白交了，只能不去实习老老实实练车了。没有资金的支持，日子过的一天不如一天，只能放弃续费合租空间了。&lt;/p&gt;</description>
+      <description>&lt;p&gt;专科3年转眼时间就没了，现在我们也开始顶岗实习了，我去年报的驾校，因为懒的原因，一直没有去练习，惭愧&amp;#8230;如果毕业了就该回家了，那驾校的钱就白交了，只能不去实习老老实实练车了。&lt;/p&gt;
+
+&lt;p&gt;没有资金的支持，日子过的一天不如一天，只能放弃续费合租空间了。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -816,15 +796,6 @@ set password = password(&amp;quot;password&amp;quot;);</description>
     </item>
     
     <item>
-      <title>安卓手机常用屏蔽广告教程</title>
-      <link>http://www.tiankong.info/2013/11/30/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%B8%B8%E7%94%A8%E5%B1%8F%E8%94%BD%E5%B9%BF%E5%91%8A%E6%95%99%E7%A8%8B/</link>
-      <pubDate>Sat, 30 Nov 2013 14:22:41 +0000</pubDate>
-      
-      <guid>http://www.tiankong.info/2013/11/30/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%B8%B8%E7%94%A8%E5%B1%8F%E8%94%BD%E5%B9%BF%E5%91%8A%E6%95%99%E7%A8%8B/</guid>
-      <description>&lt;p&gt;现在安卓系统越来越受欢迎，随着安卓程序数量的逐渐壮大，好多游戏都被植入了广告，有好多类似牛皮癣的那种广告，看着实在眼烦。于是，各种各样的去广告教程就诞生了，下面我介绍几种简单的屏蔽游戏广告的方法，相对与反编译程序等，下面还是比件简单的，比较适合新手。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>教大家制作一个用密码才能访问的加密页面</title>
       <link>http://www.tiankong.info/2013/11/30/%E6%95%99%E5%A4%A7%E5%AE%B6%E5%88%B6%E4%BD%9C%E4%B8%80%E4%B8%AA%E7%94%A8%E5%AF%86%E7%A0%81%E6%89%8D%E8%83%BD%E8%AE%BF%E9%97%AE%E7%9A%84%E5%8A%A0%E5%AF%86%E9%A1%B5%E9%9D%A2/</link>
       <pubDate>Fri, 29 Nov 2013 16:36:03 +0000</pubDate>
@@ -849,17 +820,6 @@ set password = password(&amp;quot;password&amp;quot;);</description>
       
       <guid>http://www.tiankong.info/2013/11/29/%E6%88%91%E7%AB%9E%E9%80%89%E9%9D%92%E5%8D%8F%E7%9B%91%E5%AF%9F%E9%83%A8%E7%9A%84%E7%AB%9E%E9%80%89%E7%A8%BF%E8%B4%A1%E7%8C%AE%E5%87%BA%E6%9D%A5%E7%BB%99%E5%A4%A7%E5%AE%B6%E7%9C%8B%E7%9C%8B/</guid>
       <description>&lt;p&gt;这次竞选过去了很久，我当时当选了监察部的部长。下面是我的演讲稿，或许写的不怎么样，只是给大家一个参考，文笔好的勿喷。说明：我写的不怎么样，如果看了之后对你造成无法计量的后果，不要来找我哦。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>昨天是我参加青协第一次活动</title>
-      <link>http://www.tiankong.info/2013/11/29/%E6%98%A8%E5%A4%A9%E6%98%AF%E6%88%91%E5%8F%82%E5%8A%A0%E9%9D%92%E5%8D%8F%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%B4%BB%E5%8A%A8/</link>
-      <pubDate>Fri, 29 Nov 2013 05:28:22 +0000</pubDate>
-      
-      <guid>http://www.tiankong.info/2013/11/29/%E6%98%A8%E5%A4%A9%E6%98%AF%E6%88%91%E5%8F%82%E5%8A%A0%E9%9D%92%E5%8D%8F%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%B4%BB%E5%8A%A8/</guid>
-      <description>&lt;p&gt;大学开学以来，我就参加了一个社团，那就是青年志愿者协会（以下简称青协）。青协自从加入就一直没有什么活动，这让我们等的很着急。还好，在前天，我收到了系青协秘书长的短信，说要在星期四举办一场活动：打扫图书馆。&lt;/p&gt;
-
-&lt;p&gt;先不说这个活动怎么样，星期四这一天我们满课，规定还要必须最低15人参加，这就意味着我们要逃课，我思考了很久，还是参加了这次活动，这个活动适和人文系的一起合办的，所以我们不能给信息工程丢人，这也毕竟是开学以来第一次活动。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -953,12 +913,15 @@ set password = password(&amp;quot;password&amp;quot;);</description>
     </item>
     
     <item>
-      <title>独木大大的博客无法访问了，希望快点恢复</title>
-      <link>http://www.tiankong.info/2013/11/05/%E7%8B%AC%E6%9C%A8%E5%A4%A7%E5%A4%A7%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E4%BA%86%E5%B8%8C%E6%9C%9B%E5%BF%AB%E5%B8%A6%E4%BD%A0%E6%81%A2%E5%A4%8D/</link>
+      <title>独木成林博客无法访问了</title>
+      <link>http://www.tiankong.info/2013/11/05/%E7%8B%AC%E6%9C%A8%E6%88%90%E6%9E%97%E5%8D%9A%E5%AE%A2%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E4%BA%86/</link>
       <pubDate>Tue, 05 Nov 2013 11:35:01 +0000</pubDate>
       
-      <guid>http://www.tiankong.info/2013/11/05/%E7%8B%AC%E6%9C%A8%E5%A4%A7%E5%A4%A7%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E4%BA%86%E5%B8%8C%E6%9C%9B%E5%BF%AB%E5%B8%A6%E4%BD%A0%E6%81%A2%E5%A4%8D/</guid>
-      <description>一直喜欢独木成林，我建博客也是因为独木成林，今天发现无法访问了，不知出了什么原因，希望快点恢复吧。附独木链接：http://www.guofs.com/</description>
+      <guid>http://www.tiankong.info/2013/11/05/%E7%8B%AC%E6%9C%A8%E6%88%90%E6%9E%97%E5%8D%9A%E5%AE%A2%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E4%BA%86/</guid>
+      <description>一直很喜欢独木成林博客，里面分享了各种安全的破解软件，虽然支持正版是理所应当，但我作为一个学生，暂时做不到为每一个使用过的软件都去付费。
+今天突然发现无法访问，不知什么原因，只希望快点恢复吧。
+ 附独木成林博客链接：独木成林
+ 2013年12月3号更新： 事后得知网站已经关闭了，破解站生存困难</description>
     </item>
     
     <item>
