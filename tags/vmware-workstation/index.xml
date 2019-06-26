@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>VMware Workstation on 天空博客</title>
-    <link>www.tiankong.info/tags/vmware-workstation/</link>
+    <link>https://www.tiankong.info/tags/vmware-workstation/</link>
     <description>Recent content in VMware Workstation on 天空博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 06 Dec 2017 05:03:25 +0000</lastBuildDate>
     
-	<atom:link href="www.tiankong.info/tags/vmware-workstation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.tiankong.info/tags/vmware-workstation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>VMware Workstation 14由于意外关闭虚拟机黑屏的解决办法</title>
-      <link>www.tiankong.info/2017/12/06/vmware-workstation-14%E7%94%B1%E4%BA%8E%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%84%8F%E5%A4%96%E5%85%B3%E9%97%AD%E9%87%8D%E6%96%B0%E6%89%93%E5%BC%80%E9%BB%91%E5%B1%8F%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E/</link>
+      <link>https://www.tiankong.info/2017/12/06/vmware-workstation-14%E7%94%B1%E4%BA%8E%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%84%8F%E5%A4%96%E5%85%B3%E9%97%AD%E9%87%8D%E6%96%B0%E6%89%93%E5%BC%80%E9%BB%91%E5%B1%8F%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E/</link>
       <pubDate>Wed, 06 Dec 2017 05:03:25 +0000</pubDate>
       
-      <guid>www.tiankong.info/2017/12/06/vmware-workstation-14%E7%94%B1%E4%BA%8E%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%84%8F%E5%A4%96%E5%85%B3%E9%97%AD%E9%87%8D%E6%96%B0%E6%89%93%E5%BC%80%E9%BB%91%E5%B1%8F%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E/</guid>
+      <guid>https://www.tiankong.info/2017/12/06/vmware-workstation-14%E7%94%B1%E4%BA%8E%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%84%8F%E5%A4%96%E5%85%B3%E9%97%AD%E9%87%8D%E6%96%B0%E6%89%93%E5%BC%80%E9%BB%91%E5%B1%8F%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E/</guid>
       <description>&lt;p&gt;今天开着虚拟机处理文件的时候，电脑意外卡死，然虚拟机打开时就黑屏了，没有任何反应，重试了几遍电脑都无法正常解决，于是在网上找到了办法， 特此备用&lt;/p&gt;</description>
     </item>
     
