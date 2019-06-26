@@ -64,16 +64,15 @@
 
 <p>用FTP软件访问网站安装目录的 wp-includes 再进入 widgets文件夹，下载其中的class-wp-widget-meta.php文件，使用Notepad++等工具删除里面的版权信息后，上传到服务器即可。以下是版权代码，搜索<span style="font-family: Consolas; font-size: small;"><a href="https://wordpress.org/即可查到，">https://wordpress.org/即可查到，</a></span>全部删除或者注释即可。</p>
 
-<p><code>&lt;?php&lt;br /&gt;
-echo apply_filters( 'widget_meta_poweredby', sprintf( '&lt;li&gt;&lt;a href=&quot;%s&quot; title=&quot;%s&quot;&gt;%s&lt;/a&gt;&lt;/li&gt;',&lt;br /&gt;
-esc_url( __( 'https://wordpress.org/' ) ),&lt;br /&gt;
-esc_attr__( 'Powered by WordPress, state-of-the-art semantic personal publishing platform.' ),&lt;br /&gt;
-_x( 'WordPress.org', 'meta widget link text' )&lt;br /&gt;
-) );</code></p>
-
-<p>wp_meta();</p>
-
-<p>?&gt;</p></div>
+<pre><code>&lt;?php
+echo apply_filters( 'widget_meta_poweredby', sprintf( '&lt;li&gt;&lt;a href=&quot;%s&quot; title=&quot;%s&quot;&gt;%s&lt;/a&gt;&lt;/li&gt;',
+esc_url( __( 'https://wordpress.org/' ) ),
+esc_attr__( 'Powered by WordPress, state-of-the-art semantic personal publishing platform.' ),
+_x( 'WordPress.org', 'meta widget link text' )
+) );`
+wp_meta();
+?&gt;
+</code></pre></div>
 				
 				<footer class="post__footer">
 					
