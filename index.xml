@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>天空博客</title>
-    <link>https://www.tiankong.info/</link>
+    <link>http://www.tiankong.info/</link>
     <description>Recent content on 天空博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 25 Jun 2019 19:56:39 +0800</lastBuildDate>
     
-	<atom:link href="https://www.tiankong.info/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.tiankong.info/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>收获日</title>
-      <link>https://www.tiankong.info/record/</link>
+      <link>http://www.tiankong.info/record/</link>
       <pubDate>Tue, 25 Jun 2019 19:56:39 +0800</pubDate>
       
-      <guid>https://www.tiankong.info/record/</guid>
+      <guid>http://www.tiankong.info/record/</guid>
       <description>确认oracle用户是否能使用crontab命令 1.检查usr/var/adm/cron，cron.deny和cron.allow文件 2.若没有这两个文件代表只有root用户才能使用crontab 3.若只有cron.deny,确认文件中没oracle才可以 4.若只有cron.allow，确认文件中有oracle才可以 5.若都有,则符合以上两条才可以  Linux登陆 su – oracle # 切换Oracle用户 sqlplus /nolog # 登陆数据库 connect /as sysdba # 使用管理员权限  Linux导出导入 su - oracle # 切换Oracle用户 pwd # 查看数据库路径 /home/oracle # 例如 exp 用户名/密码@数据库 file=/home/oracle/文件名.dmp # 导出语句 imp 用户名/密码@数据库 file=/home/oracle/文件名.dmp full=y # 导入语句  查看防火墙状态 service iptables status  永久关闭防火墙 chkconfig iptables off  出现了内部错误 远程桌面 管理员权限打开CMD 执行：netsh winsock reset  Windows批量创建用户 net user user1 123456 /add net user user2 123456 /add net user user3 123456 /add&amp;lt;/code&amp;gt;  fdisk cfdisk parted gdisk lsblk  Linux 定时3点执行备份 crontab -u oracle -e * 3 * * * /home/oracle/back.</description>
     </item>
     
     <item>
       <title>友联申请</title>
-      <link>https://www.tiankong.info/links/</link>
+      <link>http://www.tiankong.info/links/</link>
       <pubDate>Tue, 25 Jun 2019 19:39:12 +0800</pubDate>
       
-      <guid>https://www.tiankong.info/links/</guid>
+      <guid>http://www.tiankong.info/links/</guid>
       <description>博客的原创文章很少，大多是直接转载他人的优秀文章，并在文章末尾注明转载和出处。
 在此感谢所有被我转载的作者，感谢提供如此优质的文章。
 如果有朋友们想添加友情链接的，可以通过下方的邮件按钮给我发邮件，只要不是违反法律，并且价值观正常的网站，我都会考虑添加的。
@@ -38,10 +38,10 @@
     
     <item>
       <title>关于天空博客</title>
-      <link>https://www.tiankong.info/about/</link>
+      <link>http://www.tiankong.info/about/</link>
       <pubDate>Tue, 25 Jun 2019 16:07:18 +0800</pubDate>
       
-      <guid>https://www.tiankong.info/about/</guid>
+      <guid>http://www.tiankong.info/about/</guid>
       <description>高中的时候，我接触智能手机比较早，比同学们提前一步了解到互联网不只是有游戏，发现了网站建设的原理，开始对建站产生了兴趣，于是开始关注免费空间和域名，在网上找一些免费建站的教程。
 那时候，我对网站的理解还只是一个空间一个域名绑定在一起就行。对VPS和独立服务器什么的毫无概念，一度以为空间就是服务器。最开始建站是空间商提供的二级域名（具体域名已经忘记了），最后换了好多免费空间，都不怎么样。
 也曾用过主机屋等稍微有点名气的空间，在当时算好的了，不过15天一次的推广链接续费很讨厌（现在只需一月登录一次就行）。做了一段时间，感觉续费麻烦，就放弃啦。
@@ -53,10 +53,10 @@
     
     <item>
       <title>关于您的隐私</title>
-      <link>https://www.tiankong.info/privacy/</link>
+      <link>http://www.tiankong.info/privacy/</link>
       <pubDate>Tue, 25 Jun 2019 16:07:13 +0800</pubDate>
       
-      <guid>https://www.tiankong.info/privacy/</guid>
+      <guid>http://www.tiankong.info/privacy/</guid>
       <description>我们是谁? 我们的站点名称叫 天空博客 站点地址是：天空博客(http://www.tiankong.info)
 我们收集何种及为何收集个人数据 我们没有收集任何信息，不需要登陆，不可以评论，不允许留言。
 我们与谁共享您的信息 我们没有您的信息，也就不存在共享信息
@@ -74,10 +74,10 @@
     
     <item>
       <title>我的第一篇使用Hugo发布的文章</title>
-      <link>https://www.tiankong.info/first.html</link>
+      <link>http://www.tiankong.info/first.html</link>
       <pubDate>Tue, 25 Jun 2019 13:31:25 +0800</pubDate>
       
-      <guid>https://www.tiankong.info/first.html</guid>
+      <guid>http://www.tiankong.info/first.html</guid>
       <description>&lt;p&gt;这是我用Hugo发布的第一篇文章，主题使用的是Binario。&lt;/p&gt;
 
 &lt;p&gt;网站已经正式切换到Hugo平台，彻底抛弃了Wordpress&lt;/p&gt;
@@ -89,10 +89,10 @@
     
     <item>
       <title>树莓派开启samba服务</title>
-      <link>https://www.tiankong.info/2019/02/20/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%BC%80%E5%90%AFsamba%E6%9C%8D%E5%8A%A1.html</link>
+      <link>http://www.tiankong.info/2019/02/20/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%BC%80%E5%90%AFsamba%E6%9C%8D%E5%8A%A1.html</link>
       <pubDate>Tue, 19 Feb 2019 23:31:42 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2019/02/20/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%BC%80%E5%90%AFsamba%E6%9C%8D%E5%8A%A1.html</guid>
+      <guid>http://www.tiankong.info/2019/02/20/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%BC%80%E5%90%AFsamba%E6%9C%8D%E5%8A%A1.html</guid>
       <description>&lt;p&gt;声明：debian 9.0系统，如未登录root，请自行添加sudo&lt;/p&gt;
 
 &lt;p&gt;首先更新系统&lt;/p&gt;
@@ -106,19 +106,19 @@ apt upgrade
     
     <item>
       <title>计划从WordPress转到Hugo</title>
-      <link>https://www.tiankong.info/2019/02/18/%E8%AE%A1%E5%88%92%E4%BB%8Ewordpress%E8%BD%AC%E5%88%B0hugo/</link>
+      <link>http://www.tiankong.info/2019/02/18/%E8%AE%A1%E5%88%92%E4%BB%8Ewordpress%E8%BD%AC%E5%88%B0hugo/</link>
       <pubDate>Mon, 18 Feb 2019 07:32:02 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2019/02/18/%E8%AE%A1%E5%88%92%E4%BB%8Ewordpress%E8%BD%AC%E5%88%B0hugo/</guid>
+      <guid>http://www.tiankong.info/2019/02/18/%E8%AE%A1%E5%88%92%E4%BB%8Ewordpress%E8%BD%AC%E5%88%B0hugo/</guid>
       <description>新的编辑器不太喜欢，WP越来越臃肿了，</description>
     </item>
     
     <item>
       <title>树莓派更改清华源</title>
-      <link>https://www.tiankong.info/2019/02/10/%E6%A0%91%E8%8E%93%E6%B4%BE%E6%9B%B4%E6%94%B9%E6%BA%90%E5%92%8C%E4%B8%AD%E6%96%87%E8%AE%BE%E7%BD%AE/</link>
+      <link>http://www.tiankong.info/2019/02/10/%E6%A0%91%E8%8E%93%E6%B4%BE%E6%9B%B4%E6%94%B9%E6%BA%90%E5%92%8C%E4%B8%AD%E6%96%87%E8%AE%BE%E7%BD%AE/</link>
       <pubDate>Sun, 10 Feb 2019 09:20:26 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2019/02/10/%E6%A0%91%E8%8E%93%E6%B4%BE%E6%9B%B4%E6%94%B9%E6%BA%90%E5%92%8C%E4%B8%AD%E6%96%87%E8%AE%BE%E7%BD%AE/</guid>
+      <guid>http://www.tiankong.info/2019/02/10/%E6%A0%91%E8%8E%93%E6%B4%BE%E6%9B%B4%E6%94%B9%E6%BA%90%E5%92%8C%E4%B8%AD%E6%96%87%E8%AE%BE%E7%BD%AE/</guid>
       <description>&lt;p&gt;一、 树莓派换清华源&lt;/p&gt;
 
 &lt;p&gt;教程对应树莓派stretch版本&lt;/p&gt;
@@ -131,10 +131,10 @@ apt upgrade
     
     <item>
       <title>在最新的Windows 10系统添加右键打开命令窗口功能</title>
-      <link>https://www.tiankong.info/2019/01/02/%E5%9C%A8%E6%9C%80%E6%96%B0%E7%9A%84windows-10%E7%B3%BB%E7%BB%9F%E6%B7%BB%E5%8A%A0%E5%8F%B3%E9%94%AE%E6%89%93%E5%BC%80%E5%91%BD%E4%BB%A4%E7%AA%97%E5%8F%A3%E5%8A%9F%E8%83%BD/</link>
+      <link>http://www.tiankong.info/2019/01/02/%E5%9C%A8%E6%9C%80%E6%96%B0%E7%9A%84windows-10%E7%B3%BB%E7%BB%9F%E6%B7%BB%E5%8A%A0%E5%8F%B3%E9%94%AE%E6%89%93%E5%BC%80%E5%91%BD%E4%BB%A4%E7%AA%97%E5%8F%A3%E5%8A%9F%E8%83%BD/</link>
       <pubDate>Wed, 02 Jan 2019 11:03:03 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2019/01/02/%E5%9C%A8%E6%9C%80%E6%96%B0%E7%9A%84windows-10%E7%B3%BB%E7%BB%9F%E6%B7%BB%E5%8A%A0%E5%8F%B3%E9%94%AE%E6%89%93%E5%BC%80%E5%91%BD%E4%BB%A4%E7%AA%97%E5%8F%A3%E5%8A%9F%E8%83%BD/</guid>
+      <guid>http://www.tiankong.info/2019/01/02/%E5%9C%A8%E6%9C%80%E6%96%B0%E7%9A%84windows-10%E7%B3%BB%E7%BB%9F%E6%B7%BB%E5%8A%A0%E5%8F%B3%E9%94%AE%E6%89%93%E5%BC%80%E5%91%BD%E4%BB%A4%E7%AA%97%E5%8F%A3%E5%8A%9F%E8%83%BD/</guid>
       <description>&lt;p&gt;不知何时按住shift+右键就没有了命令提示符，这也成为了每次装完系统必须的操作了&lt;/p&gt;
 
 &lt;p&gt;教程奉上，备忘。&lt;/p&gt;</description>
@@ -142,39 +142,39 @@ apt upgrade
     
     <item>
       <title>主题的在线编辑功能不能用了</title>
-      <link>https://www.tiankong.info/2018/12/20/%E4%B8%BB%E9%A2%98%E7%9A%84%E5%9C%A8%E7%BA%BF%E7%BC%96%E8%BE%91%E5%8A%9F%E8%83%BD%E5%A5%BD%E5%83%8F%E4%B8%8D%E8%83%BD%E7%94%A8%E4%BA%86/</link>
+      <link>http://www.tiankong.info/2018/12/20/%E4%B8%BB%E9%A2%98%E7%9A%84%E5%9C%A8%E7%BA%BF%E7%BC%96%E8%BE%91%E5%8A%9F%E8%83%BD%E5%A5%BD%E5%83%8F%E4%B8%8D%E8%83%BD%E7%94%A8%E4%BA%86/</link>
       <pubDate>Thu, 20 Dec 2018 02:38:08 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2018/12/20/%E4%B8%BB%E9%A2%98%E7%9A%84%E5%9C%A8%E7%BA%BF%E7%BC%96%E8%BE%91%E5%8A%9F%E8%83%BD%E5%A5%BD%E5%83%8F%E4%B8%8D%E8%83%BD%E7%94%A8%E4%BA%86/</guid>
+      <guid>http://www.tiankong.info/2018/12/20/%E4%B8%BB%E9%A2%98%E7%9A%84%E5%9C%A8%E7%BA%BF%E7%BC%96%E8%BE%91%E5%8A%9F%E8%83%BD%E5%A5%BD%E5%83%8F%E4%B8%8D%E8%83%BD%E7%94%A8%E4%BA%86/</guid>
       <description>今天心血来潮想要维护一下博客，但当我尝试在后台在线修改主题的footer.php文件时，报出了如下错误：
 未能与站点联系来检查致命错误，因此PHP修改已被回滚。您需要采用其他方式（如SFTP）上传您修改的PHP文件。  网上搜索了一下，好像这个问题出现了好几个版本也没有修复，暂时也没有找到解决办法，只能先尝试本地修改了。</description>
     </item>
     
     <item>
       <title>Sublime Text 3里面把TAB替换成空格</title>
-      <link>https://www.tiankong.info/2018/09/04/sublime-text-3%E9%87%8C%E9%9D%A2%E6%8A%8Atab%E6%9B%BF%E6%8D%A2%E6%88%90%E7%A9%BA%E6%A0%BC/</link>
+      <link>http://www.tiankong.info/2018/09/04/sublime-text-3%E9%87%8C%E9%9D%A2%E6%8A%8Atab%E6%9B%BF%E6%8D%A2%E6%88%90%E7%A9%BA%E6%A0%BC/</link>
       <pubDate>Tue, 04 Sep 2018 09:54:43 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2018/09/04/sublime-text-3%E9%87%8C%E9%9D%A2%E6%8A%8Atab%E6%9B%BF%E6%8D%A2%E6%88%90%E7%A9%BA%E6%A0%BC/</guid>
+      <guid>http://www.tiankong.info/2018/09/04/sublime-text-3%E9%87%8C%E9%9D%A2%E6%8A%8Atab%E6%9B%BF%E6%8D%A2%E6%88%90%E7%A9%BA%E6%A0%BC/</guid>
       <description>打开Sublime ，打开Preferences/Settings，在右边大括号里面粘贴下面的内容保存即可
 &#34;tab_size&#34;: 4, &#34;translate_tabs_to_spaces&#34;: true, </description>
     </item>
     
     <item>
       <title>试用新版Gutenberg（古腾堡）编辑器</title>
-      <link>https://www.tiankong.info/2018/08/14/welcome-to-the-gutenberg-editor/</link>
+      <link>http://www.tiankong.info/2018/08/14/welcome-to-the-gutenberg-editor/</link>
       <pubDate>Tue, 14 Aug 2018 06:01:29 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2018/08/14/welcome-to-the-gutenberg-editor/</guid>
+      <guid>http://www.tiankong.info/2018/08/14/welcome-to-the-gutenberg-editor/</guid>
       <description>&lt;p&gt;试试看编辑效果，评测随后更新。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>MySQL跳过密码登录</title>
-      <link>https://www.tiankong.info/2018/06/26/mysql%E8%B7%B3%E8%BF%87%E5%AF%86%E7%A0%81%E7%99%BB%E5%BD%95/</link>
+      <link>http://www.tiankong.info/2018/06/26/mysql%E8%B7%B3%E8%BF%87%E5%AF%86%E7%A0%81%E7%99%BB%E5%BD%95/</link>
       <pubDate>Tue, 26 Jun 2018 15:18:28 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2018/06/26/mysql%E8%B7%B3%E8%BF%87%E5%AF%86%E7%A0%81%E7%99%BB%E5%BD%95/</guid>
+      <guid>http://www.tiankong.info/2018/06/26/mysql%E8%B7%B3%E8%BF%87%E5%AF%86%E7%A0%81%E7%99%BB%E5%BD%95/</guid>
       <description>编辑MySQL的配置文件my.ini，在[mysqld]下添加：
 skip-grant-tables 重启MySQL服务器，然后输入：
 mysql -u root -p 回车键跳过密码即可登陆，或者双击mysql.exe登陆数据库。</description>
@@ -182,19 +182,19 @@ mysql -u root -p 回车键跳过密码即可登陆，或者双击mysql.exe登陆
     
     <item>
       <title>解决WordPress安装插件需要FTP账号密码的问题</title>
-      <link>https://www.tiankong.info/2018/06/20/%E8%A7%A3%E5%86%B3wordpress%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6%E9%9C%80%E8%A6%81ftp%E8%B4%A6%E5%8F%B7%E5%AF%86%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+      <link>http://www.tiankong.info/2018/06/20/%E8%A7%A3%E5%86%B3wordpress%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6%E9%9C%80%E8%A6%81ftp%E8%B4%A6%E5%8F%B7%E5%AF%86%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/</link>
       <pubDate>Wed, 20 Jun 2018 15:34:14 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2018/06/20/%E8%A7%A3%E5%86%B3wordpress%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6%E9%9C%80%E8%A6%81ftp%E8%B4%A6%E5%8F%B7%E5%AF%86%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+      <guid>http://www.tiankong.info/2018/06/20/%E8%A7%A3%E5%86%B3wordpress%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6%E9%9C%80%E8%A6%81ftp%E8%B4%A6%E5%8F%B7%E5%AF%86%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
       <description>chown -R apache html html代表WordPress安装目录</description>
     </item>
     
     <item>
       <title>Manjaro安装MySQL数据库的方法</title>
-      <link>https://www.tiankong.info/2018/05/21/manjaro%E5%AE%89%E8%A3%85mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <link>http://www.tiankong.info/2018/05/21/manjaro%E5%AE%89%E8%A3%85mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%96%B9%E6%B3%95/</link>
       <pubDate>Mon, 21 May 2018 05:18:07 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2018/05/21/manjaro%E5%AE%89%E8%A3%85mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <guid>http://www.tiankong.info/2018/05/21/manjaro%E5%AE%89%E8%A3%85mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
       <description>安装 MySQL
 pacman -S mysql
 初始化数据库
@@ -210,55 +210,55 @@ set password = password(&amp;quot;password&amp;quot;);</description>
     
     <item>
       <title>更改Manjaro中火狐浏览器为中文语言</title>
-      <link>https://www.tiankong.info/2018/05/21/%E6%9B%B4%E6%94%B9manjaro%E4%B8%AD%E7%81%AB%E7%8B%90%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%BA%E4%B8%AD%E6%96%87%E8%AF%AD%E8%A8%80/</link>
+      <link>http://www.tiankong.info/2018/05/21/%E6%9B%B4%E6%94%B9manjaro%E4%B8%AD%E7%81%AB%E7%8B%90%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%BA%E4%B8%AD%E6%96%87%E8%AF%AD%E8%A8%80/</link>
       <pubDate>Mon, 21 May 2018 04:42:44 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2018/05/21/%E6%9B%B4%E6%94%B9manjaro%E4%B8%AD%E7%81%AB%E7%8B%90%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%BA%E4%B8%AD%E6%96%87%E8%AF%AD%E8%A8%80/</guid>
+      <guid>http://www.tiankong.info/2018/05/21/%E6%9B%B4%E6%94%B9manjaro%E4%B8%AD%E7%81%AB%E7%8B%90%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%BA%E4%B8%AD%E6%96%87%E8%AF%AD%E8%A8%80/</guid>
       <description>&lt;p&gt;　　尝试安装Manjaro后，发现自带火狐浏览器的语言是英文，而且在设置中无法切换，于是在网上找到了教程，再此备注一下。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://www.tiankong.info/2018/05/13/917/</link>
+      <link>http://www.tiankong.info/2018/05/13/917/</link>
       <pubDate>Sun, 13 May 2018 12:46:11 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2018/05/13/917/</guid>
+      <guid>http://www.tiankong.info/2018/05/13/917/</guid>
       <description>一切公众话语日渐以娱乐的方式出现，并成为一种文化精神。我们的政治、宗教、新闻、体育、教育和商业都心甘情愿地成为娱乐的附庸，毫无怨言，甚至无声无息，其结果是我们成了一个娱乐至死的物种。</description>
     </item>
     
     <item>
       <title>MySQL忘记密码的解决办法</title>
-      <link>https://www.tiankong.info/2018/04/24/mysql%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</link>
+      <link>http://www.tiankong.info/2018/04/24/mysql%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</link>
       <pubDate>Tue, 24 Apr 2018 02:36:25 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2018/04/24/mysql%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</guid>
+      <guid>http://www.tiankong.info/2018/04/24/mysql%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</guid>
       <description>&lt;p&gt;MySQL密码忘记了，在网上找了好几个教程，只有这个适合我的环境，特地记录一下，服务器是winser2008，mysql版本5.5。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>如何删除系统中多余的的EFI分区</title>
-      <link>https://www.tiankong.info/2018/04/02/%E5%A6%82%E4%BD%95%E5%88%A0%E9%99%A4%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%A4%9A%E4%BD%99%E7%9A%84%E7%9A%84efi%E5%88%86%E5%8C%BA/</link>
+      <link>http://www.tiankong.info/2018/04/02/%E5%A6%82%E4%BD%95%E5%88%A0%E9%99%A4%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%A4%9A%E4%BD%99%E7%9A%84%E7%9A%84efi%E5%88%86%E5%8C%BA/</link>
       <pubDate>Mon, 02 Apr 2018 04:48:26 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2018/04/02/%E5%A6%82%E4%BD%95%E5%88%A0%E9%99%A4%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%A4%9A%E4%BD%99%E7%9A%84%E7%9A%84efi%E5%88%86%E5%8C%BA/</guid>
+      <guid>http://www.tiankong.info/2018/04/02/%E5%A6%82%E4%BD%95%E5%88%A0%E9%99%A4%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%A4%9A%E4%BD%99%E7%9A%84%E7%9A%84efi%E5%88%86%E5%8C%BA/</guid>
       <description>&lt;p&gt;　　各种双系统安装后的后遗症，计算机管理中的磁盘管理可以删除其他分区，唯独EFI分区不能删除，如果不想借助第三方DiskGenius或者PE等工具，利用Windows自带的Diskpart工具也是可以的。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>PHP遍历文件夹过滤“.”和“..”的方法</title>
-      <link>https://www.tiankong.info/2018/03/30/php%E9%81%8D%E5%8E%86%E6%96%87%E4%BB%B6%E5%A4%B9%E8%BF%87%E6%BB%A4.%E5%92%8C..%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <link>http://www.tiankong.info/2018/03/30/php%E9%81%8D%E5%8E%86%E6%96%87%E4%BB%B6%E5%A4%B9%E8%BF%87%E6%BB%A4.%E5%92%8C..%E7%9A%84%E6%96%B9%E6%B3%95/</link>
       <pubDate>Fri, 30 Mar 2018 08:16:40 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2018/03/30/php%E9%81%8D%E5%8E%86%E6%96%87%E4%BB%B6%E5%A4%B9%E8%BF%87%E6%BB%A4.%E5%92%8C..%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <guid>http://www.tiankong.info/2018/03/30/php%E9%81%8D%E5%8E%86%E6%96%87%E4%BB%B6%E5%A4%B9%E8%BF%87%E6%BB%A4.%E5%92%8C..%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
       <description>$hostdir=&amp;quot;./&amp;quot;; //获取环境目录 $fiel_array = scandir($hostdir); //获取文件夹内的文件及文件夹名存入数组 $fiel_array //var_dump($fiel_array); foreach ($$fiel_array as $key=&amp;gt; $value) { if($value === &#39;.&#39; || $value === &#39;..&#39;){ continue; } $url=&amp;quot;文件名称：&amp;quot;.$value; $aurl= &amp;quot;&amp;quot;.$url.&amp;quot;&amp;quot;; echo $aurl . &amp;quot; &amp;quot;; }  </description>
     </item>
     
     <item>
       <title>利用mysqldump导入数据库报错：The user specified as a definer (‘root’@’%’) does not exist when using LOCK TABLES</title>
-      <link>https://www.tiankong.info/2018/03/23/the-user-specified-as-a-definer-root-does-not-exist-when-using-lock-tables/</link>
+      <link>http://www.tiankong.info/2018/03/23/the-user-specified-as-a-definer-root-does-not-exist-when-using-lock-tables/</link>
       <pubDate>Fri, 23 Mar 2018 05:42:50 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2018/03/23/the-user-specified-as-a-definer-root-does-not-exist-when-using-lock-tables/</guid>
+      <guid>http://www.tiankong.info/2018/03/23/the-user-specified-as-a-definer-root-does-not-exist-when-using-lock-tables/</guid>
       <description>&lt;p&gt;The user specified as a definer (&amp;#8216;root&amp;#8217;@&amp;#8217;%&amp;#8217;) does not exist when using LOCK TABLES&lt;/p&gt;
 
 &lt;p&gt;出现这个问题是因为创建数据库的用户已经不存在了，需要把数据库授权给root然后再执行导出即可。&lt;/p&gt;</description>
@@ -266,100 +266,100 @@ set password = password(&amp;quot;password&amp;quot;);</description>
     
     <item>
       <title>恶心的中国移动</title>
-      <link>https://www.tiankong.info/2018/03/15/%E6%81%B6%E5%BF%83%E7%9A%84%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8/</link>
+      <link>http://www.tiankong.info/2018/03/15/%E6%81%B6%E5%BF%83%E7%9A%84%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8/</link>
       <pubDate>Thu, 15 Mar 2018 04:58:38 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2018/03/15/%E6%81%B6%E5%BF%83%E7%9A%84%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8/</guid>
+      <guid>http://www.tiankong.info/2018/03/15/%E6%81%B6%E5%BF%83%E7%9A%84%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8/</guid>
       <description>&lt;p&gt;　　众所周知手机卡套餐一般都是长期的，用户自己不更换套餐，运营商受工信部限制，不可自主更换用户的手机套餐，所以就有了运营商客服各种电话忽悠你更换或升级你的手机套餐的情况。但是从移动吃了05年动感地带的亏后，后续就开始刷小聪明了，有些操作着实让人反感。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>那个轮椅上的男人，站的比谁都高</title>
-      <link>https://www.tiankong.info/2018/03/14/%E9%82%A3%E4%B8%AA%E8%BD%AE%E6%A4%85%E4%B8%8A%E7%9A%84%E7%94%B7%E4%BA%BA%E7%AB%99%E7%9A%84%E6%AF%94%E8%B0%81%E9%83%BD%E9%AB%98/</link>
+      <link>http://www.tiankong.info/2018/03/14/%E9%82%A3%E4%B8%AA%E8%BD%AE%E6%A4%85%E4%B8%8A%E7%9A%84%E7%94%B7%E4%BA%BA%E7%AB%99%E7%9A%84%E6%AF%94%E8%B0%81%E9%83%BD%E9%AB%98/</link>
       <pubDate>Wed, 14 Mar 2018 04:56:22 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2018/03/14/%E9%82%A3%E4%B8%AA%E8%BD%AE%E6%A4%85%E4%B8%8A%E7%9A%84%E7%94%B7%E4%BA%BA%E7%AB%99%E7%9A%84%E6%AF%94%E8%B0%81%E9%83%BD%E9%AB%98/</guid>
+      <guid>http://www.tiankong.info/2018/03/14/%E9%82%A3%E4%B8%AA%E8%BD%AE%E6%A4%85%E4%B8%8A%E7%9A%84%E7%94%B7%E4%BA%BA%E7%AB%99%E7%9A%84%E6%AF%94%E8%B0%81%E9%83%BD%E9%AB%98/</guid>
       <description></description>
     </item>
     
     <item>
       <title>网站终于活了</title>
-      <link>https://www.tiankong.info/2018/02/16/%E7%BD%91%E7%AB%99%E7%BB%88%E4%BA%8E%E6%B4%BB%E4%BA%86/</link>
+      <link>http://www.tiankong.info/2018/02/16/%E7%BD%91%E7%AB%99%E7%BB%88%E4%BA%8E%E6%B4%BB%E4%BA%86/</link>
       <pubDate>Fri, 16 Feb 2018 07:05:14 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2018/02/16/%E7%BD%91%E7%AB%99%E7%BB%88%E4%BA%8E%E6%B4%BB%E4%BA%86/</guid>
+      <guid>http://www.tiankong.info/2018/02/16/%E7%BD%91%E7%AB%99%E7%BB%88%E4%BA%8E%E6%B4%BB%E4%BA%86/</guid>
       <description>&lt;p&gt;服务器数据库挂了，搞了两天也没有把数据库启动起来，无奈技术太差，只能整个服务器环境重新搭了。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>建议迅雷极速版用户不要体验迅雷U享版</title>
-      <link>https://www.tiankong.info/2018/01/10/%E5%BB%BA%E8%AE%AE%E8%BF%85%E9%9B%B7%E6%9E%81%E9%80%9F%E7%89%88%E7%94%A8%E6%88%B7%E4%B8%8D%E8%A6%81%E4%BD%93%E9%AA%8C%E8%BF%85%E9%9B%B7u%E4%BA%AB%E7%89%88/</link>
+      <link>http://www.tiankong.info/2018/01/10/%E5%BB%BA%E8%AE%AE%E8%BF%85%E9%9B%B7%E6%9E%81%E9%80%9F%E7%89%88%E7%94%A8%E6%88%B7%E4%B8%8D%E8%A6%81%E4%BD%93%E9%AA%8C%E8%BF%85%E9%9B%B7u%E4%BA%AB%E7%89%88/</link>
       <pubDate>Wed, 10 Jan 2018 02:06:59 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2018/01/10/%E5%BB%BA%E8%AE%AE%E8%BF%85%E9%9B%B7%E6%9E%81%E9%80%9F%E7%89%88%E7%94%A8%E6%88%B7%E4%B8%8D%E8%A6%81%E4%BD%93%E9%AA%8C%E8%BF%85%E9%9B%B7u%E4%BA%AB%E7%89%88/</guid>
+      <guid>http://www.tiankong.info/2018/01/10/%E5%BB%BA%E8%AE%AE%E8%BF%85%E9%9B%B7%E6%9E%81%E9%80%9F%E7%89%88%E7%94%A8%E6%88%B7%E4%B8%8D%E8%A6%81%E4%BD%93%E9%AA%8C%E8%BF%85%E9%9B%B7u%E4%BA%AB%E7%89%88/</guid>
       <description>&lt;p&gt;今天打开迅雷弹出了最高体验一年迅雷U享版的提示，然后去体验了一下，结果自动卸载了我的迅雷极速版，只领到了1天的体验，第二天完全不能下载了。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>谈一谈域名被serverHold怎么处理</title>
-      <link>https://www.tiankong.info/2017/12/14/%E8%B0%88%E4%B8%80%E8%B0%88%E5%9F%9F%E5%90%8D%E8%A2%ABserverhold%E6%80%8E%E4%B9%88%E5%A4%84%E7%90%86/</link>
+      <link>http://www.tiankong.info/2017/12/14/%E8%B0%88%E4%B8%80%E8%B0%88%E5%9F%9F%E5%90%8D%E8%A2%ABserverhold%E6%80%8E%E4%B9%88%E5%A4%84%E7%90%86/</link>
       <pubDate>Thu, 14 Dec 2017 03:52:07 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2017/12/14/%E8%B0%88%E4%B8%80%E8%B0%88%E5%9F%9F%E5%90%8D%E8%A2%ABserverhold%E6%80%8E%E4%B9%88%E5%A4%84%E7%90%86/</guid>
+      <guid>http://www.tiankong.info/2017/12/14/%E8%B0%88%E4%B8%80%E8%B0%88%E5%9F%9F%E5%90%8D%E8%A2%ABserverhold%E6%80%8E%E4%B9%88%E5%A4%84%E7%90%86/</guid>
       <description>&lt;p&gt;不巧，前几天收到腾讯企业邮箱的通知，说我的备用域名（div.ltd）MX记录没了。MX记录有大半年没改过了，不可能无缘无故消失，吓我还以为域名被盗，不过去NameSilo查看没发现问题，就没有放在心上，连续几天通知我记录丢失，才查到域名状态是serverHold了。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>VMware Workstation 14由于意外关闭虚拟机黑屏的解决办法</title>
-      <link>https://www.tiankong.info/2017/12/06/vmware-workstation-14%E7%94%B1%E4%BA%8E%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%84%8F%E5%A4%96%E5%85%B3%E9%97%AD%E9%87%8D%E6%96%B0%E6%89%93%E5%BC%80%E9%BB%91%E5%B1%8F%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E/</link>
+      <link>http://www.tiankong.info/2017/12/06/vmware-workstation-14%E7%94%B1%E4%BA%8E%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%84%8F%E5%A4%96%E5%85%B3%E9%97%AD%E9%87%8D%E6%96%B0%E6%89%93%E5%BC%80%E9%BB%91%E5%B1%8F%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E/</link>
       <pubDate>Wed, 06 Dec 2017 05:03:25 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2017/12/06/vmware-workstation-14%E7%94%B1%E4%BA%8E%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%84%8F%E5%A4%96%E5%85%B3%E9%97%AD%E9%87%8D%E6%96%B0%E6%89%93%E5%BC%80%E9%BB%91%E5%B1%8F%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E/</guid>
+      <guid>http://www.tiankong.info/2017/12/06/vmware-workstation-14%E7%94%B1%E4%BA%8E%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%84%8F%E5%A4%96%E5%85%B3%E9%97%AD%E9%87%8D%E6%96%B0%E6%89%93%E5%BC%80%E9%BB%91%E5%B1%8F%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E/</guid>
       <description>&lt;p&gt;今天开着虚拟机处理文件的时候，电脑意外卡死，然虚拟机打开时就黑屏了，没有任何反应，重试了几遍电脑都无法正常解决，于是在网上找到了办法， 特此备用&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>等待PayPal倒闭那一天！</title>
-      <link>https://www.tiankong.info/2017/12/01/%E7%AD%89%E5%BE%85paypal%E5%80%92%E9%97%AD%E9%82%A3%E4%B8%80%E5%A4%A9/</link>
+      <link>http://www.tiankong.info/2017/12/01/%E7%AD%89%E5%BE%85paypal%E5%80%92%E9%97%AD%E9%82%A3%E4%B8%80%E5%A4%A9/</link>
       <pubDate>Fri, 01 Dec 2017 09:42:25 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2017/12/01/%E7%AD%89%E5%BE%85paypal%E5%80%92%E9%97%AD%E9%82%A3%E4%B8%80%E5%A4%A9/</guid>
+      <guid>http://www.tiankong.info/2017/12/01/%E7%AD%89%E5%BE%85paypal%E5%80%92%E9%97%AD%E9%82%A3%E4%B8%80%E5%A4%A9/</guid>
       <description>&lt;p&gt;就因为2013年淘宝买了10美元，被永久限制，不得申诉，已经过去4年了，刚打电话申诉，那傲慢的语气，快倒闭吧！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>如何简单安装Arch Linux操作系统？（编辑中）</title>
-      <link>https://www.tiankong.info/2017/12/01/%E5%A6%82%E4%BD%95%E7%AE%80%E5%8D%95%E5%AE%89%E8%A3%85arch-linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%BC%96%E8%BE%91%E4%B8%AD/</link>
+      <link>http://www.tiankong.info/2017/12/01/%E5%A6%82%E4%BD%95%E7%AE%80%E5%8D%95%E5%AE%89%E8%A3%85arch-linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%BC%96%E8%BE%91%E4%B8%AD/</link>
       <pubDate>Fri, 01 Dec 2017 08:00:53 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2017/12/01/%E5%A6%82%E4%BD%95%E7%AE%80%E5%8D%95%E5%AE%89%E8%A3%85arch-linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%BC%96%E8%BE%91%E4%B8%AD/</guid>
+      <guid>http://www.tiankong.info/2017/12/01/%E5%A6%82%E4%BD%95%E7%AE%80%E5%8D%95%E5%AE%89%E8%A3%85arch-linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%BC%96%E8%BE%91%E4%B8%AD/</guid>
       <description>&lt;p&gt;Arch Linux操作系统是个有魅力的Linux发行版，系统简洁优雅，所有的一切都需要自己配置，适合对操作系统有严格要求的人，另外系统采用滚动式更新，优缺点就不说了，这里简单说一下如何简单快速安装Arch Linux操作系统。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>如何下载 Google Chrome 离线安装包</title>
-      <link>https://www.tiankong.info/2017/11/30/%E5%A6%82%E4%BD%95%E4%BB%8E%E5%AE%98%E7%BD%91%E4%B8%8B%E8%BD%BD-google-chrome-%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%E5%8C%85/</link>
+      <link>http://www.tiankong.info/2017/11/30/%E5%A6%82%E4%BD%95%E4%BB%8E%E5%AE%98%E7%BD%91%E4%B8%8B%E8%BD%BD-google-chrome-%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%E5%8C%85/</link>
       <pubDate>Thu, 30 Nov 2017 09:16:41 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2017/11/30/%E5%A6%82%E4%BD%95%E4%BB%8E%E5%AE%98%E7%BD%91%E4%B8%8B%E8%BD%BD-google-chrome-%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%E5%8C%85/</guid>
+      <guid>http://www.tiankong.info/2017/11/30/%E5%A6%82%E4%BD%95%E4%BB%8E%E5%AE%98%E7%BD%91%E4%B8%8B%E8%BD%BD-google-chrome-%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%E5%8C%85/</guid>
       <description>&lt;p&gt;Google Chrome 离线安装包下载地址，个人备用&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>电影TS、TC、SCR、R5、BD、HD等版本是什么意思</title>
-      <link>https://www.tiankong.info/2017/10/20/%E7%94%B5%E5%BD%B1tstcscrr5bdhd%E7%AD%89%E7%89%88%E6%9C%AC%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D/</link>
+      <link>http://www.tiankong.info/2017/10/20/%E7%94%B5%E5%BD%B1tstcscrr5bdhd%E7%AD%89%E7%89%88%E6%9C%AC%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D/</link>
       <pubDate>Fri, 20 Oct 2017 05:18:07 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2017/10/20/%E7%94%B5%E5%BD%B1tstcscrr5bdhd%E7%AD%89%E7%89%88%E6%9C%AC%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D/</guid>
+      <guid>http://www.tiankong.info/2017/10/20/%E7%94%B5%E5%BD%B1tstcscrr5bdhd%E7%AD%89%E7%89%88%E6%9C%AC%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D/</guid>
       <description>&lt;p&gt;在很多电影下载网站的影片标题中我们都能看到，比如《刺杀希特勒BD版》、《游龙戏凤TS版》等，这些英文缩写都是什么意思呢？都代表什么画质？下面就给大家整理一下，各个版本的具体含义：&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>网站被攻击了，好厉害</title>
-      <link>https://www.tiankong.info/2017/09/19/%E7%BD%91%E7%AB%99%E8%A2%AB%E6%94%BB%E5%87%BB%E4%BA%86%E5%A5%BD%E5%8E%89%E5%AE%B3/</link>
+      <link>http://www.tiankong.info/2017/09/19/%E7%BD%91%E7%AB%99%E8%A2%AB%E6%94%BB%E5%87%BB%E4%BA%86%E5%A5%BD%E5%8E%89%E5%AE%B3/</link>
       <pubDate>Tue, 19 Sep 2017 13:14:52 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2017/09/19/%E7%BD%91%E7%AB%99%E8%A2%AB%E6%94%BB%E5%87%BB%E4%BA%86%E5%A5%BD%E5%8E%89%E5%AE%B3/</guid>
+      <guid>http://www.tiankong.info/2017/09/19/%E7%BD%91%E7%AB%99%E8%A2%AB%E6%94%BB%E5%87%BB%E4%BA%86%E5%A5%BD%E5%8E%89%E5%AE%B3/</guid>
       <description>&lt;p&gt;你确实起作用了，我那免费服务器确实经不起你那折腾，我现在换了谷歌服务器了，你来吧&lt;/p&gt;
 
 &lt;p&gt;这阵子经常被关闭，看了下日志，有时候访问量突然访问量就到了1000左右，然后阿里云就给关闭了，反反复复好多次，还以为阿里云坑我，这点承载旧挂了，就换成了谷歌的服务器，免费1年，先凑合一年，我看你一年后还来不来。&lt;/p&gt;</description>
@@ -367,19 +367,19 @@ set password = password(&amp;quot;password&amp;quot;);</description>
     
     <item>
       <title>“中国天眼”总工程师兼首席科学家南仁东逝世</title>
-      <link>https://www.tiankong.info/2017/09/16/%E4%B8%AD%E5%9B%BD%E5%A4%A9%E7%9C%BC%E6%80%BB%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%85%BC%E9%A6%96%E5%B8%AD%E7%A7%91%E5%AD%A6%E5%AE%B6%E5%8D%97%E4%BB%81%E4%B8%9C%E9%80%9D%E4%B8%96/</link>
+      <link>http://www.tiankong.info/2017/09/16/%E4%B8%AD%E5%9B%BD%E5%A4%A9%E7%9C%BC%E6%80%BB%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%85%BC%E9%A6%96%E5%B8%AD%E7%A7%91%E5%AD%A6%E5%AE%B6%E5%8D%97%E4%BB%81%E4%B8%9C%E9%80%9D%E4%B8%96/</link>
       <pubDate>Sat, 16 Sep 2017 04:03:57 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2017/09/16/%E4%B8%AD%E5%9B%BD%E5%A4%A9%E7%9C%BC%E6%80%BB%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%85%BC%E9%A6%96%E5%B8%AD%E7%A7%91%E5%AD%A6%E5%AE%B6%E5%8D%97%E4%BB%81%E4%B8%9C%E9%80%9D%E4%B8%96/</guid>
+      <guid>http://www.tiankong.info/2017/09/16/%E4%B8%AD%E5%9B%BD%E5%A4%A9%E7%9C%BC%E6%80%BB%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%85%BC%E9%A6%96%E5%B8%AD%E7%A7%91%E5%AD%A6%E5%AE%B6%E5%8D%97%E4%BB%81%E4%B8%9C%E9%80%9D%E4%B8%96/</guid>
       <description>&lt;p&gt;网易科技讯 9月16日消息，据媒体报道，FAST射电望远镜工程总工程师兼首席科学家、中科院国家天文台研究员南仁东昨晚因病情恶化逝世，享年72岁。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>专业显卡与游戏卡我该选择哪个？</title>
-      <link>https://www.tiankong.info/2017/09/16/%E4%B8%93%E4%B8%9A%E6%98%BE%E5%8D%A1%E4%B8%8E%E6%B8%B8%E6%88%8F%E5%8D%A1%E6%88%91%E8%AF%A5%E9%80%89%E6%8B%A9%E5%93%AA%E4%B8%AA/</link>
+      <link>http://www.tiankong.info/2017/09/16/%E4%B8%93%E4%B8%9A%E6%98%BE%E5%8D%A1%E4%B8%8E%E6%B8%B8%E6%88%8F%E5%8D%A1%E6%88%91%E8%AF%A5%E9%80%89%E6%8B%A9%E5%93%AA%E4%B8%AA/</link>
       <pubDate>Sat, 16 Sep 2017 03:14:15 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2017/09/16/%E4%B8%93%E4%B8%9A%E6%98%BE%E5%8D%A1%E4%B8%8E%E6%B8%B8%E6%88%8F%E5%8D%A1%E6%88%91%E8%AF%A5%E9%80%89%E6%8B%A9%E5%93%AA%E4%B8%AA/</guid>
+      <guid>http://www.tiankong.info/2017/09/16/%E4%B8%93%E4%B8%9A%E6%98%BE%E5%8D%A1%E4%B8%8E%E6%B8%B8%E6%88%8F%E5%8D%A1%E6%88%91%E8%AF%A5%E9%80%89%E6%8B%A9%E5%93%AA%E4%B8%AA/</guid>
       <description>&lt;!--StartFragment --&gt;
 
 &lt;p&gt;　　“我需要专业显卡吗？专业显卡对我的工作有很大帮助吗？”相信很多处于专业领域的人都会遇到这个问题，现在来给大家分析一下专业显卡与游戏卡的详细介绍，相信大家看过之后会对自己的需求有些理解。&lt;/p&gt;</description>
@@ -387,37 +387,37 @@ set password = password(&amp;quot;password&amp;quot;);</description>
     
     <item>
       <title>网民发帖称医院食堂价高难吃被拘留</title>
-      <link>https://www.tiankong.info/2017/09/03/%E7%BD%91%E6%B0%91%E5%8F%91%E5%B8%96%E7%A7%B0%E5%8C%BB%E9%99%A2%E9%A3%9F%E5%A0%82%E4%BB%B7%E9%AB%98%E9%9A%BE%E5%90%83%E8%A2%AB%E6%8B%98%E7%95%99/</link>
+      <link>http://www.tiankong.info/2017/09/03/%E7%BD%91%E6%B0%91%E5%8F%91%E5%B8%96%E7%A7%B0%E5%8C%BB%E9%99%A2%E9%A3%9F%E5%A0%82%E4%BB%B7%E9%AB%98%E9%9A%BE%E5%90%83%E8%A2%AB%E6%8B%98%E7%95%99/</link>
       <pubDate>Sun, 03 Sep 2017 01:56:14 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2017/09/03/%E7%BD%91%E6%B0%91%E5%8F%91%E5%B8%96%E7%A7%B0%E5%8C%BB%E9%99%A2%E9%A3%9F%E5%A0%82%E4%BB%B7%E9%AB%98%E9%9A%BE%E5%90%83%E8%A2%AB%E6%8B%98%E7%95%99/</guid>
+      <guid>http://www.tiankong.info/2017/09/03/%E7%BD%91%E6%B0%91%E5%8F%91%E5%B8%96%E7%A7%B0%E5%8C%BB%E9%99%A2%E9%A3%9F%E5%A0%82%E4%BB%B7%E9%AB%98%E9%9A%BE%E5%90%83%E8%A2%AB%E6%8B%98%E7%95%99/</guid>
       <description></description>
     </item>
     
     <item>
       <title>迅雷赢了，腾讯QQ旋风宣布关闭</title>
-      <link>https://www.tiankong.info/2017/09/03/%E8%BF%85%E9%9B%B7%E8%B5%A2%E4%BA%86%E8%85%BE%E8%AE%AFqq%E6%97%8B%E9%A3%8E%E5%AE%A3%E5%B8%83%E5%85%B3%E9%97%AD/</link>
+      <link>http://www.tiankong.info/2017/09/03/%E8%BF%85%E9%9B%B7%E8%B5%A2%E4%BA%86%E8%85%BE%E8%AE%AFqq%E6%97%8B%E9%A3%8E%E5%AE%A3%E5%B8%83%E5%85%B3%E9%97%AD/</link>
       <pubDate>Sun, 03 Sep 2017 01:53:39 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2017/09/03/%E8%BF%85%E9%9B%B7%E8%B5%A2%E4%BA%86%E8%85%BE%E8%AE%AFqq%E6%97%8B%E9%A3%8E%E5%AE%A3%E5%B8%83%E5%85%B3%E9%97%AD/</guid>
+      <guid>http://www.tiankong.info/2017/09/03/%E8%BF%85%E9%9B%B7%E8%B5%A2%E4%BA%86%E8%85%BE%E8%AE%AFqq%E6%97%8B%E9%A3%8E%E5%AE%A3%E5%B8%83%E5%85%B3%E9%97%AD/</guid>
       <description>&lt;p&gt;腾讯QQ旋风在官方正式宣布，由于业务发展上的调整，QQ旋风将于2017年9月6日停止运营，QQ旋风提醒，用户要在2017年9月6日将旋风资源转出，过期后用户的资源数据将会被删除，无法转出、恢复或进行其他操作。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>div.ltd域名已经转移到NameSilo了</title>
-      <link>https://www.tiankong.info/2017/08/28/div-ltd%E5%9F%9F%E5%90%8D%E5%B7%B2%E7%BB%8F%E8%BD%AC%E7%A7%BB%E5%88%B0namesilo%E4%BA%86/</link>
+      <link>http://www.tiankong.info/2017/08/28/div-ltd%E5%9F%9F%E5%90%8D%E5%B7%B2%E7%BB%8F%E8%BD%AC%E7%A7%BB%E5%88%B0namesilo%E4%BA%86/</link>
       <pubDate>Mon, 28 Aug 2017 01:57:18 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2017/08/28/div-ltd%E5%9F%9F%E5%90%8D%E5%B7%B2%E7%BB%8F%E8%BD%AC%E7%A7%BB%E5%88%B0namesilo%E4%BA%86/</guid>
+      <guid>http://www.tiankong.info/2017/08/28/div-ltd%E5%9F%9F%E5%90%8D%E5%B7%B2%E7%BB%8F%E8%BD%AC%E7%A7%BB%E5%88%B0namesilo%E4%BA%86/</guid>
       <description>&lt;p&gt;放了很久的域名，也没有挂网站，但是不舍得扔，只是解析到Google Cloud服务器，前几天准备测试用，结果发现怎么调整都打不开网站，以为是服务器apache问题，就准备用阿里云的服务器测，不过改dns的时候才发现ns没有生效，原来是万恶的阿里云给暂停了。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>在CentOS上搭建PHP服务器环境</title>
-      <link>https://www.tiankong.info/2017/08/28/%E5%9C%A8centos%E4%B8%8A%E6%90%AD%E5%BB%BAphp%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83/</link>
+      <link>http://www.tiankong.info/2017/08/28/%E5%9C%A8centos%E4%B8%8A%E6%90%AD%E5%BB%BAphp%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83/</link>
       <pubDate>Sun, 27 Aug 2017 17:14:19 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2017/08/28/%E5%9C%A8centos%E4%B8%8A%E6%90%AD%E5%BB%BAphp%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83/</guid>
+      <guid>http://www.tiankong.info/2017/08/28/%E5%9C%A8centos%E4%B8%8A%E6%90%AD%E5%BB%BAphp%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83/</guid>
       <description>&lt;div&gt;
   安装apache:
 &lt;/div&gt;
@@ -445,10 +445,10 @@ set password = password(&amp;quot;password&amp;quot;);</description>
     
     <item>
       <title>开发环境、生产环境、测试环境的基本理解和区别</title>
-      <link>https://www.tiankong.info/2017/06/28/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3%E5%92%8C%E5%8C%BA%E5%88%AB/</link>
+      <link>http://www.tiankong.info/2017/06/28/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3%E5%92%8C%E5%8C%BA%E5%88%AB/</link>
       <pubDate>Wed, 28 Jun 2017 02:17:05 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2017/06/28/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3%E5%92%8C%E5%8C%BA%E5%88%AB/</guid>
+      <guid>http://www.tiankong.info/2017/06/28/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%90%86%E8%A7%A3%E5%92%8C%E5%8C%BA%E5%88%AB/</guid>
       <description>&lt;p&gt;　　摘要: 对开发环境、生产环境和测试环境的字面概念做简单称述，并且指出基本区别。&lt;/p&gt;
 
 &lt;p&gt;　　对于刚刚来到一个新的团队或是新环境的“新人”来说，当你无所事事且故作投入之时，听着几个“老人”在自己可视范围之外或严肃或轻松的讨论着业务，其措辞拿捏精准，语气抑扬顿挫，期间，涉及到一些的概念可能难免让你不明觉厉……然默默道：“高端，大气，上档次！”&lt;/p&gt;</description>
@@ -456,55 +456,55 @@ set password = password(&amp;quot;password&amp;quot;);</description>
     
     <item>
       <title>浅谈linux中的reboot和shutdown -r now区别</title>
-      <link>https://www.tiankong.info/2017/06/27/%E6%B5%85%E8%B0%88linux%E4%B8%AD%E7%9A%84reboot%E5%92%8Cshutdown-r-now%E5%8C%BA%E5%88%AB/</link>
+      <link>http://www.tiankong.info/2017/06/27/%E6%B5%85%E8%B0%88linux%E4%B8%AD%E7%9A%84reboot%E5%92%8Cshutdown-r-now%E5%8C%BA%E5%88%AB/</link>
       <pubDate>Tue, 27 Jun 2017 02:22:17 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2017/06/27/%E6%B5%85%E8%B0%88linux%E4%B8%AD%E7%9A%84reboot%E5%92%8Cshutdown-r-now%E5%8C%BA%E5%88%AB/</guid>
+      <guid>http://www.tiankong.info/2017/06/27/%E6%B5%85%E8%B0%88linux%E4%B8%AD%E7%9A%84reboot%E5%92%8Cshutdown-r-now%E5%8C%BA%E5%88%AB/</guid>
       <description>&lt;p&gt;在linux命令中reboot是重新启动，shutdown -r now是立即停止后重新启动；虽然都为重启其实是有一定的区别的.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>我结婚了</title>
-      <link>https://www.tiankong.info/2017/05/06/%E6%88%91%E7%BB%93%E5%A9%9A%E4%BA%86/</link>
+      <link>http://www.tiankong.info/2017/05/06/%E6%88%91%E7%BB%93%E5%A9%9A%E4%BA%86/</link>
       <pubDate>Sat, 06 May 2017 11:49:36 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2017/05/06/%E6%88%91%E7%BB%93%E5%A9%9A%E4%BA%86/</guid>
+      <guid>http://www.tiankong.info/2017/05/06/%E6%88%91%E7%BB%93%E5%A9%9A%E4%BA%86/</guid>
       <description>五月3号，四月初八。</description>
     </item>
     
     <item>
       <title>迟来的新年快乐！</title>
-      <link>https://www.tiankong.info/2017/02/22/%E8%BF%9F%E6%9D%A5%E7%9A%84%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/</link>
+      <link>http://www.tiankong.info/2017/02/22/%E8%BF%9F%E6%9D%A5%E7%9A%84%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/</link>
       <pubDate>Wed, 22 Feb 2017 08:31:47 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2017/02/22/%E8%BF%9F%E6%9D%A5%E7%9A%84%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/</guid>
+      <guid>http://www.tiankong.info/2017/02/22/%E8%BF%9F%E6%9D%A5%E7%9A%84%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/</guid>
       <description>&lt;p&gt;　　网站荒废太久了，连我自己都不来了，自从做个和网络不相干的工作，兴趣都被转移了吗？是时候更新一波文章了。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>安装锁区steam软件的方法</title>
-      <link>https://www.tiankong.info/2016/12/07/%E5%AE%89%E8%A3%85%E9%94%81%E5%8C%BAsteam%E8%BD%AF%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <link>http://www.tiankong.info/2016/12/07/%E5%AE%89%E8%A3%85%E9%94%81%E5%8C%BAsteam%E8%BD%AF%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/</link>
       <pubDate>Wed, 07 Dec 2016 06:45:45 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2016/12/07/%E5%AE%89%E8%A3%85%E9%94%81%E5%8C%BAsteam%E8%BD%AF%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <guid>http://www.tiankong.info/2016/12/07/%E5%AE%89%E8%A3%85%E9%94%81%E5%8C%BAsteam%E8%BD%AF%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
       <description>&lt;p&gt;　　对于中国用户来说，有一些steam软件和游戏被锁区，访问会提示“您所在的地区目前不提供此物品”，例如谷歌地球VR和DOTA2等。用户可以通过下面方法安装此软件或游戏，在IE浏览器里输入steam://rungameid/游戏软件ID，然后点允许即可。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>三星Note 7的爆炸门</title>
-      <link>https://www.tiankong.info/2016/09/30/%E4%B8%89%E6%98%9Fnote-7%E7%9A%84%E7%88%86%E7%82%B8%E9%97%A8/</link>
+      <link>http://www.tiankong.info/2016/09/30/%E4%B8%89%E6%98%9Fnote-7%E7%9A%84%E7%88%86%E7%82%B8%E9%97%A8/</link>
       <pubDate>Fri, 30 Sep 2016 02:10:21 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2016/09/30/%E4%B8%89%E6%98%9Fnote-7%E7%9A%84%E7%88%86%E7%82%B8%E9%97%A8/</guid>
+      <guid>http://www.tiankong.info/2016/09/30/%E4%B8%89%E6%98%9Fnote-7%E7%9A%84%E7%88%86%E7%82%B8%E9%97%A8/</guid>
       <description>&lt;p&gt;　　自从三星Note 7发布后，网友陆续爆出爆炸事件，三星初步判定是电池充电过热所致，陆续开始召回使用SamsungSDI电芯的三星手机，美国联邦航空管理局（FAA）和多家航空公司都将 Note 7 列入禁飞名单，国内的海航和首航也在本周二针对三星 Note 7 增加了安全风险提示。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>微软关闭了DreamSpark？</title>
-      <link>https://www.tiankong.info/2016/09/22/%E5%BE%AE%E8%BD%AF%E5%85%B3%E9%97%AD%E4%BA%86dreamspark/</link>
+      <link>http://www.tiankong.info/2016/09/22/%E5%BE%AE%E8%BD%AF%E5%85%B3%E9%97%AD%E4%BA%86dreamspark/</link>
       <pubDate>Thu, 22 Sep 2016 13:31:52 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2016/09/22/%E5%BE%AE%E8%BD%AF%E5%85%B3%E9%97%AD%E4%BA%86dreamspark/</guid>
+      <guid>http://www.tiankong.info/2016/09/22/%E5%BE%AE%E8%BD%AF%E5%85%B3%E9%97%AD%E4%BA%86dreamspark/</guid>
       <description>&lt;p&gt;　　昨天晚上收到了微软的邮件，说是关闭了DreamSpark。这个网站从我大一开始就开始用了，验证了学生账户后，从上面下载了很多正版软件，也是我正版意识的出现的契机。&lt;/p&gt;
 
 &lt;p&gt;以下是邮件全文：&lt;/p&gt;</description>
@@ -512,10 +512,10 @@ set password = password(&amp;quot;password&amp;quot;);</description>
     
     <item>
       <title>UC网盘下线，百度云还能走多远？</title>
-      <link>https://www.tiankong.info/2016/03/23/uc%E7%BD%91%E7%9B%98%E4%B8%8B%E7%BA%BF%E7%99%BE%E5%BA%A6%E4%BA%91%E8%BF%98%E8%83%BD%E8%B5%B0%E5%A4%9A%E8%BF%9C/</link>
+      <link>http://www.tiankong.info/2016/03/23/uc%E7%BD%91%E7%9B%98%E4%B8%8B%E7%BA%BF%E7%99%BE%E5%BA%A6%E4%BA%91%E8%BF%98%E8%83%BD%E8%B5%B0%E5%A4%9A%E8%BF%9C/</link>
       <pubDate>Wed, 23 Mar 2016 14:48:01 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2016/03/23/uc%E7%BD%91%E7%9B%98%E4%B8%8B%E7%BA%BF%E7%99%BE%E5%BA%A6%E4%BA%91%E8%BF%98%E8%83%BD%E8%B5%B0%E5%A4%9A%E8%BF%9C/</guid>
+      <guid>http://www.tiankong.info/2016/03/23/uc%E7%BD%91%E7%9B%98%E4%B8%8B%E7%BA%BF%E7%99%BE%E5%BA%A6%E4%BA%91%E8%BF%98%E8%83%BD%E8%B5%B0%E5%A4%9A%E8%BF%9C/</guid>
       <description>&lt;p&gt;&lt;code&gt;尊敬的UC网盘用户：&amp;lt;br /&amp;gt;
 您好，为配合国家关于利用云盘传播淫秽色情信息专项整治行动，UC网盘即日起调整服务功能，包括以下（不仅限于）措施&amp;lt;br /&amp;gt;
 1、停止网盘存储服务。请您在2016年4月15号中午12点前，登陆UC网盘，下载备份您的文件。&amp;lt;br /&amp;gt;
@@ -527,91 +527,91 @@ set password = password(&amp;quot;password&amp;quot;);</description>
     
     <item>
       <title>成功在GoDaddy退款一个域名ARFUN.ORG</title>
-      <link>https://www.tiankong.info/2016/02/12/%E6%88%90%E5%8A%9F%E5%9C%A8godaddy%E9%80%80%E6%AC%BE%E4%B8%80%E4%B8%AA%E5%9F%9F%E5%90%8Darfun-org/</link>
+      <link>http://www.tiankong.info/2016/02/12/%E6%88%90%E5%8A%9F%E5%9C%A8godaddy%E9%80%80%E6%AC%BE%E4%B8%80%E4%B8%AA%E5%9F%9F%E5%90%8Darfun-org/</link>
       <pubDate>Fri, 12 Feb 2016 09:04:19 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2016/02/12/%E6%88%90%E5%8A%9F%E5%9C%A8godaddy%E9%80%80%E6%AC%BE%E4%B8%80%E4%B8%AA%E5%9F%9F%E5%90%8Darfun-org/</guid>
+      <guid>http://www.tiankong.info/2016/02/12/%E6%88%90%E5%8A%9F%E5%9C%A8godaddy%E9%80%80%E6%AC%BE%E4%B8%80%E4%B8%AA%E5%9F%9F%E5%90%8Darfun-org/</guid>
       <description>&lt;p&gt;　　最近看了关于谷歌纸盒的商品，心血来潮注册了两个关于AR和VR的域名，想着做几个有关的网站，冷静下来就后悔了，我并不能接触很多VR和AR的产品，动辄上万的商品买不起，现在的技术对我来说也太遥远，域名续费还挺贵，就想起了退款。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>WordPress添加关键词和描述</title>
-      <link>https://www.tiankong.info/2015/12/11/wordpress%E6%B7%BB%E5%8A%A0%E5%85%B3%E9%94%AE%E8%AF%8D%E5%92%8C%E6%8F%8F%E8%BF%B0/</link>
+      <link>http://www.tiankong.info/2015/12/11/wordpress%E6%B7%BB%E5%8A%A0%E5%85%B3%E9%94%AE%E8%AF%8D%E5%92%8C%E6%8F%8F%E8%BF%B0/</link>
       <pubDate>Fri, 11 Dec 2015 10:19:41 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2015/12/11/wordpress%E6%B7%BB%E5%8A%A0%E5%85%B3%E9%94%AE%E8%AF%8D%E5%92%8C%E6%8F%8F%E8%BF%B0/</guid>
+      <guid>http://www.tiankong.info/2015/12/11/wordpress%E6%B7%BB%E5%8A%A0%E5%85%B3%E9%94%AE%E8%AF%8D%E5%92%8C%E6%8F%8F%E8%BF%B0/</guid>
       <description>&lt;p&gt;WordPress默认是没有关键词和描述的，只能填写网站标题和副标题。但是关键词是用来实时关注网站关键词排名的，描述是可以提高关键词排名速度的，两者缺一不可，J接下来教大家如何增加关键词和描述。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>删除功能菜单”WordPress.org”链接新版教程</title>
-      <link>https://www.tiankong.info/2015/12/11/%E5%88%A0%E9%99%A4%E5%8A%9F%E8%83%BD%E8%8F%9C%E5%8D%95wordpress-org%E9%93%BE%E6%8E%A5%E6%96%B0%E7%89%88%E6%95%99%E7%A8%8B/</link>
+      <link>http://www.tiankong.info/2015/12/11/%E5%88%A0%E9%99%A4%E5%8A%9F%E8%83%BD%E8%8F%9C%E5%8D%95wordpress-org%E9%93%BE%E6%8E%A5%E6%96%B0%E7%89%88%E6%95%99%E7%A8%8B/</link>
       <pubDate>Fri, 11 Dec 2015 09:51:03 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2015/12/11/%E5%88%A0%E9%99%A4%E5%8A%9F%E8%83%BD%E8%8F%9C%E5%8D%95wordpress-org%E9%93%BE%E6%8E%A5%E6%96%B0%E7%89%88%E6%95%99%E7%A8%8B/</guid>
+      <guid>http://www.tiankong.info/2015/12/11/%E5%88%A0%E9%99%A4%E5%8A%9F%E8%83%BD%E8%8F%9C%E5%8D%95wordpress-org%E9%93%BE%E6%8E%A5%E6%96%B0%E7%89%88%E6%95%99%E7%A8%8B/</guid>
       <description>&lt;p&gt;由于WordPress.org版本的更新，网上的教程多半已失效，已经不再是删除default-widgets.php里面的代码了，添加在widgets里面的一个文件里了，下面就是新版删除方法，大家可以参考一下。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>WordPress更新后的常用修改项</title>
-      <link>https://www.tiankong.info/2015/12/11/wordpress%E6%9B%B4%E6%96%B0%E5%90%8E%E7%9A%84%E5%B8%B8%E7%94%A8%E4%BF%AE%E6%94%B9%E9%A1%B9-2/</link>
+      <link>http://www.tiankong.info/2015/12/11/wordpress%E6%9B%B4%E6%96%B0%E5%90%8E%E7%9A%84%E5%B8%B8%E7%94%A8%E4%BF%AE%E6%94%B9%E9%A1%B9-2/</link>
       <pubDate>Fri, 11 Dec 2015 09:08:12 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2015/12/11/wordpress%E6%9B%B4%E6%96%B0%E5%90%8E%E7%9A%84%E5%B8%B8%E7%94%A8%E4%BF%AE%E6%94%B9%E9%A1%B9-2/</guid>
+      <guid>http://www.tiankong.info/2015/12/11/wordpress%E6%9B%B4%E6%96%B0%E5%90%8E%E7%9A%84%E5%B8%B8%E7%94%A8%E4%BF%AE%E6%94%B9%E9%A1%B9-2/</guid>
       <description>&lt;p&gt;每次WordPress更新，总有一部分个性化修改被重置，在此列出我的常用修改，为了以后WordPress更新后修改做参考。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>删除自豪地采用WordPress的简单方法</title>
-      <link>https://www.tiankong.info/2015/12/11/%E5%88%A0%E9%99%A4%E8%87%AA%E8%B1%AA%E5%9C%B0%E9%87%87%E7%94%A8wordpress%E7%9A%84%E7%AE%80%E5%8D%95%E6%96%B9%E6%B3%95/</link>
+      <link>http://www.tiankong.info/2015/12/11/%E5%88%A0%E9%99%A4%E8%87%AA%E8%B1%AA%E5%9C%B0%E9%87%87%E7%94%A8wordpress%E7%9A%84%E7%AE%80%E5%8D%95%E6%96%B9%E6%B3%95/</link>
       <pubDate>Fri, 11 Dec 2015 08:45:58 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2015/12/11/%E5%88%A0%E9%99%A4%E8%87%AA%E8%B1%AA%E5%9C%B0%E9%87%87%E7%94%A8wordpress%E7%9A%84%E7%AE%80%E5%8D%95%E6%96%B9%E6%B3%95/</guid>
+      <guid>http://www.tiankong.info/2015/12/11/%E5%88%A0%E9%99%A4%E8%87%AA%E8%B1%AA%E5%9C%B0%E9%87%87%E7%94%A8wordpress%E7%9A%84%E7%AE%80%E5%8D%95%E6%96%B9%E6%B3%95/</guid>
       <description>&lt;p&gt;有些人有强迫症，比如我，不喜欢不顺眼的东西，右下角添加版权链接本身应该的，但这句话看着真令人揪心，对我来说还是删了省事，在此感谢WordPress。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>关闭WordPress的半角全角自动转换功能</title>
-      <link>https://www.tiankong.info/2015/12/11/%E5%85%B3%E9%97%ADwordpress%E7%9A%84%E5%8D%8A%E8%A7%92%E5%85%A8%E8%A7%92%E8%87%AA%E5%8A%A8%E8%BD%AC%E6%8D%A2%E5%8A%9F%E8%83%BD/</link>
+      <link>http://www.tiankong.info/2015/12/11/%E5%85%B3%E9%97%ADwordpress%E7%9A%84%E5%8D%8A%E8%A7%92%E5%85%A8%E8%A7%92%E8%87%AA%E5%8A%A8%E8%BD%AC%E6%8D%A2%E5%8A%9F%E8%83%BD/</link>
       <pubDate>Fri, 11 Dec 2015 08:33:07 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2015/12/11/%E5%85%B3%E9%97%ADwordpress%E7%9A%84%E5%8D%8A%E8%A7%92%E5%85%A8%E8%A7%92%E8%87%AA%E5%8A%A8%E8%BD%AC%E6%8D%A2%E5%8A%9F%E8%83%BD/</guid>
+      <guid>http://www.tiankong.info/2015/12/11/%E5%85%B3%E9%97%ADwordpress%E7%9A%84%E5%8D%8A%E8%A7%92%E5%85%A8%E8%A7%92%E8%87%AA%E5%8A%A8%E8%BD%AC%E6%8D%A2%E5%8A%9F%E8%83%BD/</guid>
       <description>&lt;p&gt;由于WordPress自动把半角转化为全角，导致贴在博客的一些代码复制过去无法使用，造成一些不必要的误解，下面贴出最简单的解决办法，只需添加一行代码。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>WordPress首行缩进的方法</title>
-      <link>https://www.tiankong.info/2015/11/10/wordress%E9%A6%96%E8%A1%8C%E7%BC%A9%E8%BF%9B%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <link>http://www.tiankong.info/2015/11/10/wordress%E9%A6%96%E8%A1%8C%E7%BC%A9%E8%BF%9B%E7%9A%84%E6%96%B9%E6%B3%95/</link>
       <pubDate>Tue, 10 Nov 2015 07:16:27 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2015/11/10/wordress%E9%A6%96%E8%A1%8C%E7%BC%A9%E8%BF%9B%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <guid>http://www.tiankong.info/2015/11/10/wordress%E9%A6%96%E8%A1%8C%E7%BC%A9%E8%BF%9B%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
       <description>&lt;p&gt;　　按照中文的输入习惯，还是喜欢首行空两个空格的，而WP只有全局缩进，并不符合中文的输入习惯，文章都是顶格的，很多人对此不习惯。下面提供几种解决办法，大家可以参考一下，找一个适合自己的方式。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>域名备案完成，服务器也换阿里云免费空间了</title>
-      <link>https://www.tiankong.info/2015/11/10/%E5%9F%9F%E5%90%8D%E5%A4%87%E6%A1%88%E5%AE%8C%E6%88%90%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B9%9F%E6%8D%A2%E9%98%BF%E9%87%8C%E4%BA%91%E4%BA%86/</link>
+      <link>http://www.tiankong.info/2015/11/10/%E5%9F%9F%E5%90%8D%E5%A4%87%E6%A1%88%E5%AE%8C%E6%88%90%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B9%9F%E6%8D%A2%E9%98%BF%E9%87%8C%E4%BA%91%E4%BA%86/</link>
       <pubDate>Tue, 10 Nov 2015 06:52:19 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2015/11/10/%E5%9F%9F%E5%90%8D%E5%A4%87%E6%A1%88%E5%AE%8C%E6%88%90%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B9%9F%E6%8D%A2%E9%98%BF%E9%87%8C%E4%BA%91%E4%BA%86/</guid>
+      <guid>http://www.tiankong.info/2015/11/10/%E5%9F%9F%E5%90%8D%E5%A4%87%E6%A1%88%E5%AE%8C%E6%88%90%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B9%9F%E6%8D%A2%E9%98%BF%E9%87%8C%E4%BA%91%E4%BA%86/</guid>
       <description>&lt;p&gt;　　专科3年转眼时间就没了，现在我们也开始顶岗实习了，我去年报的驾校，因为懒的原因，一直没有去练习，惭愧&amp;#8230;如果毕业了就该回家了，那驾校的钱就白交了，只能不去实习老老实实练车了。没有资金的支持，日子过的一天不如一天，只能放弃续费合租空间了。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>解决WordPress无法显示Gravatar头像的问题</title>
-      <link>https://www.tiankong.info/2015/09/19/%E8%A7%A3%E5%86%B3wordpress%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BAgravatar%E5%A4%B4%E5%83%8F%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+      <link>http://www.tiankong.info/2015/09/19/%E8%A7%A3%E5%86%B3wordpress%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BAgravatar%E5%A4%B4%E5%83%8F%E7%9A%84%E9%97%AE%E9%A2%98/</link>
       <pubDate>Fri, 18 Sep 2015 22:55:01 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2015/09/19/%E8%A7%A3%E5%86%B3wordpress%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BAgravatar%E5%A4%B4%E5%83%8F%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+      <guid>http://www.tiankong.info/2015/09/19/%E8%A7%A3%E5%86%B3wordpress%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BAgravatar%E5%A4%B4%E5%83%8F%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
       <description>&lt;p&gt;因为国内的一些政策，Gravatar被屏蔽了，导致无数WordPress网站头像无法显示，并且导致网站迟迟加载不完全，很多人尝试用本地缓存的方法，不过如果博客访问量很高的话，对服务器的负载很大，使用以下方法可以完美解决这个问题。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>EA限时福利：正版经典RTS《红警2》、《尤里的复仇》免费送</title>
-      <link>https://www.tiankong.info/2015/09/17/ea%E9%99%90%E6%97%B6%E7%A6%8F%E5%88%A9%E6%AD%A3%E7%89%88%E7%BB%8F%E5%85%B8rts%E7%BA%A2%E8%AD%A62%E5%B0%A4%E9%87%8C%E7%9A%84%E5%A4%8D%E4%BB%87/</link>
+      <link>http://www.tiankong.info/2015/09/17/ea%E9%99%90%E6%97%B6%E7%A6%8F%E5%88%A9%E6%AD%A3%E7%89%88%E7%BB%8F%E5%85%B8rts%E7%BA%A2%E8%AD%A62%E5%B0%A4%E9%87%8C%E7%9A%84%E5%A4%8D%E4%BB%87/</link>
       <pubDate>Thu, 17 Sep 2015 04:17:07 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2015/09/17/ea%E9%99%90%E6%97%B6%E7%A6%8F%E5%88%A9%E6%AD%A3%E7%89%88%E7%BB%8F%E5%85%B8rts%E7%BA%A2%E8%AD%A62%E5%B0%A4%E9%87%8C%E7%9A%84%E5%A4%8D%E4%BB%87/</guid>
+      <guid>http://www.tiankong.info/2015/09/17/ea%E9%99%90%E6%97%B6%E7%A6%8F%E5%88%A9%E6%AD%A3%E7%89%88%E7%BB%8F%E5%85%B8rts%E7%BA%A2%E8%AD%A62%E5%B0%A4%E9%87%8C%E7%9A%84%E5%A4%8D%E4%BB%87/</guid>
       <description>&lt;nav&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -638,19 +638,19 @@ set password = password(&amp;quot;password&amp;quot;);</description>
     
     <item>
       <title>谷歌已悄然撤下新版Chrome书签管理器</title>
-      <link>https://www.tiankong.info/2015/06/16/%E8%B0%B7%E6%AD%8C%E5%B7%B2%E6%82%84%E7%84%B6%E6%92%A4%E4%B8%8B%E6%96%B0%E7%89%88chrome%E4%B9%A6%E7%AD%BE%E7%AE%A1%E7%90%86%E5%99%A8/</link>
+      <link>http://www.tiankong.info/2015/06/16/%E8%B0%B7%E6%AD%8C%E5%B7%B2%E6%82%84%E7%84%B6%E6%92%A4%E4%B8%8B%E6%96%B0%E7%89%88chrome%E4%B9%A6%E7%AD%BE%E7%AE%A1%E7%90%86%E5%99%A8/</link>
       <pubDate>Tue, 16 Jun 2015 01:11:46 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2015/06/16/%E8%B0%B7%E6%AD%8C%E5%B7%B2%E6%82%84%E7%84%B6%E6%92%A4%E4%B8%8B%E6%96%B0%E7%89%88chrome%E4%B9%A6%E7%AD%BE%E7%AE%A1%E7%90%86%E5%99%A8/</guid>
+      <guid>http://www.tiankong.info/2015/06/16/%E8%B0%B7%E6%AD%8C%E5%B7%B2%E6%82%84%E7%84%B6%E6%92%A4%E4%B8%8B%E6%96%B0%E7%89%88chrome%E4%B9%A6%E7%AD%BE%E7%AE%A1%E7%90%86%E5%99%A8/</guid>
       <description>&lt;p&gt;　　去年年底，谷歌为Chrome浏览器推出了一个新的书签管理器，不过并没有收到用户的青睐。相反，官网产品论坛骂声一片，用户们纷纷表示摸不到头脑，非常不实用。作为多年的Chrome用户，我同样感觉到新版确实很难用。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>牛人用记事本做出大白</title>
-      <link>https://www.tiankong.info/2015/06/14/%E7%89%9B%E4%BA%BA%E7%94%A8%E8%AE%B0%E4%BA%8B%E6%9C%AC%E5%81%9A%E5%87%BA%E5%A4%A7%E7%99%BD/</link>
+      <link>http://www.tiankong.info/2015/06/14/%E7%89%9B%E4%BA%BA%E7%94%A8%E8%AE%B0%E4%BA%8B%E6%9C%AC%E5%81%9A%E5%87%BA%E5%A4%A7%E7%99%BD/</link>
       <pubDate>Sun, 14 Jun 2015 14:18:53 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2015/06/14/%E7%89%9B%E4%BA%BA%E7%94%A8%E8%AE%B0%E4%BA%8B%E6%9C%AC%E5%81%9A%E5%87%BA%E5%A4%A7%E7%99%BD/</guid>
+      <guid>http://www.tiankong.info/2015/06/14/%E7%89%9B%E4%BA%BA%E7%94%A8%E8%AE%B0%E4%BA%8B%E6%9C%AC%E5%81%9A%E5%87%BA%E5%A4%A7%E7%99%BD/</guid>
       <description>&lt;nav&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -677,55 +677,55 @@ set password = password(&amp;quot;password&amp;quot;);</description>
     
     <item>
       <title>Microsoft已经向Win7/Win8正版用户推送Windows 10预定</title>
-      <link>https://www.tiankong.info/2015/06/01/windows-10%E5%B7%B2%E7%BB%8F%E5%90%91win7win8%E6%AD%A3%E7%89%88%E7%94%A8%E6%88%B7%E6%8E%A8%E9%80%81%E9%A2%84%E5%AE%9A/</link>
+      <link>http://www.tiankong.info/2015/06/01/windows-10%E5%B7%B2%E7%BB%8F%E5%90%91win7win8%E6%AD%A3%E7%89%88%E7%94%A8%E6%88%B7%E6%8E%A8%E9%80%81%E9%A2%84%E5%AE%9A/</link>
       <pubDate>Mon, 01 Jun 2015 02:15:05 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2015/06/01/windows-10%E5%B7%B2%E7%BB%8F%E5%90%91win7win8%E6%AD%A3%E7%89%88%E7%94%A8%E6%88%B7%E6%8E%A8%E9%80%81%E9%A2%84%E5%AE%9A/</guid>
+      <guid>http://www.tiankong.info/2015/06/01/windows-10%E5%B7%B2%E7%BB%8F%E5%90%91win7win8%E6%AD%A3%E7%89%88%E7%94%A8%E6%88%B7%E6%8E%A8%E9%80%81%E9%A2%84%E5%AE%9A/</guid>
       <description>&lt;p&gt;今天早晨全球的Windows 7/8正版用户都收到了来自微软的Windows 10免费升级提示，用户可以在弹窗中“预订免费升级版”，与预览版本不同，用户在预订这一版本后，仍然需要等待通知，等Windows 10正式发布就可以下载3GB大小的安装包，安装后就可以平滑升级到Windows 10，目前OEM版暂时未收到推送提醒，原因未知。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>WinRAR 致用户的一封信 –宣布个人版本完全免费</title>
-      <link>https://www.tiankong.info/2015/06/01/winrar-%E8%87%B4%E7%94%A8%E6%88%B7%E7%9A%84%E4%B8%80%E5%B0%81%E4%BF%A1-%E5%AE%A3%E5%B8%83%E4%B8%AA%E4%BA%BA%E5%85%8D%E8%B4%B9%E7%89%88/</link>
+      <link>http://www.tiankong.info/2015/06/01/winrar-%E8%87%B4%E7%94%A8%E6%88%B7%E7%9A%84%E4%B8%80%E5%B0%81%E4%BF%A1-%E5%AE%A3%E5%B8%83%E4%B8%AA%E4%BA%BA%E5%85%8D%E8%B4%B9%E7%89%88/</link>
       <pubDate>Mon, 01 Jun 2015 02:04:00 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2015/06/01/winrar-%E8%87%B4%E7%94%A8%E6%88%B7%E7%9A%84%E4%B8%80%E5%B0%81%E4%BF%A1-%E5%AE%A3%E5%B8%83%E4%B8%AA%E4%BA%BA%E5%85%8D%E8%B4%B9%E7%89%88/</guid>
+      <guid>http://www.tiankong.info/2015/06/01/winrar-%E8%87%B4%E7%94%A8%E6%88%B7%E7%9A%84%E4%B8%80%E5%B0%81%E4%BF%A1-%E5%AE%A3%E5%B8%83%E4%B8%AA%E4%BA%BA%E5%85%8D%E8%B4%B9%E7%89%88/</guid>
       <description>&lt;p&gt;我们很荣幸地宣布，经过15年多的时间，现在终于向中国的个人用户提供一款完全免费的 WinRAR 简体中文版了。这是因为 WinRAR 的全球独家发行商 win.rar GmbH 和 www.winrar.com.cn 希望藉此来感谢数亿中国用户长久以来对 WinRAR的信任。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>牛人用磁铁电池自制迷你“磁悬浮列车”</title>
-      <link>https://www.tiankong.info/2015/03/18/%E7%89%9B%E4%BA%BA%E7%94%A8%E7%A3%81%E9%93%81%E7%94%B5%E6%B1%A0%E8%87%AA%E5%88%B6%E8%BF%B7%E4%BD%A0%E7%A3%81%E6%82%AC%E6%B5%AE%E5%88%97%E8%BD%A6/</link>
+      <link>http://www.tiankong.info/2015/03/18/%E7%89%9B%E4%BA%BA%E7%94%A8%E7%A3%81%E9%93%81%E7%94%B5%E6%B1%A0%E8%87%AA%E5%88%B6%E8%BF%B7%E4%BD%A0%E7%A3%81%E6%82%AC%E6%B5%AE%E5%88%97%E8%BD%A6/</link>
       <pubDate>Wed, 18 Mar 2015 08:04:16 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2015/03/18/%E7%89%9B%E4%BA%BA%E7%94%A8%E7%A3%81%E9%93%81%E7%94%B5%E6%B1%A0%E8%87%AA%E5%88%B6%E8%BF%B7%E4%BD%A0%E7%A3%81%E6%82%AC%E6%B5%AE%E5%88%97%E8%BD%A6/</guid>
+      <guid>http://www.tiankong.info/2015/03/18/%E7%89%9B%E4%BA%BA%E7%94%A8%E7%A3%81%E9%93%81%E7%94%B5%E6%B1%A0%E8%87%AA%E5%88%B6%E8%BF%B7%E4%BD%A0%E7%A3%81%E6%82%AC%E6%B5%AE%E5%88%97%E8%BD%A6/</guid>
       <description></description>
     </item>
     
     <item>
       <title>正在筹备域名的备案工作，希望能够顺利一些</title>
-      <link>https://www.tiankong.info/2015/01/26/%E6%AD%A3%E5%9C%A8%E7%AD%B9%E5%A4%87%E5%9F%9F%E5%90%8D%E7%9A%84%E5%A4%87%E6%A1%88%E5%B7%A5%E4%BD%9C%E5%B8%8C%E6%9C%9B%E8%83%BD%E5%A4%9F%E9%A1%BA%E5%88%A9%E4%B8%80%E4%BA%9B/</link>
+      <link>http://www.tiankong.info/2015/01/26/%E6%AD%A3%E5%9C%A8%E7%AD%B9%E5%A4%87%E5%9F%9F%E5%90%8D%E7%9A%84%E5%A4%87%E6%A1%88%E5%B7%A5%E4%BD%9C%E5%B8%8C%E6%9C%9B%E8%83%BD%E5%A4%9F%E9%A1%BA%E5%88%A9%E4%B8%80%E4%BA%9B/</link>
       <pubDate>Mon, 26 Jan 2015 10:52:28 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2015/01/26/%E6%AD%A3%E5%9C%A8%E7%AD%B9%E5%A4%87%E5%9F%9F%E5%90%8D%E7%9A%84%E5%A4%87%E6%A1%88%E5%B7%A5%E4%BD%9C%E5%B8%8C%E6%9C%9B%E8%83%BD%E5%A4%9F%E9%A1%BA%E5%88%A9%E4%B8%80%E4%BA%9B/</guid>
+      <guid>http://www.tiankong.info/2015/01/26/%E6%AD%A3%E5%9C%A8%E7%AD%B9%E5%A4%87%E5%9F%9F%E5%90%8D%E7%9A%84%E5%A4%87%E6%A1%88%E5%B7%A5%E4%BD%9C%E5%B8%8C%E6%9C%9B%E8%83%BD%E5%A4%9F%E9%A1%BA%E5%88%A9%E4%B8%80%E4%BA%9B/</guid>
       <description>&lt;p&gt;起初买主机的时候都考虑过备案，但因为当时对备案理解不够清楚，也怕麻烦，就一直把这件事搁置了。前几天突然心血来潮，想把我这个域名备案了，毕竟现在也就这一个，备案也不算麻烦，最近也不是很忙。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>射手网关闭了，以后字幕去哪里下载？</title>
-      <link>https://www.tiankong.info/2014/11/25/%E5%B0%84%E6%89%8B%E7%BD%91%E5%85%B3%E9%97%AD%E4%BA%86%E4%BB%A5%E5%90%8E%E5%AD%97%E5%B9%95%E5%8E%BB%E5%93%AA%E9%87%8C%E4%B8%8B%E8%BD%BD/</link>
+      <link>http://www.tiankong.info/2014/11/25/%E5%B0%84%E6%89%8B%E7%BD%91%E5%85%B3%E9%97%AD%E4%BA%86%E4%BB%A5%E5%90%8E%E5%AD%97%E5%B9%95%E5%8E%BB%E5%93%AA%E9%87%8C%E4%B8%8B%E8%BD%BD/</link>
       <pubDate>Tue, 25 Nov 2014 03:28:44 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2014/11/25/%E5%B0%84%E6%89%8B%E7%BD%91%E5%85%B3%E9%97%AD%E4%BA%86%E4%BB%A5%E5%90%8E%E5%AD%97%E5%B9%95%E5%8E%BB%E5%93%AA%E9%87%8C%E4%B8%8B%E8%BD%BD/</guid>
+      <guid>http://www.tiankong.info/2014/11/25/%E5%B0%84%E6%89%8B%E7%BD%91%E5%85%B3%E9%97%AD%E4%BA%86%E4%BB%A5%E5%90%8E%E5%AD%97%E5%B9%95%E5%8E%BB%E5%93%AA%E9%87%8C%E4%B8%8B%E8%BD%BD/</guid>
       <description>&lt;p&gt;11月22日晚上，射手网站长沈晟发表了一则名为“断·舍·离”的公告，一下是公告全文：&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>新建了一个网站，用织梦CMS做的</title>
-      <link>https://www.tiankong.info/2014/11/13/%E6%96%B0%E5%BB%BA%E4%BA%86%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99%E7%94%A8%E7%BB%87%E6%A2%A6cms%E5%81%9A%E7%9A%84/</link>
+      <link>http://www.tiankong.info/2014/11/13/%E6%96%B0%E5%BB%BA%E4%BA%86%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99%E7%94%A8%E7%BB%87%E6%A2%A6cms%E5%81%9A%E7%9A%84/</link>
       <pubDate>Thu, 13 Nov 2014 06:01:18 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2014/11/13/%E6%96%B0%E5%BB%BA%E4%BA%86%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99%E7%94%A8%E7%BB%87%E6%A2%A6cms%E5%81%9A%E7%9A%84/</guid>
+      <guid>http://www.tiankong.info/2014/11/13/%E6%96%B0%E5%BB%BA%E4%BA%86%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99%E7%94%A8%E7%BB%87%E6%A2%A6cms%E5%81%9A%E7%9A%84/</guid>
       <description>&lt;p&gt;感觉挺好的，地址是&lt;a href=&#34;http://de.tiankong.info&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a href=&#34;http://de.tiankong.info&#34;&gt;http://de.tiankong.info&lt;/a&gt;&lt;/a&gt;  打开速度比WordPress快，不知道为啥。&lt;/p&gt;
 
 &lt;p&gt;织梦CMS在国内很受欢迎，有很多优点：&lt;/p&gt;
@@ -735,127 +735,127 @@ set password = password(&amp;quot;password&amp;quot;);</description>
     
     <item>
       <title>博客好久没有更新了，最近沉迷游戏了</title>
-      <link>https://www.tiankong.info/2014/05/05/%E5%8D%9A%E5%AE%A2%E5%A5%BD%E4%B9%85%E6%B2%A1%E6%9C%89%E6%9B%B4%E6%96%B0%E4%BA%86%E6%9C%80%E8%BF%91%E6%B2%89%E8%BF%B7%E6%B8%B8%E6%88%8F%E4%BA%86/</link>
+      <link>http://www.tiankong.info/2014/05/05/%E5%8D%9A%E5%AE%A2%E5%A5%BD%E4%B9%85%E6%B2%A1%E6%9C%89%E6%9B%B4%E6%96%B0%E4%BA%86%E6%9C%80%E8%BF%91%E6%B2%89%E8%BF%B7%E6%B8%B8%E6%88%8F%E4%BA%86/</link>
       <pubDate>Mon, 05 May 2014 13:31:05 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2014/05/05/%E5%8D%9A%E5%AE%A2%E5%A5%BD%E4%B9%85%E6%B2%A1%E6%9C%89%E6%9B%B4%E6%96%B0%E4%BA%86%E6%9C%80%E8%BF%91%E6%B2%89%E8%BF%B7%E6%B8%B8%E6%88%8F%E4%BA%86/</guid>
+      <guid>http://www.tiankong.info/2014/05/05/%E5%8D%9A%E5%AE%A2%E5%A5%BD%E4%B9%85%E6%B2%A1%E6%9C%89%E6%9B%B4%E6%96%B0%E4%BA%86%E6%9C%80%E8%BF%91%E6%B2%89%E8%BF%B7%E6%B8%B8%E6%88%8F%E4%BA%86/</guid>
       <description>感觉兴趣被转移了，真心对不起我的网站，我意志不坚决啊，希望以后我可以坚持继续更新，我会努力的</description>
     </item>
     
     <item>
       <title>我的大学梦原来就是这样的</title>
-      <link>https://www.tiankong.info/2014/01/10/%E6%88%91%E7%9A%84%E5%A4%A7%E5%AD%A6%E6%A2%A6%E5%8E%9F%E6%9D%A5%E5%B0%B1%E6%98%AF%E8%BF%99%E6%A0%B7%E7%9A%84/</link>
+      <link>http://www.tiankong.info/2014/01/10/%E6%88%91%E7%9A%84%E5%A4%A7%E5%AD%A6%E6%A2%A6%E5%8E%9F%E6%9D%A5%E5%B0%B1%E6%98%AF%E8%BF%99%E6%A0%B7%E7%9A%84/</link>
       <pubDate>Fri, 10 Jan 2014 07:32:59 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2014/01/10/%E6%88%91%E7%9A%84%E5%A4%A7%E5%AD%A6%E6%A2%A6%E5%8E%9F%E6%9D%A5%E5%B0%B1%E6%98%AF%E8%BF%99%E6%A0%B7%E7%9A%84/</guid>
+      <guid>http://www.tiankong.info/2014/01/10/%E6%88%91%E7%9A%84%E5%A4%A7%E5%AD%A6%E6%A2%A6%E5%8E%9F%E6%9D%A5%E5%B0%B1%E6%98%AF%E8%BF%99%E6%A0%B7%E7%9A%84/</guid>
       <description>&lt;p&gt;小时候，上学就是为了考大学，家长一再嘱托，要好好学习，将来要考上大学。那时候学习是那么努力，没完没了的学，不过也和老师留下写不完的作业有关。时光飞逝，小学5年，初中3年，高中3年，我最终以一个全班倒数的成绩上了大学。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>百度BAE以后不备案不能绑定域名了</title>
-      <link>https://www.tiankong.info/2013/12/31/%E7%99%BE%E5%BA%A6%E4%BB%A5%E5%90%8E%E4%B8%8D%E5%A4%87%E6%A1%88%E4%B8%8D%E8%83%BD%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E4%BA%86/</link>
+      <link>http://www.tiankong.info/2013/12/31/%E7%99%BE%E5%BA%A6%E4%BB%A5%E5%90%8E%E4%B8%8D%E5%A4%87%E6%A1%88%E4%B8%8D%E8%83%BD%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E4%BA%86/</link>
       <pubDate>Tue, 31 Dec 2013 10:01:27 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/12/31/%E7%99%BE%E5%BA%A6%E4%BB%A5%E5%90%8E%E4%B8%8D%E5%A4%87%E6%A1%88%E4%B8%8D%E8%83%BD%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E4%BA%86/</guid>
+      <guid>http://www.tiankong.info/2013/12/31/%E7%99%BE%E5%BA%A6%E4%BB%A5%E5%90%8E%E4%B8%8D%E5%A4%87%E6%A1%88%E4%B8%8D%E8%83%BD%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E4%BA%86/</guid>
       <description>&lt;p&gt;最近接到百度的邮件通知，说由于域名管理机构的限制，未进行备案的域名不能进行域名绑定，百度的“自定义绑定域名”功能已经下线，这就意味着一大批使用百度BAE建站的站长面临危机，使用顶级域名的小站长们又该到处找免费空间了。没办法， 天朝的备案伤不起，备案还不如找个免费空间容易。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>手机被偷了，学校也是不太平啊</title>
-      <link>https://www.tiankong.info/2013/12/28/%E6%89%8B%E6%9C%BA%E8%A2%AB%E5%81%B7%E4%BA%86%E5%AD%A6%E6%A0%A1%E4%B9%9F%E6%98%AF%E4%B8%8D%E5%A4%AA%E5%B9%B3%E5%95%8A/</link>
+      <link>http://www.tiankong.info/2013/12/28/%E6%89%8B%E6%9C%BA%E8%A2%AB%E5%81%B7%E4%BA%86%E5%AD%A6%E6%A0%A1%E4%B9%9F%E6%98%AF%E4%B8%8D%E5%A4%AA%E5%B9%B3%E5%95%8A/</link>
       <pubDate>Sat, 28 Dec 2013 14:17:25 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/12/28/%E6%89%8B%E6%9C%BA%E8%A2%AB%E5%81%B7%E4%BA%86%E5%AD%A6%E6%A0%A1%E4%B9%9F%E6%98%AF%E4%B8%8D%E5%A4%AA%E5%B9%B3%E5%95%8A/</guid>
+      <guid>http://www.tiankong.info/2013/12/28/%E6%89%8B%E6%9C%BA%E8%A2%AB%E5%81%B7%E4%BA%86%E5%AD%A6%E6%A0%A1%E4%B9%9F%E6%98%AF%E4%B8%8D%E5%A4%AA%E5%B9%B3%E5%95%8A/</guid>
       <description>&lt;p&gt;前几天一次在学校餐厅吃饭的时候，手机被偷了，等我到宿舍发现手机不在身边的时候，再给我的手机打电话已经打不通了，前前后后找了几遍也没有找到。彻底绝望了。可怜我的手机，，还没用一年就没了。没办法了，只有在买手机了，又无耻的问父母要了钱，买了一个500块钱的手机，手机还过得去，先就这样用着吧。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>我开了个淘宝店准备把其他几个域名卖掉</title>
-      <link>https://www.tiankong.info/2013/12/16/%E6%88%91%E5%BC%80%E4%BA%86%E4%B8%AA%E6%B7%98%E5%AE%9D%E5%BA%97%E5%87%86%E5%A4%87%E6%8A%8A%E5%85%B6%E4%BB%96%E5%87%A0%E4%B8%AA%E5%9F%9F%E5%90%8D%E5%8D%96%E6%8E%89/</link>
+      <link>http://www.tiankong.info/2013/12/16/%E6%88%91%E5%BC%80%E4%BA%86%E4%B8%AA%E6%B7%98%E5%AE%9D%E5%BA%97%E5%87%86%E5%A4%87%E6%8A%8A%E5%85%B6%E4%BB%96%E5%87%A0%E4%B8%AA%E5%9F%9F%E5%90%8D%E5%8D%96%E6%8E%89/</link>
       <pubDate>Sun, 15 Dec 2013 16:10:14 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/12/16/%E6%88%91%E5%BC%80%E4%BA%86%E4%B8%AA%E6%B7%98%E5%AE%9D%E5%BA%97%E5%87%86%E5%A4%87%E6%8A%8A%E5%85%B6%E4%BB%96%E5%87%A0%E4%B8%AA%E5%9F%9F%E5%90%8D%E5%8D%96%E6%8E%89/</guid>
+      <guid>http://www.tiankong.info/2013/12/16/%E6%88%91%E5%BC%80%E4%BA%86%E4%B8%AA%E6%B7%98%E5%AE%9D%E5%BA%97%E5%87%86%E5%A4%87%E6%8A%8A%E5%85%B6%E4%BB%96%E5%87%A0%E4%B8%AA%E5%9F%9F%E5%90%8D%E5%8D%96%E6%8E%89/</guid>
       <description>&lt;p&gt;脑袋一热就注册了好几个域名，现在仔细想想没什么用，扔又舍不得，本来准备放着等过期，但经同学的劝解，还是想办法出了吧，毕竟能收回点也是不错的，我的店铺地址&lt;a href=&#34;http://sponsor.taobao.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a href=&#34;http://sponsor.taobao.com&#34;&gt;http://sponsor.taobao.com&lt;/a&gt;&lt;/a&gt;，手机端地址是&lt;a href=&#34;http://sponsor.m.taobao.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a href=&#34;http://sponsor.m.taobao.com&#34;&gt;http://sponsor.m.taobao.com&lt;/a&gt;&lt;/a&gt;。大家如果有时间可以去看看，不买也行。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>事实证明UC浏览器的离线下载用处非常大</title>
-      <link>https://www.tiankong.info/2013/12/15/2013-12-15-%E5%AE%9E%E6%97%B6%E8%AF%81%E6%98%8Euc%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E7%A6%BB%E7%BA%BF%E4%B8%8B%E8%BD%BD%E7%94%A8%E5%A4%84%E9%9D%9E%E5%B8%B8%E5%A4%A7/</link>
+      <link>http://www.tiankong.info/2013/12/15/2013-12-15-%E5%AE%9E%E6%97%B6%E8%AF%81%E6%98%8Euc%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E7%A6%BB%E7%BA%BF%E4%B8%8B%E8%BD%BD%E7%94%A8%E5%A4%84%E9%9D%9E%E5%B8%B8%E5%A4%A7/</link>
       <pubDate>Sun, 15 Dec 2013 12:04:20 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/12/15/2013-12-15-%E5%AE%9E%E6%97%B6%E8%AF%81%E6%98%8Euc%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E7%A6%BB%E7%BA%BF%E4%B8%8B%E8%BD%BD%E7%94%A8%E5%A4%84%E9%9D%9E%E5%B8%B8%E5%A4%A7/</guid>
+      <guid>http://www.tiankong.info/2013/12/15/2013-12-15-%E5%AE%9E%E6%97%B6%E8%AF%81%E6%98%8Euc%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E7%A6%BB%E7%BA%BF%E4%B8%8B%E8%BD%BD%E7%94%A8%E5%A4%84%E9%9D%9E%E5%B8%B8%E5%A4%A7/</guid>
       <description>&lt;p&gt;迅雷的会员前几天到期了，不准备再续费了，因为我开了会员下载文件还是不如旋风的速度，直接被抢的进度条都不动，彻底对迅雷无语了。但旋风虽然说下载文件速度还不错，也仅限于下载热门文件，如果在80S下载视频还是不行，10M的宽带下载也只有50K/S，开了会员也不行。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>刚刚加入了比特币挖矿行列</title>
-      <link>https://www.tiankong.info/2013/12/10/%E5%88%9A%E5%88%9A%E5%8A%A0%E5%85%A5%E4%BA%86%E6%AF%94%E7%89%B9%E5%B8%81%E6%8C%96%E7%9F%BF%E8%A1%8C%E5%88%97/</link>
+      <link>http://www.tiankong.info/2013/12/10/%E5%88%9A%E5%88%9A%E5%8A%A0%E5%85%A5%E4%BA%86%E6%AF%94%E7%89%B9%E5%B8%81%E6%8C%96%E7%9F%BF%E8%A1%8C%E5%88%97/</link>
       <pubDate>Tue, 10 Dec 2013 09:18:27 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/12/10/%E5%88%9A%E5%88%9A%E5%8A%A0%E5%85%A5%E4%BA%86%E6%AF%94%E7%89%B9%E5%B8%81%E6%8C%96%E7%9F%BF%E8%A1%8C%E5%88%97/</guid>
+      <guid>http://www.tiankong.info/2013/12/10/%E5%88%9A%E5%88%9A%E5%8A%A0%E5%85%A5%E4%BA%86%E6%AF%94%E7%89%B9%E5%B8%81%E6%8C%96%E7%9F%BF%E8%A1%8C%E5%88%97/</guid>
       <description>&lt;p&gt;很久之前都听说了比特币的热门，一直没有仔细关注，今天正好没事干，仔细搜索了一下比特币的行情，感觉玩玩还是不错的，就下载了客户端准备挖一下矿，不得不说的是，同步数据真的很慢，这都一天了，才同步了大约30%，我最后还是注册了个比特币钱包。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>苹果的土豪金降价了</title>
-      <link>https://www.tiankong.info/2013/12/06/%E8%8B%B9%E6%9E%9C%E7%9A%84%E5%9C%9F%E8%B1%AA%E9%87%91%E9%99%8D%E4%BB%B7%E4%BA%86/</link>
+      <link>http://www.tiankong.info/2013/12/06/%E8%8B%B9%E6%9E%9C%E7%9A%84%E5%9C%9F%E8%B1%AA%E9%87%91%E9%99%8D%E4%BB%B7%E4%BA%86/</link>
       <pubDate>Fri, 06 Dec 2013 12:50:47 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/12/06/%E8%8B%B9%E6%9E%9C%E7%9A%84%E5%9C%9F%E8%B1%AA%E9%87%91%E9%99%8D%E4%BB%B7%E4%BA%86/</guid>
+      <guid>http://www.tiankong.info/2013/12/06/%E8%8B%B9%E6%9E%9C%E7%9A%84%E5%9C%9F%E8%B1%AA%E9%87%91%E9%99%8D%E4%BB%B7%E4%BA%86/</guid>
       <description>&lt;p&gt;iPhone5S刚推出受到了极大的欢迎，它延续了iPhone5的经典设计，配置并没有太大的差别，但因增加了香槟金的颜色，受到了很大一部分土豪的追捧，买的人很多，货源越来越少，价格越来越贵，也就造就了现如今的土豪金一词。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>今天我的博客第一次被刷垃圾评论</title>
-      <link>https://www.tiankong.info/2013/12/05/%E4%BB%8A%E5%A4%A9%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%A2%AB%E5%88%B7%E5%9E%83%E5%9C%BE%E8%AF%84%E8%AE%BA/</link>
+      <link>http://www.tiankong.info/2013/12/05/%E4%BB%8A%E5%A4%A9%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%A2%AB%E5%88%B7%E5%9E%83%E5%9C%BE%E8%AF%84%E8%AE%BA/</link>
       <pubDate>Wed, 04 Dec 2013 22:55:02 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/12/05/%E4%BB%8A%E5%A4%A9%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%A2%AB%E5%88%B7%E5%9E%83%E5%9C%BE%E8%AF%84%E8%AE%BA/</guid>
+      <guid>http://www.tiankong.info/2013/12/05/%E4%BB%8A%E5%A4%A9%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%A2%AB%E5%88%B7%E5%9E%83%E5%9C%BE%E8%AF%84%E8%AE%BA/</guid>
       <description>&lt;p&gt;很久没有登陆后台，今天一看竟然有几十条待审评论，仔细一看全都是广告，真搞不懂，网络上竟然有那么无聊的人，在我这小小的站上刷一些垃圾评论，对他们也没有任何用处，对服务器也算不上影响，也搞不清他们的目的。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>安卓手机常用屏蔽广告教程</title>
-      <link>https://www.tiankong.info/2013/11/30/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%B8%B8%E7%94%A8%E5%B1%8F%E8%94%BD%E5%B9%BF%E5%91%8A%E6%95%99%E7%A8%8B/</link>
+      <link>http://www.tiankong.info/2013/11/30/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%B8%B8%E7%94%A8%E5%B1%8F%E8%94%BD%E5%B9%BF%E5%91%8A%E6%95%99%E7%A8%8B/</link>
       <pubDate>Sat, 30 Nov 2013 14:22:41 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/11/30/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%B8%B8%E7%94%A8%E5%B1%8F%E8%94%BD%E5%B9%BF%E5%91%8A%E6%95%99%E7%A8%8B/</guid>
+      <guid>http://www.tiankong.info/2013/11/30/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%B8%B8%E7%94%A8%E5%B1%8F%E8%94%BD%E5%B9%BF%E5%91%8A%E6%95%99%E7%A8%8B/</guid>
       <description>&lt;p&gt;现在安卓系统越来越受欢迎，随着安卓程序数量的逐渐壮大，好多游戏都被植入了广告，有好多类似牛皮癣的那种广告，看着实在眼烦。于是，各种各样的去广告教程就诞生了，下面我介绍几种简单的屏蔽游戏广告的方法，相对与反编译程序等，下面还是比件简单的，比较适合新手。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>教大家制作一个用密码才能访问的加密页面</title>
-      <link>https://www.tiankong.info/2013/11/30/%E6%95%99%E5%A4%A7%E5%AE%B6%E5%88%B6%E4%BD%9C%E4%B8%80%E4%B8%AA%E7%94%A8%E5%AF%86%E7%A0%81%E6%89%8D%E8%83%BD%E8%AE%BF%E9%97%AE%E7%9A%84%E5%8A%A0%E5%AF%86%E9%A1%B5%E9%9D%A2/</link>
+      <link>http://www.tiankong.info/2013/11/30/%E6%95%99%E5%A4%A7%E5%AE%B6%E5%88%B6%E4%BD%9C%E4%B8%80%E4%B8%AA%E7%94%A8%E5%AF%86%E7%A0%81%E6%89%8D%E8%83%BD%E8%AE%BF%E9%97%AE%E7%9A%84%E5%8A%A0%E5%AF%86%E9%A1%B5%E9%9D%A2/</link>
       <pubDate>Fri, 29 Nov 2013 16:36:03 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/11/30/%E6%95%99%E5%A4%A7%E5%AE%B6%E5%88%B6%E4%BD%9C%E4%B8%80%E4%B8%AA%E7%94%A8%E5%AF%86%E7%A0%81%E6%89%8D%E8%83%BD%E8%AE%BF%E9%97%AE%E7%9A%84%E5%8A%A0%E5%AF%86%E9%A1%B5%E9%9D%A2/</guid>
+      <guid>http://www.tiankong.info/2013/11/30/%E6%95%99%E5%A4%A7%E5%AE%B6%E5%88%B6%E4%BD%9C%E4%B8%80%E4%B8%AA%E7%94%A8%E5%AF%86%E7%A0%81%E6%89%8D%E8%83%BD%E8%AE%BF%E9%97%AE%E7%9A%84%E5%8A%A0%E5%AF%86%E9%A1%B5%E9%9D%A2/</guid>
       <description>&lt;p&gt;我一直想弄一个页面，使用密码才可以访问，当然，这对于程序员来说最简单不过了，而我连脚本语言都没学过，对于代码一点都不懂，在网上找了好久都没找到方法。后来在oschina.net找到一个差不多的，但不可以点“取消”，点了“取消”还会再次弹出，很是搞不懂，最后只有找人修改，就得到了下面的代码，贡献给大家。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>天空博客的初衷</title>
-      <link>https://www.tiankong.info/2013/11/29/%E5%A4%A9%E7%A9%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%88%9D%E8%A1%B7/</link>
+      <link>http://www.tiankong.info/2013/11/29/%E5%A4%A9%E7%A9%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%88%9D%E8%A1%B7/</link>
       <pubDate>Fri, 29 Nov 2013 10:47:48 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/11/29/%E5%A4%A9%E7%A9%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%88%9D%E8%A1%B7/</guid>
+      <guid>http://www.tiankong.info/2013/11/29/%E5%A4%A9%E7%A9%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%88%9D%E8%A1%B7/</guid>
       <description>&lt;p&gt;两个月前，我注册了tiankong.info域名，办起了天空博客，现在这个博客连起步都不算，而我本人也是一个没什么本事的学生，没什么技术，也不会写文章，我拥有的只是兴趣，一切按照兴趣而写。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>我竞选青协监察部的竞选稿，贡献出来给大家看看</title>
-      <link>https://www.tiankong.info/2013/11/29/%E6%88%91%E7%AB%9E%E9%80%89%E9%9D%92%E5%8D%8F%E7%9B%91%E5%AF%9F%E9%83%A8%E7%9A%84%E7%AB%9E%E9%80%89%E7%A8%BF%E8%B4%A1%E7%8C%AE%E5%87%BA%E6%9D%A5%E7%BB%99%E5%A4%A7%E5%AE%B6%E7%9C%8B%E7%9C%8B/</link>
+      <link>http://www.tiankong.info/2013/11/29/%E6%88%91%E7%AB%9E%E9%80%89%E9%9D%92%E5%8D%8F%E7%9B%91%E5%AF%9F%E9%83%A8%E7%9A%84%E7%AB%9E%E9%80%89%E7%A8%BF%E8%B4%A1%E7%8C%AE%E5%87%BA%E6%9D%A5%E7%BB%99%E5%A4%A7%E5%AE%B6%E7%9C%8B%E7%9C%8B/</link>
       <pubDate>Fri, 29 Nov 2013 05:34:22 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/11/29/%E6%88%91%E7%AB%9E%E9%80%89%E9%9D%92%E5%8D%8F%E7%9B%91%E5%AF%9F%E9%83%A8%E7%9A%84%E7%AB%9E%E9%80%89%E7%A8%BF%E8%B4%A1%E7%8C%AE%E5%87%BA%E6%9D%A5%E7%BB%99%E5%A4%A7%E5%AE%B6%E7%9C%8B%E7%9C%8B/</guid>
+      <guid>http://www.tiankong.info/2013/11/29/%E6%88%91%E7%AB%9E%E9%80%89%E9%9D%92%E5%8D%8F%E7%9B%91%E5%AF%9F%E9%83%A8%E7%9A%84%E7%AB%9E%E9%80%89%E7%A8%BF%E8%B4%A1%E7%8C%AE%E5%87%BA%E6%9D%A5%E7%BB%99%E5%A4%A7%E5%AE%B6%E7%9C%8B%E7%9C%8B/</guid>
       <description>&lt;p&gt;这次竞选过去了很久，我当时当选了监察部的部长。下面是我的演讲稿，或许写的不怎么样，只是给大家一个参考，文笔好的勿喷。说明：我写的不怎么样，如果看了之后对你造成无法计量的后果，不要来找我哦。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>昨天是我参加青协第一次活动</title>
-      <link>https://www.tiankong.info/2013/11/29/%E6%98%A8%E5%A4%A9%E6%98%AF%E6%88%91%E5%8F%82%E5%8A%A0%E9%9D%92%E5%8D%8F%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%B4%BB%E5%8A%A8/</link>
+      <link>http://www.tiankong.info/2013/11/29/%E6%98%A8%E5%A4%A9%E6%98%AF%E6%88%91%E5%8F%82%E5%8A%A0%E9%9D%92%E5%8D%8F%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%B4%BB%E5%8A%A8/</link>
       <pubDate>Fri, 29 Nov 2013 05:28:22 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/11/29/%E6%98%A8%E5%A4%A9%E6%98%AF%E6%88%91%E5%8F%82%E5%8A%A0%E9%9D%92%E5%8D%8F%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%B4%BB%E5%8A%A8/</guid>
+      <guid>http://www.tiankong.info/2013/11/29/%E6%98%A8%E5%A4%A9%E6%98%AF%E6%88%91%E5%8F%82%E5%8A%A0%E9%9D%92%E5%8D%8F%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%B4%BB%E5%8A%A8/</guid>
       <description>&lt;p&gt;大学开学以来，我就参加了一个社团，那就是青年志愿者协会（以下简称青协）。青协自从加入就一直没有什么活动，这让我们等的很着急。还好，在前天，我收到了系青协秘书长的短信，说要在星期四举办一场活动：打扫图书馆。&lt;/p&gt;
 
 &lt;p&gt;先不说这个活动怎么样，星期四这一天我们满课，规定还要必须最低15人参加，这就意味着我们要逃课，我思考了很久，还是参加了这次活动，这个活动适和人文系的一起合办的，所以我们不能给信息工程丢人，这也毕竟是开学以来第一次活动。&lt;/p&gt;</description>
@@ -863,28 +863,28 @@ set password = password(&amp;quot;password&amp;quot;);</description>
     
     <item>
       <title>最近很火的棱镜门</title>
-      <link>https://www.tiankong.info/2013/11/27/%E6%9C%80%E8%BF%91%E5%BE%88%E7%81%AB%E7%9A%84%E6%A3%B1%E9%95%9C%E9%97%A8/</link>
+      <link>http://www.tiankong.info/2013/11/27/%E6%9C%80%E8%BF%91%E5%BE%88%E7%81%AB%E7%9A%84%E6%A3%B1%E9%95%9C%E9%97%A8/</link>
       <pubDate>Wed, 27 Nov 2013 14:16:06 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/11/27/%E6%9C%80%E8%BF%91%E5%BE%88%E7%81%AB%E7%9A%84%E6%A3%B1%E9%95%9C%E9%97%A8/</guid>
+      <guid>http://www.tiankong.info/2013/11/27/%E6%9C%80%E8%BF%91%E5%BE%88%E7%81%AB%E7%9A%84%E6%A3%B1%E9%95%9C%E9%97%A8/</guid>
       <description>&lt;p&gt;美国《华盛顿邮报》和英国《卫报》有报道说，美国国安局通过一个叫“棱镜”的计划监视广大网民的网络和用户信息，其中涉及九大网络公司：微软、谷歌、雅虎、Facebook、PalTalk、YouTube、Skype、AOL、苹果。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>关于最近更换DNS的一些感慨</title>
-      <link>https://www.tiankong.info/2013/11/22/%E5%85%B3%E4%BA%8E%E6%9C%80%E8%BF%91%E6%9B%B4%E6%8D%A2dns%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/</link>
+      <link>http://www.tiankong.info/2013/11/22/%E5%85%B3%E4%BA%8E%E6%9C%80%E8%BF%91%E6%9B%B4%E6%8D%A2dns%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/</link>
       <pubDate>Fri, 22 Nov 2013 13:10:31 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/11/22/%E5%85%B3%E4%BA%8E%E6%9C%80%E8%BF%91%E6%9B%B4%E6%8D%A2dns%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/</guid>
+      <guid>http://www.tiankong.info/2013/11/22/%E5%85%B3%E4%BA%8E%E6%9C%80%E8%BF%91%E6%9B%B4%E6%8D%A2dns%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E9%AA%8C/</guid>
       <description>&lt;p&gt;我有好几个域名，一直不知道怎么处理，卖了又卖不到钱，留着续费又贵，扔了又不舍得，真是食之无肉,弃之有味啊！于是就像把这几个域名全部转向到&lt;a href=&#34;http://www.tiankong.info&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;tiankong.info&lt;/a&gt;上。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>百度和360打起来了，不知道会有什么结果</title>
-      <link>https://www.tiankong.info/2013/11/21/%E7%99%BE%E5%BA%A6%E5%92%8C360%E6%89%93%E8%B5%B7%E6%9D%A5%E4%BA%86%E4%B8%8D%E7%9F%A5%E9%81%93%E4%BC%9A%E6%9C%89%E4%BB%80%E4%B9%88%E7%BB%93%E6%9E%9C/</link>
+      <link>http://www.tiankong.info/2013/11/21/%E7%99%BE%E5%BA%A6%E5%92%8C360%E6%89%93%E8%B5%B7%E6%9D%A5%E4%BA%86%E4%B8%8D%E7%9F%A5%E9%81%93%E4%BC%9A%E6%9C%89%E4%BB%80%E4%B9%88%E7%BB%93%E6%9E%9C/</link>
       <pubDate>Thu, 21 Nov 2013 12:59:47 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/11/21/%E7%99%BE%E5%BA%A6%E5%92%8C360%E6%89%93%E8%B5%B7%E6%9D%A5%E4%BA%86%E4%B8%8D%E7%9F%A5%E9%81%93%E4%BC%9A%E6%9C%89%E4%BB%80%E4%B9%88%E7%BB%93%E6%9E%9C/</guid>
+      <guid>http://www.tiankong.info/2013/11/21/%E7%99%BE%E5%BA%A6%E5%92%8C360%E6%89%93%E8%B5%B7%E6%9D%A5%E4%BA%86%E4%B8%8D%E7%9F%A5%E9%81%93%E4%BC%9A%E6%9C%89%E4%BB%80%E4%B9%88%E7%BB%93%E6%9E%9C/</guid>
       <description>&lt;p&gt;前几天听说360又和百度打起来了，现在用百度搜索360直接出现一下提示：&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;百度提示您：&lt;/strong&gt;360公然违反工信部第20号令，强制拦截网民下载安装百度杀毒、百度卫士。为保障网民自主选择安装安全软件的合法权利，敬请网友在安装百度杀毒、百度卫士前卸载360，确保正常安装！&lt;/p&gt;</description>
@@ -892,56 +892,56 @@ set password = password(&amp;quot;password&amp;quot;);</description>
     
     <item>
       <title>学会放弃也是一种能力</title>
-      <link>https://www.tiankong.info/2013/11/21/%E5%AD%A6%E4%BC%9A%E6%94%BE%E5%BC%83%E4%B9%9F%E6%98%AF%E4%B8%80%E7%A7%8D%E8%83%BD%E5%8A%9B/</link>
+      <link>http://www.tiankong.info/2013/11/21/%E5%AD%A6%E4%BC%9A%E6%94%BE%E5%BC%83%E4%B9%9F%E6%98%AF%E4%B8%80%E7%A7%8D%E8%83%BD%E5%8A%9B/</link>
       <pubDate>Thu, 21 Nov 2013 05:58:23 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/11/21/%E5%AD%A6%E4%BC%9A%E6%94%BE%E5%BC%83%E4%B9%9F%E6%98%AF%E4%B8%80%E7%A7%8D%E8%83%BD%E5%8A%9B/</guid>
+      <guid>http://www.tiankong.info/2013/11/21/%E5%AD%A6%E4%BC%9A%E6%94%BE%E5%BC%83%E4%B9%9F%E6%98%AF%E4%B8%80%E7%A7%8D%E8%83%BD%E5%8A%9B/</guid>
       <description>有时候，即时舍不得，也要学会放弃。
 努力了很久，并不一定可以换来回报，适当的放弃，可以让我们过的更好。</description>
     </item>
     
     <item>
       <title>Google将推出反网络审查uProxy代理工具</title>
-      <link>https://www.tiankong.info/2013/11/20/google%E5%B0%86%E6%8E%A8%E5%87%BA%E5%8F%8D%E7%BD%91%E7%BB%9C%E5%AE%A1%E6%9F%A5uproxy%E4%BB%A3%E7%90%86%E5%B7%A5%E5%85%B7/</link>
+      <link>http://www.tiankong.info/2013/11/20/google%E5%B0%86%E6%8E%A8%E5%87%BA%E5%8F%8D%E7%BD%91%E7%BB%9C%E5%AE%A1%E6%9F%A5uproxy%E4%BB%A3%E7%90%86%E5%B7%A5%E5%85%B7/</link>
       <pubDate>Wed, 20 Nov 2013 01:41:48 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/11/20/google%E5%B0%86%E6%8E%A8%E5%87%BA%E5%8F%8D%E7%BD%91%E7%BB%9C%E5%AE%A1%E6%9F%A5uproxy%E4%BB%A3%E7%90%86%E5%B7%A5%E5%85%B7/</guid>
+      <guid>http://www.tiankong.info/2013/11/20/google%E5%B0%86%E6%8E%A8%E5%87%BA%E5%8F%8D%E7%BD%91%E7%BB%9C%E5%AE%A1%E6%9F%A5uproxy%E4%BB%A3%E7%90%86%E5%B7%A5%E5%85%B7/</guid>
       <description>&lt;p&gt;据报道，Google在纽约展示了一款网络代理软件uProxy,该软件可以帮助网民绕过网络审查，达到自由访问互联网的目的，原理是将两个用户已以加密的形式连接起来，构成一个虚拟网络，最终绕过网络审查，但uProxy不像Tor那样匿名代理，不允许文件共享，不提供加密连接，是一个由华盛顿大学和非功利组织Brave New Software研发的开放源代码的产品。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>谷歌地图用中文标示了钓鱼岛，竟遭日本禁用？</title>
-      <link>https://www.tiankong.info/2013/11/20/%E8%B0%B7%E6%AD%8C%E5%9C%B0%E5%9B%BE%E7%94%A8%E4%B8%AD%E6%96%87%E6%A0%87%E7%A4%BA%E4%BA%86%E9%92%93%E9%B1%BC%E5%B2%9B%E7%AB%9F%E9%81%AD%E6%97%A5%E6%9C%AC%E7%A6%81%E7%94%A8/</link>
+      <link>http://www.tiankong.info/2013/11/20/%E8%B0%B7%E6%AD%8C%E5%9C%B0%E5%9B%BE%E7%94%A8%E4%B8%AD%E6%96%87%E6%A0%87%E7%A4%BA%E4%BA%86%E9%92%93%E9%B1%BC%E5%B2%9B%E7%AB%9F%E9%81%AD%E6%97%A5%E6%9C%AC%E7%A6%81%E7%94%A8/</link>
       <pubDate>Wed, 20 Nov 2013 01:10:02 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/11/20/%E8%B0%B7%E6%AD%8C%E5%9C%B0%E5%9B%BE%E7%94%A8%E4%B8%AD%E6%96%87%E6%A0%87%E7%A4%BA%E4%BA%86%E9%92%93%E9%B1%BC%E5%B2%9B%E7%AB%9F%E9%81%AD%E6%97%A5%E6%9C%AC%E7%A6%81%E7%94%A8/</guid>
+      <guid>http://www.tiankong.info/2013/11/20/%E8%B0%B7%E6%AD%8C%E5%9C%B0%E5%9B%BE%E7%94%A8%E4%B8%AD%E6%96%87%E6%A0%87%E7%A4%BA%E4%BA%86%E9%92%93%E9%B1%BC%E5%B2%9B%E7%AB%9F%E9%81%AD%E6%97%A5%E6%9C%AC%E7%A6%81%E7%94%A8/</guid>
       <description>据法新社报道，日本已要求地方当局和国力大学不要使用Google Maps，因为Google Maps在钓鱼岛用中文名字标注的。对此Google标示，我们只是站在公平的立场，无法就个别情况作答。</description>
     </item>
     
     <item>
       <title>听说支付宝要收费了</title>
-      <link>https://www.tiankong.info/2013/11/20/%E5%90%AC%E8%AF%B4%E6%94%AF%E4%BB%98%E5%AE%9D%E8%A6%81%E6%94%B6%E8%B4%B9%E4%BA%86/</link>
+      <link>http://www.tiankong.info/2013/11/20/%E5%90%AC%E8%AF%B4%E6%94%AF%E4%BB%98%E5%AE%9D%E8%A6%81%E6%94%B6%E8%B4%B9%E4%BA%86/</link>
       <pubDate>Wed, 20 Nov 2013 00:55:07 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/11/20/%E5%90%AC%E8%AF%B4%E6%94%AF%E4%BB%98%E5%AE%9D%E8%A6%81%E6%94%B6%E8%B4%B9%E4%BA%86/</guid>
+      <guid>http://www.tiankong.info/2013/11/20/%E5%90%AC%E8%AF%B4%E6%94%AF%E4%BB%98%E5%AE%9D%E8%A6%81%E6%94%B6%E8%B4%B9%E4%BA%86/</guid>
       <description>&lt;p&gt;2013年11月18日，支付宝在其官方网站对外宣布：从2013年12月03日起在电脑进行支付宝账户间转账将收取手续费，费率为0.10%，0.5元起收，最高收取10元。以前的免费额度将被取消，这就代表，以后要在用电脑在支付宝账户之间转账将无条件收取手续费。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>智能路由器之间的战争</title>
-      <link>https://www.tiankong.info/2013/11/20/%E6%99%BA%E8%83%BD%E8%B7%AF%E7%94%B1%E5%99%A8%E4%B9%8B%E9%97%B4%E7%9A%84%E6%88%98%E4%BA%89/</link>
+      <link>http://www.tiankong.info/2013/11/20/%E6%99%BA%E8%83%BD%E8%B7%AF%E7%94%B1%E5%99%A8%E4%B9%8B%E9%97%B4%E7%9A%84%E6%88%98%E4%BA%89/</link>
       <pubDate>Wed, 20 Nov 2013 00:41:45 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/11/20/%E6%99%BA%E8%83%BD%E8%B7%AF%E7%94%B1%E5%99%A8%E4%B9%8B%E9%97%B4%E7%9A%84%E6%88%98%E4%BA%89/</guid>
+      <guid>http://www.tiankong.info/2013/11/20/%E6%99%BA%E8%83%BD%E8%B7%AF%E7%94%B1%E5%99%A8%E4%B9%8B%E9%97%B4%E7%9A%84%E6%88%98%E4%BA%89/</guid>
       <description>&lt;p&gt;互联网真是神奇，什么样的战争都有，有软件之间的战争，如最近百度和360的大战，有手机之间的战争，如小米和魅族的争霸，竟然还有路由器之间的战争。有消息透露，百度、盛大、小米和360都将相继发布了智能路由器产品，2013年是手机争霸的年代，或许2014年会是“智能路由器元年”。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>世界上最遥远的距离-很喜欢的一首诗</title>
-      <link>https://www.tiankong.info/2013/11/12/%E4%B8%96%E7%95%8C%E4%B8%8A%E6%9C%80%E9%81%A5%E8%BF%9C%E7%9A%84%E8%B7%9D%E7%A6%BB-%E5%BE%88%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E9%A6%96%E8%AF%97/</link>
+      <link>http://www.tiankong.info/2013/11/12/%E4%B8%96%E7%95%8C%E4%B8%8A%E6%9C%80%E9%81%A5%E8%BF%9C%E7%9A%84%E8%B7%9D%E7%A6%BB-%E5%BE%88%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E9%A6%96%E8%AF%97/</link>
       <pubDate>Tue, 12 Nov 2013 03:38:03 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/11/12/%E4%B8%96%E7%95%8C%E4%B8%8A%E6%9C%80%E9%81%A5%E8%BF%9C%E7%9A%84%E8%B7%9D%E7%A6%BB-%E5%BE%88%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E9%A6%96%E8%AF%97/</guid>
+      <guid>http://www.tiankong.info/2013/11/12/%E4%B8%96%E7%95%8C%E4%B8%8A%E6%9C%80%E9%81%A5%E8%BF%9C%E7%9A%84%E8%B7%9D%E7%A6%BB-%E5%BE%88%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%80%E9%A6%96%E8%AF%97/</guid>
       <description>&lt;p&gt;&lt;span style=&#34;color: #000000;&#34;&gt;&lt;strong&gt;世界上最遥远的距离&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;span style=&#34;color: #000000;&#34;&gt;&lt;strong&gt;不是生与死的距离&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
@@ -953,38 +953,38 @@ set password = password(&amp;quot;password&amp;quot;);</description>
     
     <item>
       <title>孩子！当你还很小的时候，我教了你很多很多</title>
-      <link>https://www.tiankong.info/2013/11/06/%E5%AD%A9%E5%AD%90%E5%BD%93%E4%BD%A0%E8%BF%98%E5%BE%88%E5%B0%8F%E7%9A%84%E6%97%B6%E5%80%99%E6%88%91%E6%95%99%E4%BA%86%E4%BD%A0%E5%BE%88%E5%A4%9A%E5%BE%88%E5%A4%9A/</link>
+      <link>http://www.tiankong.info/2013/11/06/%E5%AD%A9%E5%AD%90%E5%BD%93%E4%BD%A0%E8%BF%98%E5%BE%88%E5%B0%8F%E7%9A%84%E6%97%B6%E5%80%99%E6%88%91%E6%95%99%E4%BA%86%E4%BD%A0%E5%BE%88%E5%A4%9A%E5%BE%88%E5%A4%9A/</link>
       <pubDate>Wed, 06 Nov 2013 05:27:42 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/11/06/%E5%AD%A9%E5%AD%90%E5%BD%93%E4%BD%A0%E8%BF%98%E5%BE%88%E5%B0%8F%E7%9A%84%E6%97%B6%E5%80%99%E6%88%91%E6%95%99%E4%BA%86%E4%BD%A0%E5%BE%88%E5%A4%9A%E5%BE%88%E5%A4%9A/</guid>
+      <guid>http://www.tiankong.info/2013/11/06/%E5%AD%A9%E5%AD%90%E5%BD%93%E4%BD%A0%E8%BF%98%E5%BE%88%E5%B0%8F%E7%9A%84%E6%97%B6%E5%80%99%E6%88%91%E6%95%99%E4%BA%86%E4%BD%A0%E5%BE%88%E5%A4%9A%E5%BE%88%E5%A4%9A/</guid>
       <description>&lt;p&gt;&lt;span style=&#34;font-size: x-large;&#34;&gt;        孩子！当你还很小的时候，我花了很多时间，教你慢慢用汤匙、用筷子吃东西。教你系鞋带、扣扣子、溜滑梯、教你穿衣服、梳头发、拧鼻涕。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>独木大大的博客无法访问了，希望快点恢复</title>
-      <link>https://www.tiankong.info/2013/11/05/%E7%8B%AC%E6%9C%A8%E5%A4%A7%E5%A4%A7%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E4%BA%86%E5%B8%8C%E6%9C%9B%E5%BF%AB%E5%B8%A6%E4%BD%A0%E6%81%A2%E5%A4%8D/</link>
+      <link>http://www.tiankong.info/2013/11/05/%E7%8B%AC%E6%9C%A8%E5%A4%A7%E5%A4%A7%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E4%BA%86%E5%B8%8C%E6%9C%9B%E5%BF%AB%E5%B8%A6%E4%BD%A0%E6%81%A2%E5%A4%8D/</link>
       <pubDate>Tue, 05 Nov 2013 11:35:01 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/11/05/%E7%8B%AC%E6%9C%A8%E5%A4%A7%E5%A4%A7%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E4%BA%86%E5%B8%8C%E6%9C%9B%E5%BF%AB%E5%B8%A6%E4%BD%A0%E6%81%A2%E5%A4%8D/</guid>
+      <guid>http://www.tiankong.info/2013/11/05/%E7%8B%AC%E6%9C%A8%E5%A4%A7%E5%A4%A7%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E4%BA%86%E5%B8%8C%E6%9C%9B%E5%BF%AB%E5%B8%A6%E4%BD%A0%E6%81%A2%E5%A4%8D/</guid>
       <description>一直喜欢独木成林，我建博客也是因为独木成林，今天发现无法访问了，不知出了什么原因，希望快点恢复吧。附独木链接：http://www.guofs.com/</description>
     </item>
     
     <item>
       <title>因为一个错误，博客内容全部丢失</title>
-      <link>https://www.tiankong.info/2013/11/02/%E5%9B%A0%E4%B8%BA%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E5%8D%9A%E5%AE%A2%E5%86%85%E5%AE%B9%E5%85%A8%E9%83%A8%E4%B8%A2%E5%A4%B1/</link>
+      <link>http://www.tiankong.info/2013/11/02/%E5%9B%A0%E4%B8%BA%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E5%8D%9A%E5%AE%A2%E5%86%85%E5%AE%B9%E5%85%A8%E9%83%A8%E4%B8%A2%E5%A4%B1/</link>
       <pubDate>Fri, 01 Nov 2013 19:57:52 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/11/02/%E5%9B%A0%E4%B8%BA%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E5%8D%9A%E5%AE%A2%E5%86%85%E5%AE%B9%E5%85%A8%E9%83%A8%E4%B8%A2%E5%A4%B1/</guid>
+      <guid>http://www.tiankong.info/2013/11/02/%E5%9B%A0%E4%B8%BA%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E5%8D%9A%E5%AE%A2%E5%86%85%E5%AE%B9%E5%85%A8%E9%83%A8%E4%B8%A2%E5%A4%B1/</guid>
       <description>一个无法修复的错误，造成了严重的后果。数据库被我清空了，所有文章丢失，并且还没有备份。
 因为这一个错误，我的博客需要重新制作，感谢一直支持我的兄弟姐妹，我会继续努力更新我的博客，给大家一个良好的阅读环境，谢谢大家的支持。如果兄弟们有需要原来博客的帖子，请在反馈区反馈一下，可以的话，我会尽快补上。</description>
     </item>
     
     <item>
       <title>世界，你好！</title>
-      <link>https://www.tiankong.info/helloword.html</link>
+      <link>http://www.tiankong.info/helloword.html</link>
       <pubDate>Fri, 01 Nov 2013 19:52:14 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/helloword.html</guid>
+      <guid>http://www.tiankong.info/helloword.html</guid>
       <description>欢迎使用WordPress。这是系统自动生成的演示文章。编辑或者删除它，然后开始您的博客！</description>
     </item>
     

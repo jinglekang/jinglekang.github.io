@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Android on 天空博客</title>
-    <link>https://www.tiankong.info/tags/android/</link>
+    <link>http://www.tiankong.info/tags/android/</link>
     <description>Recent content in Android on 天空博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 30 Nov 2013 14:22:41 +0000</lastBuildDate>
     
-	<atom:link href="https://www.tiankong.info/tags/android/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.tiankong.info/tags/android/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>安卓手机常用屏蔽广告教程</title>
-      <link>https://www.tiankong.info/2013/11/30/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%B8%B8%E7%94%A8%E5%B1%8F%E8%94%BD%E5%B9%BF%E5%91%8A%E6%95%99%E7%A8%8B/</link>
+      <link>http://www.tiankong.info/2013/11/30/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%B8%B8%E7%94%A8%E5%B1%8F%E8%94%BD%E5%B9%BF%E5%91%8A%E6%95%99%E7%A8%8B/</link>
       <pubDate>Sat, 30 Nov 2013 14:22:41 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/11/30/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%B8%B8%E7%94%A8%E5%B1%8F%E8%94%BD%E5%B9%BF%E5%91%8A%E6%95%99%E7%A8%8B/</guid>
+      <guid>http://www.tiankong.info/2013/11/30/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E5%B8%B8%E7%94%A8%E5%B1%8F%E8%94%BD%E5%B9%BF%E5%91%8A%E6%95%99%E7%A8%8B/</guid>
       <description>&lt;p&gt;现在安卓系统越来越受欢迎，随着安卓程序数量的逐渐壮大，好多游戏都被植入了广告，有好多类似牛皮癣的那种广告，看着实在眼烦。于是，各种各样的去广告教程就诞生了，下面我介绍几种简单的屏蔽游戏广告的方法，相对与反编译程序等，下面还是比件简单的，比较适合新手。&lt;/p&gt;</description>
     </item>
     

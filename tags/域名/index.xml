@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>域名 on 天空博客</title>
-    <link>https://www.tiankong.info/tags/%E5%9F%9F%E5%90%8D/</link>
+    <link>http://www.tiankong.info/tags/%E5%9F%9F%E5%90%8D/</link>
     <description>Recent content in 域名 on 天空博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 28 Aug 2017 01:57:18 +0000</lastBuildDate>
     
-	<atom:link href="https://www.tiankong.info/tags/%E5%9F%9F%E5%90%8D/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.tiankong.info/tags/%E5%9F%9F%E5%90%8D/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>div.ltd域名已经转移到NameSilo了</title>
-      <link>https://www.tiankong.info/2017/08/28/div-ltd%E5%9F%9F%E5%90%8D%E5%B7%B2%E7%BB%8F%E8%BD%AC%E7%A7%BB%E5%88%B0namesilo%E4%BA%86/</link>
+      <link>http://www.tiankong.info/2017/08/28/div-ltd%E5%9F%9F%E5%90%8D%E5%B7%B2%E7%BB%8F%E8%BD%AC%E7%A7%BB%E5%88%B0namesilo%E4%BA%86/</link>
       <pubDate>Mon, 28 Aug 2017 01:57:18 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2017/08/28/div-ltd%E5%9F%9F%E5%90%8D%E5%B7%B2%E7%BB%8F%E8%BD%AC%E7%A7%BB%E5%88%B0namesilo%E4%BA%86/</guid>
+      <guid>http://www.tiankong.info/2017/08/28/div-ltd%E5%9F%9F%E5%90%8D%E5%B7%B2%E7%BB%8F%E8%BD%AC%E7%A7%BB%E5%88%B0namesilo%E4%BA%86/</guid>
       <description>&lt;p&gt;放了很久的域名，也没有挂网站，但是不舍得扔，只是解析到Google Cloud服务器，前几天准备测试用，结果发现怎么调整都打不开网站，以为是服务器apache问题，就准备用阿里云的服务器测，不过改dns的时候才发现ns没有生效，原来是万恶的阿里云给暂停了。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>百度BAE以后不备案不能绑定域名了</title>
-      <link>https://www.tiankong.info/2013/12/31/%E7%99%BE%E5%BA%A6%E4%BB%A5%E5%90%8E%E4%B8%8D%E5%A4%87%E6%A1%88%E4%B8%8D%E8%83%BD%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E4%BA%86/</link>
+      <link>http://www.tiankong.info/2013/12/31/%E7%99%BE%E5%BA%A6%E4%BB%A5%E5%90%8E%E4%B8%8D%E5%A4%87%E6%A1%88%E4%B8%8D%E8%83%BD%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E4%BA%86/</link>
       <pubDate>Tue, 31 Dec 2013 10:01:27 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/12/31/%E7%99%BE%E5%BA%A6%E4%BB%A5%E5%90%8E%E4%B8%8D%E5%A4%87%E6%A1%88%E4%B8%8D%E8%83%BD%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E4%BA%86/</guid>
+      <guid>http://www.tiankong.info/2013/12/31/%E7%99%BE%E5%BA%A6%E4%BB%A5%E5%90%8E%E4%B8%8D%E5%A4%87%E6%A1%88%E4%B8%8D%E8%83%BD%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E4%BA%86/</guid>
       <description>&lt;p&gt;最近接到百度的邮件通知，说由于域名管理机构的限制，未进行备案的域名不能进行域名绑定，百度的“自定义绑定域名”功能已经下线，这就意味着一大批使用百度BAE建站的站长面临危机，使用顶级域名的小站长们又该到处找免费空间了。没办法， 天朝的备案伤不起，备案还不如找个免费空间容易。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>我开了个淘宝店准备把其他几个域名卖掉</title>
-      <link>https://www.tiankong.info/2013/12/16/%E6%88%91%E5%BC%80%E4%BA%86%E4%B8%AA%E6%B7%98%E5%AE%9D%E5%BA%97%E5%87%86%E5%A4%87%E6%8A%8A%E5%85%B6%E4%BB%96%E5%87%A0%E4%B8%AA%E5%9F%9F%E5%90%8D%E5%8D%96%E6%8E%89/</link>
+      <link>http://www.tiankong.info/2013/12/16/%E6%88%91%E5%BC%80%E4%BA%86%E4%B8%AA%E6%B7%98%E5%AE%9D%E5%BA%97%E5%87%86%E5%A4%87%E6%8A%8A%E5%85%B6%E4%BB%96%E5%87%A0%E4%B8%AA%E5%9F%9F%E5%90%8D%E5%8D%96%E6%8E%89/</link>
       <pubDate>Sun, 15 Dec 2013 16:10:14 +0000</pubDate>
       
-      <guid>https://www.tiankong.info/2013/12/16/%E6%88%91%E5%BC%80%E4%BA%86%E4%B8%AA%E6%B7%98%E5%AE%9D%E5%BA%97%E5%87%86%E5%A4%87%E6%8A%8A%E5%85%B6%E4%BB%96%E5%87%A0%E4%B8%AA%E5%9F%9F%E5%90%8D%E5%8D%96%E6%8E%89/</guid>
+      <guid>http://www.tiankong.info/2013/12/16/%E6%88%91%E5%BC%80%E4%BA%86%E4%B8%AA%E6%B7%98%E5%AE%9D%E5%BA%97%E5%87%86%E5%A4%87%E6%8A%8A%E5%85%B6%E4%BB%96%E5%87%A0%E4%B8%AA%E5%9F%9F%E5%90%8D%E5%8D%96%E6%8E%89/</guid>
       <description>&lt;p&gt;脑袋一热就注册了好几个域名，现在仔细想想没什么用，扔又舍不得，本来准备放着等过期，但经同学的劝解，还是想办法出了吧，毕竟能收回点也是不错的，我的店铺地址&lt;a href=&#34;http://sponsor.taobao.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a href=&#34;http://sponsor.taobao.com&#34;&gt;http://sponsor.taobao.com&lt;/a&gt;&lt;/a&gt;，手机端地址是&lt;a href=&#34;http://sponsor.m.taobao.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a href=&#34;http://sponsor.m.taobao.com&#34;&gt;http://sponsor.m.taobao.com&lt;/a&gt;&lt;/a&gt;。大家如果有时间可以去看看，不买也行。&lt;/p&gt;</description>
     </item>
     

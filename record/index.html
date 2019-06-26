@@ -11,7 +11,7 @@
 		<meta property="og:title" content="收获日" />
 <meta property="og:description" content="确认oracle用户是否能使用crontab命令 1.检查usr/var/adm/cron，cron.deny和cron.allow文件 2.若没有这两个文件代表只有root用户才能使用crontab 3.若只有cron.deny,确认文件中没oracle才可以 4.若只有cron.allow，确认文件中有oracle才可以 5.若都有,则符合以上两条才可以  Linux登陆 su – oracle # 切换Oracle用户 sqlplus /nolog # 登陆数据库 connect /as sysdba # 使用管理员权限  Linux导出导入 su - oracle # 切换Oracle用户 pwd # 查看数据库路径 /home/oracle # 例如 exp 用户名/密码@数据库 file=/home/oracle/文件名.dmp # 导出语句 imp 用户名/密码@数据库 file=/home/oracle/文件名.dmp full=y # 导入语句  查看防火墙状态 service iptables status  永久关闭防火墙 chkconfig iptables off  出现了内部错误 远程桌面 管理员权限打开CMD 执行：netsh winsock reset  Windows批量创建用户 net user user1 123456 /add net user user2 123456 /add net user user3 123456 /add&lt;/code&gt;  fdisk cfdisk parted gdisk lsblk  Linux 定时3点执行备份 crontab -u oracle -e * 3 * * * /home/oracle/back." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.tiankong.info/record/" />
+<meta property="og:url" content="http://www.tiankong.info/record/" />
 <meta property="article:published_time" content="2019-06-25T19:56:39&#43;08:00"/>
 <meta property="article:modified_time" content="2019-06-25T19:56:39&#43;08:00"/>
 
