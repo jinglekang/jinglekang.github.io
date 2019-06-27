@@ -6,20 +6,10 @@
     <description>Recent content on 天空博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 27 Jun 2019 17:23:10 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jun 2019 14:24:12 +0800</lastBuildDate>
     
 	<atom:link href="http://www.tiankong.info/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>某客户的组织架构同步方案设计</title>
-      <link>http://www.tiankong.info/2019/06/27/%E6%9F%90%E5%AE%A2%E6%88%B7%E7%9A%84%E7%BB%84%E7%BB%87%E6%9E%B6%E6%9E%84%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88%E8%AE%BE%E8%AE%A1/</link>
-      <pubDate>Thu, 27 Jun 2019 17:23:10 +0800</pubDate>
-      
-      <guid>http://www.tiankong.info/2019/06/27/%E6%9F%90%E5%AE%A2%E6%88%B7%E7%9A%84%E7%BB%84%E7%BB%87%E6%9E%B6%E6%9E%84%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88%E8%AE%BE%E8%AE%A1/</guid>
-      <description>森松组织架构同步方案 自动同步内容  岗位新增 新员工入职 员工部门调动 员工岗位变动 员工工号变动 员工档案   备注： 1. 新员工入职：入职部门不存在则需要手动添加部门 2. 员工部门调动：调动部门不存在则需要手动添加部门
- 手动处理内容  新增单位 新增部门 员工跨公司调动 员工离职  业务流程  点击 [ 手动同步组织架构 ] 按钮 清空 [ MDM_COMP ] ， [ MDM_DEPT ] ， [ MDM_POST ] 从MDM数据库获取 [ 单位列表 ] 存入OA数据库 [ MDM_COMP ] 从MDM数据库获取 [ 部门列表 ] 存入OA数据库 [ MDM_DEPT ] 从MDM数据库获取 [ 岗位列表 ] 存入OA数据库 [ MDM_POST ] 根据OA的 [ 单位编码 ] 遍历MDM的 [ 部门档案 ]  8.</description>
-    </item>
     
     <item>
       <title>Markdown语法练习</title>
@@ -821,15 +811,6 @@ set password = password(&amp;quot;password&amp;quot;);</description>
       
       <guid>http://www.tiankong.info/2013/11/29/%E5%A4%A9%E7%A9%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%88%9D%E8%A1%B7/</guid>
       <description>&lt;p&gt;两个月前，我注册了tiankong.info域名，办起了天空博客，现在这个博客连起步都不算，而我本人也是一个没什么本事的学生，没什么技术，也不会写文章，我拥有的只是兴趣，一切按照兴趣而写。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>我竞选青协监察部的竞选稿，贡献出来给大家看看</title>
-      <link>http://www.tiankong.info/2013/11/29/%E6%88%91%E7%AB%9E%E9%80%89%E9%9D%92%E5%8D%8F%E7%9B%91%E5%AF%9F%E9%83%A8%E7%9A%84%E7%AB%9E%E9%80%89%E7%A8%BF%E8%B4%A1%E7%8C%AE%E5%87%BA%E6%9D%A5%E7%BB%99%E5%A4%A7%E5%AE%B6%E7%9C%8B%E7%9C%8B/</link>
-      <pubDate>Fri, 29 Nov 2013 05:34:22 +0000</pubDate>
-      
-      <guid>http://www.tiankong.info/2013/11/29/%E6%88%91%E7%AB%9E%E9%80%89%E9%9D%92%E5%8D%8F%E7%9B%91%E5%AF%9F%E9%83%A8%E7%9A%84%E7%AB%9E%E9%80%89%E7%A8%BF%E8%B4%A1%E7%8C%AE%E5%87%BA%E6%9D%A5%E7%BB%99%E5%A4%A7%E5%AE%B6%E7%9C%8B%E7%9C%8B/</guid>
-      <description>&lt;p&gt;这次竞选过去了很久，我当时当选了监察部的部长。下面是我的演讲稿，或许写的不怎么样，只是给大家一个参考，文笔好的勿喷。说明：我写的不怎么样，如果看了之后对你造成无法计量的后果，不要来找我哦。&lt;/p&gt;</description>
     </item>
     
     <item>
