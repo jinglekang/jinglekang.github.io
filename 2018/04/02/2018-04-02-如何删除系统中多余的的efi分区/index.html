@@ -5,18 +5,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="theme-color" content="#1b1b1b">
-	<title>利用mysqldump导入数据库报错：The user specified as a definer (‘root’@’%’) does not exist when using LOCK TABLES | 天空博客</title>
+	<title>如何删除系统中多余的的EFI分区 | 天空博客</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
-		<meta property="og:title" content="利用mysqldump导入数据库报错：The user specified as a definer (‘root’@’%’) does not exist when using LOCK TABLES" />
-<meta property="og:description" content="The user specified as a definer (‘root’@’%’) does not exist when using LOCK TABLES
-
-
-出现这个问题是因为创建数据库的用户已经不存在了，需要把数据库授权给root然后再执行导出即可。" />
+		<meta property="og:title" content="如何删除系统中多余的的EFI分区" />
+<meta property="og:description" content="　　各种双系统安装后的后遗症，计算机管理中的磁盘管理可以删除其他分区，唯独EFI分区不能删除，如果不想借助第三方DiskGenius或者PE等工具，利用Windows自带的Diskpart工具也是可以的。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.tiankong.info/2018/03/23/%E5%88%A9%E7%94%A8mysqldump%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE%E5%BA%93%E6%8A%A5%E9%94%99/" />
-<meta property="article:published_time" content="2018-03-23T05:42:50&#43;00:00"/>
-<meta property="article:modified_time" content="2018-03-23T05:42:50&#43;00:00"/>
+<meta property="og:url" content="http://www.tiankong.info/2018/04/02/2018-04-02-%E5%A6%82%E4%BD%95%E5%88%A0%E9%99%A4%E7%B3%BB%E7%BB%9F%E4%B8%AD%E5%A4%9A%E4%BD%99%E7%9A%84%E7%9A%84efi%E5%88%86%E5%8C%BA/" />
+<meta property="article:published_time" content="2018-04-02T04:48:26&#43;00:00"/>
+<meta property="article:modified_time" content="2018-04-02T04:48:26&#43;00:00"/>
 
 	<link rel="stylesheet" href="/css/main.css">
 	<link rel="stylesheet" href="/css/themes/dark-blue.css">
@@ -52,27 +49,45 @@
 		<div class="single block">
 			<article class="post">
 	<div class="post__meta meta mb">
-<time class="post__meta-published meta-published" datetime="2018-03-23T05:42:50">2018年3月23日</time>
+<time class="post__meta-published meta-published" datetime="2018-04-02T04:48:26">2018年4月02日</time>
 <span class="post__meta-categories meta-categories">
-	<span class="meta-categories__list">分类: <a class="meta-categories__link" href="/categories/%e9%bb%98%e8%ae%a4%e5%88%86%e7%b1%bb" rel="category">默认分类</a></span>
+	<span class="meta-categories__list">分类: <a class="meta-categories__link" href="/categories/%e5%bf%83%e5%be%97%e6%9d%82%e8%ae%b0" rel="category">心得杂记</a></span>
 </span>
 	</div>
 
-				<h1 class="post__title">利用mysqldump导入数据库报错：The user specified as a definer (‘root’@’%’) does not exist when using LOCK TABLES</h1>
-				<div class="post__content"><pre><code>The user specified as a definer (‘root’@’%’) does not exist when using LOCK TABLES
-</code></pre>
+				<h1 class="post__title">如何删除系统中多余的的EFI分区</h1>
+				<div class="post__content"><p>　　各种双系统安装后的后遗症，计算机管理中的磁盘管理可以删除其他分区，唯独EFI分区不能删除，如果不想借助第三方DiskGenius或者PE等工具，利用Windows自带的Diskpart工具也是可以的。</p>
 
-<p>出现这个问题是因为创建数据库的用户已经不存在了，需要把数据库授权给root然后再执行导出即可。</p>
+<p>网上有很多教程利用Diskpart清除整个磁盘，但那样同硬盘其它数据就丢失了，下面看看如何只清楚EFI分区：</p>
 
-<pre><code>grant all privileges on *.* to root@&quot;%&quot; identified by &quot;.&quot;;
-</code></pre></div>
+<p>　　1、直接运行里面输入diskpart，打开命令行</p>
+
+<p><a href="http://www.tiankong.info/wp-content/uploads/2018/04/TIM截图20180402123447.png"><img class="aligncenter wp-image-893 size-full" src="http://www.tiankong.info/wp-content/uploads/2018/04/TIM截图20180402123447.png" alt="" width="413" height="237" /></a></p>
+
+<p>　　2、在命令行里面输入list disk按回车会显示所有的磁盘，注意不是分区</p>
+
+<p><a href="http://www.tiankong.info/wp-content/uploads/2018/04/TIM截图20180402123624.png"><img class="aligncenter wp-image-894 size-full" src="http://www.tiankong.info/wp-content/uploads/2018/04/TIM截图20180402123624.png" alt="" width="993" height="519" /></a></p>
+
+<p>　　3、如果你知道efi分区在那个盘里，直接输入selec disk 0选中磁盘（0代表上图的磁盘 0，可以根据总大小判断）</p>
+
+<p><a href="http://www.tiankong.info/wp-content/uploads/2018/04/TIM截图20180402123855.png"><img class="aligncenter wp-image-897 size-full" src="http://www.tiankong.info/wp-content/uploads/2018/04/TIM截图20180402123855.png" alt="" width="993" height="519" /></a></p>
+
+<p>　　4、然后输入list partition列出选中磁盘的所有分区，如果你上一部选中的磁盘是正确的，这里就可以看到你需要删除的efi分区了</p>
+
+<p><a href="http://www.tiankong.info/wp-content/uploads/2018/04/TIM截图20180402124519.png"><img class="aligncenter wp-image-899 size-full" src="http://www.tiankong.info/wp-content/uploads/2018/04/TIM截图20180402124519.png" alt="" width="993" height="519" /></a></p>
+
+<p>　　5、现在只需要select partition X选中需要删除的分区，比如说我选中了恢复分区1</p>
+
+<p><a href="http://www.tiankong.info/wp-content/uploads/2018/04/TIM截图20180402124636.png"><img class="aligncenter wp-image-900 size-full" src="http://www.tiankong.info/wp-content/uploads/2018/04/TIM截图20180402124636.png" alt="" width="993" height="519" /></a></p>
+
+<p>　　6、执行删除操作delete partition override，因为我不需要删除，后面就不截图了，如果想把删除的分区利用起来，可以从计算机管理里面的磁盘管理，把空闲分区分配一下就行了。</p></div>
 				
 				<footer class="post__footer">
 					
 
 
 <div class="post__tags">
-	<a class="post__tag btn" href="/tags/mysql">MySQL</a>
+	<a class="post__tag btn" href="/tags/cmd">CMD</a><a class="post__tag btn" href="/tags/diskpart">DiskPart</a><a class="post__tag btn" href="/tags/efi">EFI</a>
 </div>
 
 
