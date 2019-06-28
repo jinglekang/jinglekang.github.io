@@ -164,8 +164,9 @@ set password = password(&quot;password&quot;);</div>
 			
 				<div class="card card--2col">
 					<article class="post card__box block">
-	<h1 class="post__title title-excerpt"><a class="post__title-link" href="/2018/03/23/the-user-specified-as-a-definer-root-does-not-exist-when-using-lock-tables/">利用mysqldump导入数据库报错：The user specified as a definer (‘root’@’%’) does not exist when using LOCK TABLES</a></h1>
-	<div class="post__content"><p>The user specified as a definer (&#8216;root&#8217;@&#8217;%&#8217;) does not exist when using LOCK TABLES</p>
+	<h1 class="post__title title-excerpt"><a class="post__title-link" href="/2018/03/23/%E5%88%A9%E7%94%A8mysqldump%E5%AF%BC%E5%85%A5%E6%95%B0%E6%8D%AE%E5%BA%93%E6%8A%A5%E9%94%99/">利用mysqldump导入数据库报错：The user specified as a definer (‘root’@’%’) does not exist when using LOCK TABLES</a></h1>
+	<div class="post__content"><pre><code>The user specified as a definer (&amp;#8216;root&amp;#8217;@&amp;#8217;%&amp;#8217;) does not exist when using LOCK TABLES
+</code></pre>
 
 <p>出现这个问题是因为创建数据库的用户已经不存在了，需要把数据库授权给root然后再执行导出即可。</p></div>
 	<div class="post__meta meta mt tar">
