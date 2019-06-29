@@ -6,10 +6,28 @@
     <description>Recent content in Tags on 天空博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 26 Jun 2019 14:24:12 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 30 Jun 2019 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="http://www.tiankong.info/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Arch Linux</title>
+      <link>http://www.tiankong.info/tags/arch-linux/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0800</pubDate>
+      
+      <guid>http://www.tiankong.info/tags/arch-linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://www.tiankong.info/tags/linux/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0800</pubDate>
+      
+      <guid>http://www.tiankong.info/tags/linux/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Markdown</title>
@@ -35,15 +53,6 @@
       <pubDate>Wed, 20 Jun 2018 15:34:14 +0000</pubDate>
       
       <guid>http://www.tiankong.info/tags/wordpress/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>http://www.tiankong.info/tags/linux/</link>
-      <pubDate>Mon, 21 May 2018 05:18:07 +0000</pubDate>
-      
-      <guid>http://www.tiankong.info/tags/linux/</guid>
       <description></description>
     </item>
     
@@ -134,15 +143,6 @@
       <pubDate>Fri, 01 Dec 2017 09:42:25 +0000</pubDate>
       
       <guid>http://www.tiankong.info/tags/paypal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Arch Linux</title>
-      <link>http://www.tiankong.info/tags/arch-linux/</link>
-      <pubDate>Fri, 01 Dec 2017 08:00:53 +0000</pubDate>
-      
-      <guid>http://www.tiankong.info/tags/arch-linux/</guid>
       <description></description>
     </item>
     

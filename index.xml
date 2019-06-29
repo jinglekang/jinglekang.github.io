@@ -6,10 +6,23 @@
     <description>Recent content on 天空博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 26 Jun 2019 14:24:12 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 30 Jun 2019 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="http://www.tiankong.info/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>如何简单安装Arch Linux操作系统</title>
+      <link>http://www.tiankong.info/2019/06/30/%E5%A6%82%E4%BD%95%E7%AE%80%E5%8D%95%E5%AE%89%E8%A3%85arch-linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E5%BE%85%E7%BB%AD/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0800</pubDate>
+      
+      <guid>http://www.tiankong.info/2019/06/30/%E5%A6%82%E4%BD%95%E7%AE%80%E5%8D%95%E5%AE%89%E8%A3%85arch-linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E5%BE%85%E7%BB%AD/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;2019-6-30 更新，按照本机实际安装情况更新了教程。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Arch Linux是个有魅力的Linux发行版，系统简洁优雅，所有的一切都需要自己配置，适合对操作系统有严格要求的人，另外系统采用滚动式更新，优缺点就不说了，这里简单说一下如何简单快速安装Arch Linux。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Markdown语法练习</title>
@@ -296,15 +309,6 @@ apt upgrade
       
       <guid>http://www.tiankong.info/2017/12/01/%E7%AD%89%E5%BE%85paypal%E5%80%92%E9%97%AD%E9%82%A3%E4%B8%80%E5%A4%A9/</guid>
       <description>&lt;p&gt;就因为2013年淘宝买了10美元，被永久限制，不得申诉，已经过去4年了，刚打电话申诉，那傲慢的语气，快倒闭吧！&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>如何简单安装Arch Linux操作系统？（编辑中）</title>
-      <link>http://www.tiankong.info/2017/12/01/%E5%A6%82%E4%BD%95%E7%AE%80%E5%8D%95%E5%AE%89%E8%A3%85arch-linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E5%BE%85%E7%BB%AD/</link>
-      <pubDate>Fri, 01 Dec 2017 08:00:53 +0000</pubDate>
-      
-      <guid>http://www.tiankong.info/2017/12/01/%E5%A6%82%E4%BD%95%E7%AE%80%E5%8D%95%E5%AE%89%E8%A3%85arch-linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-%E5%BE%85%E7%BB%AD/</guid>
-      <description>&lt;p&gt;Arch Linux操作系统是个有魅力的Linux发行版，系统简洁优雅，所有的一切都需要自己配置，适合对操作系统有严格要求的人，另外系统采用滚动式更新，优缺点就不说了，这里简单说一下如何简单快速安装Arch Linux操作系统。&lt;/p&gt;</description>
     </item>
     
     <item>
