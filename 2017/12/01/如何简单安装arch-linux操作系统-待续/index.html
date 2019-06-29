@@ -74,27 +74,27 @@
 
 <blockquote>
 <ol>
-<li>网络测试，输入ping www.tiankong.info，ping的通说明网络没问题；</li>
-<li>接下来测试启动方式，输入efivar -l如果出现很多行内容说明是UEFI模式启动；</li>
-<li>校正网络时间，输入 timedatectl set-ntp true自动联网校正；</li>
-<li>检查磁盘名称，输入lsblk进行查看，找到你的硬盘；</li>
-<li>进行磁盘分区，UEFI模式推荐使用cfdisk进行分区；</li>
-<li>输入cfdisk后，选择磁盘分区为gpt；</li>
-<li>然后推荐创建boot引导分区、/根分区、/home用户分区、swap交换分区；</li>
+<li>网络测试，输入 <code>ping www.tiankong.info，ping</code> 的通说明网络没问题；</li>
+<li>接下来测试启动方式，输入 <code>efivar -l</code> 如果出现很多行内容说明是UEFI模式启动；</li>
+<li>校正网络时间，输入 <code>timedatectl set-ntp true</code> 自动联网校正；</li>
+<li>检查磁盘名称，输入 <code>lsblk</code> 进行查看，找到你的硬盘；</li>
+<li>进行磁盘分区，UEFI模式推荐使用 <code>cfdisk</code> 进行分区；</li>
+<li>输入 <code>cfdisk</code> 后，选择磁盘分区为 <code>gpt</code> ,如果是nvme盘，需要用 <code>fdisk</code> 进行分区 <strong><code>待续</code></strong>；</li>
+<li>然后推荐创建 <code>boot引导分区</code> 、 <code>/根分区</code> 、 <code>/home用户分区</code> 、 <code>swap交换分区</code> ；</li>
 <li>本次演示分区是2G引导，10G根分区，20G主分区，8G交换分区；</li>
-<li>首先处理引导分区，输入mkfs.vfat -F32 /dev/sda1，然后会显示版本信息；</li>
-<li>依次格式化mkfs.ext4 /dev/sda2和mkfs.ext4 /dev/sda3分区；</li>
-<li>最后输入mkswap /dev/sda4，然后开启swapon /dev/sda4；</li>
+<li>首先处理引导分区，输入 <code>mkfs.vfat -F32 /dev/sda1</code>，然后会显示版本信息；</li>
+<li>依次格式化<code>mkfs.ext4 /dev/sda2</code>和 <code>mkfs.ext4 /dev/sda3</code>分区；</li>
+<li>最后输入 <code>mkswap /dev/sda4</code> ，然后开启 <code>swapon /dev/sda4</code> ；</li>
 <li>格式化工作已经完成，开始进行挂在；</li>
-<li>挂在主分区：mount /dev/sda2 /mnt；</li>
-<li>输入mkdir /mnt/boot和mkdir /mnt/boot创建挂在文件夹；</li>
-<li>然后挂在mount /dev/sda1 /mnt/boot和mount /dev/sda3 /mnt/home；</li>
-<li>输入lsblk查看挂在是否正常，在MOUNTPOINT下应该4个都有名称；</li>
-<li>编辑更新源，输入nano /etc/pacman.d/mirrorlist，保留China源；</li>
-<li>输入pacman -Syy更新源地址；</li>
-<li>输入pacstrap -i /mnt base base-devel net-tools进行系统安装；</li>
+<li>挂在主分区： <code>mount /dev/sda2 /mnt</code> ；</li>
+<li>输入 <code>mkdir /mnt/boot</code> 和 <code>mkdir /mnt/boot</code> 创建挂在文件夹；</li>
+<li>然后挂在 <code>mount /dev/sda1 /mnt/boot</code> 和 <code>mount /dev/sda3 /mnt/home</code> ；</li>
+<li>输入 <code>lsblk</code> 查看挂在是否正常，在MOUNTPOINT下应该4个都有名称；</li>
+<li>编辑更新源，输入 <code>nano /etc/pacman.d/mirrorlist</code> ，保留China源；</li>
+<li>输入 <code>pacman -Syy</code> 更新源地址；</li>
+<li>输入 <code>pacstrap -i /mnt base base-devel net-tools</code> 进行系统安装；</li>
 <li>含义：-i安装前确认，base-devel使用AUR，netstat和ifconfig属于net-tools工具；</li>
-<li>输入genfstab -U /mnt &gt;&gt; /mnt/etc/fstab生成fstab；</li>
+<li>输入 <code>genfstab -U /mnt &gt;&gt; /mnt/etc/fstab</code> 生成fstab；</li>
 </ol>
 </blockquote>
 
@@ -102,19 +102,20 @@
 
 <blockquote>
 <ol>
-<li>输入arch-chroot /mnt /bin/bash命令Change root 到新安装的系统</li>
-<li>输入nano /etc/locale.gen设置Locale；</li>
-<li>保留en_US.UTF-8 UTF-8和zh_CN.UTF-8 UTF-8，并去掉前面的#注释；</li>
-<li>输入locale-gen生成locale.gen文件；</li>
-<li><span class="hljs-built_in">然后使用echo</span> LANG=zh_CN.UTF-8 &gt;&gt; /etc/locale.conf生成配置文件</li>
+<li>输入 <code>arch-chroot /mnt /bin/bash</code> 命令Change root 到新安装的系统</li>
+<li>输入 <code>nano /etc/locale.gen</code> 设置Locale；</li>
+<li>保留 <code>en_US.UTF-8 UTF-8</code> 和 <code>zh_CN.UTF-8 UTF-8</code> ，并去掉前面的#注释；</li>
+<li>输入 <code>locale-gen</code> 生成locale.gen文件；</li>
+<li>然后使用 <code>echo LANG=zh_CN.UTF-8 &gt;&gt; /etc/locale.conf</code> 生成配置文件</li>
 <li>设置上海时区ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime；</li>
-<li>设置标准UTC时间hwclock &#8211;systohc &#8211;utc；</li>
-<li>设置主机名<span class="hljs-built_in">echo</span> Arch &gt; /etc/hostname</li>
-<li>编辑hosts文件nano /etc/hosts；</li>
-<li>输入passwd设置root密码；</li>
-<li>输入bootctl install安装bootloader；</li>
-<li>拷贝示例文件cp /usr/share/systemd/bootctl/arch.conf /boot/loader/entries/；</li>
-<li>修改/boot/loader/loader.conf；</li>
+<li>设置标准UTC时间 <code>hwclock --systohc --utc</code> ；</li>
+<li>设置主机名 <code>echo Arch &gt; /etc/hostname</code> ；</li>
+<li>编辑hosts文件 <code>nano /etc/hosts</code> ；</li>
+<li>输入 <code>passwd</code> 设置root密码；</li>
+<li>输入 <code>bootctl --path=boot install</code> 安装bootloader,&ndash;path用于指定安装目录</li>
+<li>拷贝示例文件 <code>cp /usr/share/systemd/bootctl/arch.conf /boot/loader/entries/</code>；</li>
+<li>使用 <code>blkid</code> 查看PARTUUID <code>待续</code></li>
+<li>修改 <code>/boot/loader/loader.conf</code> ；</li>
 </ol>
 </blockquote>
 
