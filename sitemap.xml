@@ -110,23 +110,6 @@
   </url>
   
   <url>
-    <loc>http://www.tiankong.info/tags/mysql/</loc>
-    <lastmod>2018-06-26T15:18:28+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.tiankong.info/2018/06/26/mysql%E8%B7%B3%E8%BF%87%E5%AF%86%E7%A0%81%E7%99%BB%E5%BD%95/</loc>
-    <lastmod>2018-06-26T15:18:28+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.tiankong.info/categories/%E5%BF%83%E5%BE%97%E6%9D%82%E8%AE%B0/</loc>
-    <lastmod>2018-06-26T15:18:28+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://www.tiankong.info/categories/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/</loc>
     <lastmod>2018-06-20T15:34:14+00:00</lastmod>
     <priority>0</priority>
@@ -150,8 +133,14 @@
   </url>
   
   <url>
-    <loc>http://www.tiankong.info/2018/05/21/2018-05-21-manjaro%E5%AE%89%E8%A3%85mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%96%B9%E6%B3%95/</loc>
+    <loc>http://www.tiankong.info/2018/05/21/manjaro%E5%AE%89%E8%A3%85mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2018-05-21T05:18:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.tiankong.info/tags/mysql/</loc>
+    <lastmod>2018-05-21T05:18:07+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -165,8 +154,14 @@
   </url>
   
   <url>
-    <loc>http://www.tiankong.info/2018/04/24/mysql%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</loc>
+    <loc>http://www.tiankong.info/2018/04/24/mysql%E8%B7%B3%E8%BF%87%E5%AF%86%E7%A0%81%E7%99%BB%E9%99%86%E8%A7%A3%E5%86%B3%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81%E9%97%AE%E9%A2%98/</loc>
     <lastmod>2018-04-24T02:36:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.tiankong.info/categories/%E5%BF%83%E5%BE%97%E6%9D%82%E8%AE%B0/</loc>
+    <lastmod>2018-04-24T02:36:25+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>

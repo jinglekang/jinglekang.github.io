@@ -6,37 +6,26 @@
     <description>Recent content in MySQL on 天空博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 26 Jun 2018 15:18:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 May 2018 05:18:07 +0000</lastBuildDate>
     
 	<atom:link href="http://www.tiankong.info/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>MySQL跳过密码登录</title>
-      <link>http://www.tiankong.info/2018/06/26/mysql%E8%B7%B3%E8%BF%87%E5%AF%86%E7%A0%81%E7%99%BB%E5%BD%95/</link>
-      <pubDate>Tue, 26 Jun 2018 15:18:28 +0000</pubDate>
-      
-      <guid>http://www.tiankong.info/2018/06/26/mysql%E8%B7%B3%E8%BF%87%E5%AF%86%E7%A0%81%E7%99%BB%E5%BD%95/</guid>
-      <description>编辑MySQL的配置文件my.ini，在[mysqld]下添加：
-skip-grant-tables 重启MySQL服务器，然后输入：
-mysql -u root -p 回车键跳过密码即可登陆，或者双击mysql.exe登陆数据库。</description>
-    </item>
-    
-    <item>
       <title>Manjaro安装MySQL数据库的方法</title>
-      <link>http://www.tiankong.info/2018/05/21/2018-05-21-manjaro%E5%AE%89%E8%A3%85mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <link>http://www.tiankong.info/2018/05/21/manjaro%E5%AE%89%E8%A3%85mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%96%B9%E6%B3%95/</link>
       <pubDate>Mon, 21 May 2018 05:18:07 +0000</pubDate>
       
-      <guid>http://www.tiankong.info/2018/05/21/2018-05-21-manjaro%E5%AE%89%E8%A3%85mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <guid>http://www.tiankong.info/2018/05/21/manjaro%E5%AE%89%E8%A3%85mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
       <description>&lt;p&gt;Linux的发行版Manjaro大火，在其中安装MySQL有些不同，特此记录&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>MySQL忘记密码的解决办法</title>
-      <link>http://www.tiankong.info/2018/04/24/mysql%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</link>
+      <title>MySQL跳过密码登陆解决忘记密码问题</title>
+      <link>http://www.tiankong.info/2018/04/24/mysql%E8%B7%B3%E8%BF%87%E5%AF%86%E7%A0%81%E7%99%BB%E9%99%86%E8%A7%A3%E5%86%B3%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81%E9%97%AE%E9%A2%98/</link>
       <pubDate>Tue, 24 Apr 2018 02:36:25 +0000</pubDate>
       
-      <guid>http://www.tiankong.info/2018/04/24/mysql%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</guid>
+      <guid>http://www.tiankong.info/2018/04/24/mysql%E8%B7%B3%E8%BF%87%E5%AF%86%E7%A0%81%E7%99%BB%E9%99%86%E8%A7%A3%E5%86%B3%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81%E9%97%AE%E9%A2%98/</guid>
       <description>&lt;p&gt;MySQL密码忘记了，在网上找了好几个教程，只有这个适合我的环境，特地记录一下，服务器是winser2008，mysql版本5.5。&lt;/p&gt;</description>
     </item>
     
