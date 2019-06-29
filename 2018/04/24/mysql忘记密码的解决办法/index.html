@@ -59,19 +59,13 @@
 				<div class="post__content"><p>MySQL密码忘记了，在网上找了好几个教程，只有这个适合我的环境，特地记录一下，服务器是winser2008，mysql版本5.5。</p>
 
 <ol>
-<li><p>关闭MySQL服务<code>net stop mysql</code>；</p></li>
-
-<li><p>进入mysql\bin目录，shift加鼠标右键打开命令行；</p></li>
-
-<li><p>输入<code>mysqld --skip-grant-tables</code>；</p></li>
-
-<li><p>shift加鼠标右键再开一个DOS窗口；</p></li>
-
-<li><p>输入mysql，一般可以直接登陆mysql；</p></li>
-
-<li><p>选择数据库；</p></li>
-
-<li><p>输入<code>update user set password=password(&quot;123&quot;) where user=&quot;root&quot;;</code>修改密码</p></li>
+<li>关闭MySQL服务<code>net stop mysql</code>；</li>
+<li>进入mysql\bin目录，shift加鼠标右键打开命令行；</li>
+<li>输入<code>mysqld --skip-grant-tables</code>；</li>
+<li>shift加鼠标右键再开一个DOS窗口；</li>
+<li>输入mysql，一般可以直接登陆mysql；</li>
+<li>选择数据库；</li>
+<li>输入<code>update user set password=password(&quot;new_password&quot;) where user=&quot;root&quot;;</code>修改密码</li>
 </ol></div>
 				
 				<footer class="post__footer">

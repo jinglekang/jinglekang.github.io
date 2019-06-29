@@ -23,6 +23,15 @@ mysql -u root -p 回车键跳过密码即可登陆，或者双击mysql.exe登陆
     </item>
     
     <item>
+      <title>Manjaro安装MySQL数据库的方法</title>
+      <link>http://www.tiankong.info/2018/05/21/2018-05-21-manjaro%E5%AE%89%E8%A3%85mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Mon, 21 May 2018 05:18:07 +0000</pubDate>
+      
+      <guid>http://www.tiankong.info/2018/05/21/2018-05-21-manjaro%E5%AE%89%E8%A3%85mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <description>&lt;p&gt;Linux的发行版Manjaro大火，在其中安装MySQL有些不同，特此记录&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>MySQL忘记密码的解决办法</title>
       <link>http://www.tiankong.info/2018/04/24/mysql%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</link>
       <pubDate>Tue, 24 Apr 2018 02:36:25 +0000</pubDate>
