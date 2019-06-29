@@ -60,10 +60,11 @@
 
 <p>打开后台-外观-编辑，找到footer.php，打开后删除或注释下列代码，轻松解决，也可以改成自己的版权链接。</p>
 
-<p><code>&lt;a href=&quot;&lt;?php echo esc_url( __( 'https://wordpress.org/', 'twentyten' ) ); ?&gt;&quot;&lt;br /&gt;
-title=&quot;&lt;?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyten' ); ?&gt;&quot;&gt;&lt;br /&gt;
-&lt;?php printf( __( 'Proudly powered by %s.', 'twentyten' ), 'WordPress' ); ?&gt;&lt;br /&gt;
-&lt;/a&gt;</code></p></div>
+<pre><code>&lt;a href=&quot;&lt;?php echo esc_url( __( 'https://wordpress.org/', 'twentyten' ) ); ?&gt;&quot;
+   title=&quot;&lt;?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyten' ); ?&gt;&quot;&gt;
+   &lt;?php printf( __( 'Proudly powered by %s.', 'twentyten' ), 'WordPress' ); ?&gt;
+&lt;/a&gt;
+</code></pre></div>
 				
 				<footer class="post__footer">
 					

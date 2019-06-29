@@ -58,13 +58,12 @@
 				<h1 class="post__title">关闭WordPress的半角全角自动转换功能</h1>
 				<div class="post__content"><p>由于WordPress自动把半角转化为全角，导致贴在博客的一些代码复制过去无法使用，造成一些不必要的误解，下面贴出最简单的解决办法，只需添加一行代码。</p>
 
-<p>找到后台的“外观”“编辑”，在右边找到“模板函数 (functions.php)”，在&lt;?php和?&gt;之间添加下面的代码即可实现。</p>
+<p>找到后台的“外观”“编辑”，在右边找到“模板函数 (functions.php)”，在<code>&lt;?php</code>和<code>?&gt;</code>之间添加下面的代码即可实现。</p>
 
-<p><code>remove_filter('the_content', 'wptexturize');</code></p>
+<pre><code>remove_filter('the_content', 'wptexturize');
+</code></pre>
 
-<p>这种方式的好处就是直接修改的是主题包中的文件，在WordPress升级不会产生影响。</p>
-
-<p>&nbsp;</p></div>
+<p>这种方式的好处就是直接修改的是主题包中的文件，在WordPress升级时不会产生影响。</p></div>
 				
 				<footer class="post__footer">
 					

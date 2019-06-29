@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>谈一谈域名被serverHold怎么处理</title>
-      <link>http://www.tiankong.info/2017/12/14/%E8%B0%88%E4%B8%80%E8%B0%88%E5%9F%9F%E5%90%8D%E8%A2%ABserverhold%E6%80%8E%E4%B9%88%E5%A4%84%E7%90%86/</link>
+      <title>域名无故被serverHold</title>
+      <link>http://www.tiankong.info/2017/12/14/%E5%9F%9F%E5%90%8D%E6%97%A0%E6%95%85%E8%A2%ABserverhold/</link>
       <pubDate>Thu, 14 Dec 2017 03:52:07 +0000</pubDate>
       
-      <guid>http://www.tiankong.info/2017/12/14/%E8%B0%88%E4%B8%80%E8%B0%88%E5%9F%9F%E5%90%8D%E8%A2%ABserverhold%E6%80%8E%E4%B9%88%E5%A4%84%E7%90%86/</guid>
-      <description>&lt;p&gt;不巧，前几天收到腾讯企业邮箱的通知，说我的备用域名（div.ltd）MX记录没了。MX记录有大半年没改过了，不可能无缘无故消失，吓我还以为域名被盗，不过去NameSilo查看没发现问题，就没有放在心上，连续几天通知我记录丢失，才查到域名状态是serverHold了。&lt;/p&gt;</description>
+      <guid>http://www.tiankong.info/2017/12/14/%E5%9F%9F%E5%90%8D%E6%97%A0%E6%95%85%E8%A2%ABserverhold/</guid>
+      <description>&lt;p&gt;前段时间收到腾讯企业邮箱的通知，内容大约是我的备用域名（div.ltd）MX记录没了。MX记录有大半年没改过了，不可能无缘无故消失，吓我还以为域名被盗，赶紧去NameSilo查看，但是没有发现问题，就没有放在心上，连续几天通知我记录丢失，才注意到域名状态是serverHold了。&lt;/p&gt;</description>
     </item>
     
     <item>
