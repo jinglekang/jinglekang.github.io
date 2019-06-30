@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#1b1b1b">
+	<title>如何简单安装Arch Linux操作系统 | 天空博客</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="如何简单安装Arch Linux操作系统" />
+<meta property="og:description" content="
+2019-6-30 更新，按照本机实际安装情况更新了教程。
+
+
+Arch Linux是个有魅力的Linux发行版，系统简洁优雅，所有的一切都需要自己配置，适合对操作系统有严格要求的人，另外系统采用滚动式更新，优缺点就不说了，这里简单说一下如何简单快速安装Arch Linux。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.tiankong.info/custom/arch-install.html" />
+<meta property="article:published_time" content="2019-06-30T00:00:00&#43;08:00"/>
+<meta property="article:modified_time" content="2019-06-30T00:00:00&#43;08:00"/>
+
+	<link rel="stylesheet" href="/css/main.css">
+	<link rel="stylesheet" href="/css/themes/dark-blue.css">
+	<link rel="icon" href="/icons/16.png" sizes="16x16" type="image/png">
+	<link rel="icon" href="/icons/32.png" sizes="32x32" type="image/png">
+		
+</head>
+<body>
+	<header class="header">
+	<a class="logo" href="/">天空博客</a>
+	
+<nav class="main-nav" role="navigation">
+	<button id="toggle" class="main-nav__btn" aria-label="Menu toggle" aria-expanded="false" tabindex="0">
+		<div class="main-nav__btn-box" tabindex="-1">
+			<svg class="main-nav__icon icon-menu" width="18" height="18" viewBox="0 0 18 18">
+				<path class="icon-menu__burger" d="M18 0v3.6H0V0h18zM0 10.8h18V7.2H0v3.6zM0 18h18v-3.6H0V18z"/>
+				<path class="icon-menu__x" d="M11.55 9L18 15.45 15.45 18 9 11.55 2.55 18 0 15.45 6.45 9 0 2.55 2.55 0 9 6.45 15.45 0 18 2.55 11.55 9z"/>
+			</svg>
+		</div>
+	</button>
+	<ul id="menu" class="main-nav__list">
+		<li class="main-nav__item"><a class="main-nav__link" href="/">主页</a></li>
+		<li class="main-nav__item"><a class="main-nav__link" href="/record">记录</a></li>
+		<li class="main-nav__item"><a class="main-nav__link" href="/privacy">隐私</a></li>
+		<li class="main-nav__item"><a class="main-nav__link" href="/links">友联</a></li>
+		<li class="main-nav__item"><a class="main-nav__link" href="/about">关于</a></li>
+	</ul>
+</nav>
+</header>
+	<div class="primary">
+	
+	<main class="main">
+		<div class="single block">
+			<article class="post">
+	<div class="post__meta meta mb">
+<time class="post__meta-published meta-published" datetime="2019-06-30T00:00:00">2019年6月30日</time>
+<span class="post__meta-categories meta-categories">
+	<span class="meta-categories__list">分类: <a class="meta-categories__link" href="/categories/%e5%bf%83%e5%be%97%e6%9d%82%e8%ae%b0" rel="category">心得杂记</a></span>
+</span>
+	</div>
+
+				<h1 class="post__title">如何简单安装Arch Linux操作系统</h1>
+				<div class="post__content"><blockquote>
+<p>2019-6-30 更新，按照本机实际安装情况更新了教程。</p>
+</blockquote>
+
+<p>Arch Linux是个有魅力的Linux发行版，系统简洁优雅，所有的一切都需要自己配置，适合对操作系统有严格要求的人，另外系统采用滚动式更新，优缺点就不说了，这里简单说一下如何简单快速安装Arch Linux。</p>
+
+<p>系统要求：</p>
+
+<blockquote>
+<ul>
+<li>内存不小于512M</li>
+<li>base 组要求800M存储空间</li>
+<li>不提供DVD，需要网络连接下载软件包</li>
+</ul>
+</blockquote>
+
+<p>心血来潮在笔记本上装了一个，前奏刻盘等就不提了，刻盘软件是balenaEtcher的1.5.43便携版，Arch Linux版本是最新的2019.06.01。</p>
+
+<p>笔记本参数情况：</p>
+
+<blockquote>
+<ul>
+<li>I5 7500</li>
+<li>16G DDR4</li>
+<li>512G NVME</li>
+</ul>
+</blockquote>
+
+<p>下面是完整的安装教程和安装后的相关配置：</p>
+
+<blockquote>
+<blockquote>
+<p><code>====================准备阶段====================</code></p>
+</blockquote>
+
+<ol>
+<li>网络测试，输入 <code>ping baidu.com</code> ，如果ping的通说明网络没问题，否则先搞定网络，不然无法继续；</li>
+<li>接下来测试启动方式，输入 <code>efivar -l</code> 如果出现很多行内容说明是UEFI模式启动，本次演示使用UEFI模式；</li>
+<li>校正网络时间，输入 <code>timedatectl set-ntp true</code> 开启自动联网校正；</li>
+</ol>
+
+<blockquote>
+<p><code>====================分区与挂载====================</code></p>
+</blockquote>
+
+<ol>
+<li>检查磁盘名称，输入 <code>lsblk</code> 查看并找到你的硬盘，<code>注意：如果安装双系统请仔细确认，别学我第一次装就格了数据盘</code> ；</li>
+<li>进行磁盘分区，UEFI+NVME的安装方式，最好选择 <code>fdisk</code> 来进行分区，parted工具未测试；</li>
+<li>输入 <code>fdisk /dev/nvme1n1</code> 来进行分区，<code>注意：使用你需要的分区替换nvme1n1</code>；</li>
+<li>常用操作： <code>n</code> ：添加新的分区， <code>m</code> ：查看帮助， <code>p</code> ：查看当前分区状态， <code>t</code> ：更改分区格式，<code>q</code> ：推出， <code>w</code> ：保存；</li>
+<li>本次安装创建了三个分区，分别是： <code>ESP引导分区</code> 、 <code>/根分区</code> 、 <code>SWAP交换分区</code> ；</li>
+<li>大小分别是2G引导，80G根分区，8G交换分区，分区过程待更新；</li>
+<li>分区类型分别改为 <code>EFI</code> ， <code>Linux system</code> ， <code>Linux SWAP</code> ；</li>
+<li>分完区进行格式化，首先处理引导分区，输入 <code>mkfs.fat -F32 /dev/nvme1n1p1</code>，然后会显示版本信息；</li>
+<li>然后格式化跟分区 <code>mkfs.ext4 /dev/nvme1n1p2</code> ；</li>
+<li>最后创建交换分区 <code>mkswap /dev/nvme1n1p3</code> ，并开启 <code>swapon /dev/nvme1n1p3</code> ；</li>
+<li>格式化工作已经完成，开始进行挂载；</li>
+<li>挂载主分区： <code>mount /dev/sda2 /nvme1n1p2</code> ；</li>
+<li>创建boot文件夹： <code>mkdir /mnt/boot</code> 并把nvme1n1p1挂载到boot： <code>mount /dev/nvme1n1p1 /mnt/boot</code>；；</li>
+<li>输入 <code>lsblk</code> 查看挂在是否正常，在MOUNTPOINT下应该3个都有名称；</li>
+</ol>
+
+<blockquote>
+<p><code>====================安装系统====================</code></p>
+</blockquote>
+
+<ol>
+<li>编辑更新源，输入 <code>nano /etc/pacman.d/mirrorlist</code> ，保留其中China源，可以按照喜好进行排序；</li>
+<li>输入 <code>pacstrap /mnt base base-devel</code> 进行系统安装；</li>
+<li>输入 <code>genfstab -U /mnt &gt;&gt; /mnt/etc/fstab</code> 生成fstab；</li>
+</ol>
+
+<blockquote>
+<p><code>====================配置系统====================</code></p>
+</blockquote>
+
+<ol>
+<li>输入 <code>arch-chroot /mnt /bin/bash</code> 命令Change root 到新安装的系统</li>
+<li>输入 <code>nano /etc/locale.gen</code> 设置Locale；</li>
+<li>保留 <code>en_US.UTF-8 UTF-8</code> 和 <code>zh_CN.UTF-8 UTF-8</code> ，并去掉前面的#注释；</li>
+<li>输入 <code>locale-gen</code> 生成locale.gen文件；</li>
+<li>然后使用 <code>echo LANG=en_US.UTF-8 &gt;&gt; /etc/locale.conf</code> 生成配置文件,这里不推荐设置中文，会产生tty乱码</li>
+<li>设置上海时区ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime；</li>
+<li>设置标准UTC时间 <code>hwclock --systohc --utc</code> ；</li>
+<li>设置主机名 <code>echo Arch &gt; /etc/hostname</code> ；</li>
+<li>编辑hosts文件 <code>nano /etc/hosts</code> 具体设置内容不再描述；</li>
+<li>输入 <code>passwd</code> 设置root密码；</li>
+<li>输入 <code>bootctl install</code> 安装bootloader,如果目录不是boot下，需要加&ndash;path指定安装目录；</li>
+<li>拷贝示例文件 <code>cp /usr/share/systemd/bootctl/arch.conf /boot/loader/entries/</code>；</li>
+<li>修改 <code>/boot/loader/entries/arch.conf</code> ，设置正确的PARTUUID，<a href="#arch.conf">如下</a>，使用 <code>blkid</code> 可查看分区的PARTUUID；</li>
+<li>修改 <code>/boot/loader/loader.conf</code> ,设置使用正确的配置文件，<a href="#loader.conf">如下</a>， <code>注意：不需要后缀</code> ；</li>
+<li>最后输入 <code>exit</code> 推出，然后 <code>reboot</code> 重启即可。</li>
+</ol>
+</blockquote>
+
+<h2 id="arch.conf">arch.conf</h2>
+
+<pre><code>title   Arch Linux
+linux   /vmlinuz-linux
+initrd  /initramfs-linux.img
+options root=PARTUUID=06d1a377-976d-47db-a907-9bf03bb8519b rw
+</code></pre>
+
+<h2 id="loader.conf">loader.conf</h2>
+
+<pre><code>default arch
+timeout 3
+</code></pre></div>
+				
+				<footer class="post__footer">
+					
+
+
+<div class="post__tags">
+	<a class="post__tag btn" href="/tags/arch-linux">Arch Linux</a><a class="post__tag btn" href="/tags/linux">Linux</a>
+</div>
+
+
+					
+				</footer>
+				
+			</article>
+		</div>
+	</main>
+	
+<div class="authorbox block">
+	<div class="author">
+		<figure class="author__avatar">
+			<img class="author__img" alt="浮云 avatar" src="/img/avatar.png" height="90" width="90">
+		</figure>
+		<div class="author__body">
+			<div class="author__name">
+				浮云
+			</div>
+			<div class="author__bio">江天一色无纤尘，皎皎空中孤月轮。</div>
+		</div>
+	</div>
+</div>
+	
+
+
+
+	
+
+	</div>
+	<footer class="footer">
+<div class="footer__social social">
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="mailto:service@tiankong.info">
+			<svg class="social__icon" aria-label="Email" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="M299 268l124 106c-4 4-10 7-17 7H106c-7 0-13-3-17-7l124-106 43 38 43-38zm-43 13L89 138c4-4 10-7 17-7h300c7 0 13 3 17 7L256 281zm54-23l121-105v208L310 258zM81 153l121 105L81 361V153z"/></svg>
+		</a>
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="https://github.com/jinglekang">
+			<svg class="social__icon" aria-label="Github" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="M335 499c14 0 12 17 12 17H165s-2-17 12-17c13 0 16-6 16-12l-1-50c-71 16-86-28-86-28-12-30-28-37-28-37-24-16 1-16 1-16 26 2 40 26 40 26 22 39 59 28 74 22 2-17 9-28 16-35-57-6-116-28-116-126 0-28 10-51 26-69-3-6-11-32 3-67 0 0 21-7 70 26 42-12 86-12 128 0 49-33 70-26 70-26 14 35 6 61 3 67 16 18 26 41 26 69 0 98-60 120-117 126 10 8 18 24 18 48l-1 70c0 6 3 12 16 12z"/></svg>
+		</a>
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/users/11146079">
+			<svg class="social__icon" aria-label="Stack Overflow" role="img" width="32" height="32" viewBox="0 0 512 512"><g stroke-width="30"><path fill="none" d="M125 297v105h241V297"/><path d="M170 341h150m-144-68l148 31M199 204l136 64m-95-129l115 97M293 89l90 120"/></g></svg>
+		</a>
+</div>
+	<div class="footer__copyright">© 2019 天空博客. <span class="footer__copyright-credits">Powered by <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/vimux/binario" rel="nofollow noopener" target="_blank">Binario</a> theme.</span></div>
+</footer>
+<script src="/js/menu.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+</body>
+</html>
