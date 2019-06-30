@@ -109,7 +109,7 @@ Arch Linux是个有魅力的Linux发行版，系统简洁优雅，所有的一�
 <li>检查磁盘名称，输入 <code>lsblk</code> 查看并找到你的硬盘，<code>注意：如果安装双系统请仔细确认，别学我第一次装就格了数据盘</code> ；</li>
 <li>进行磁盘分区，UEFI+NVME的安装方式，最好选择 <code>fdisk</code> 来进行分区，parted工具未测试；</li>
 <li>输入 <code>fdisk /dev/nvme1n1</code> 来进行分区，<code>注意：使用你需要的分区替换nvme1n1</code>；</li>
-<li>常用操作： <code>n</code> ：添加新的分区， <code>m</code> ：查看帮助， <code>p</code> ：查看当前分区状态， <code>t</code> ：更改分区格式，<code>q</code> ：推出， <code>w</code> ：保存；</li>
+<li>常用操作： <code>n</code> ：添加新的分区， <code>m</code> ：查看帮助， <code>p</code> ：查看当前磁盘状态， <code>t</code> ：更改分区格式，<code>q</code> ：推出， <code>w</code> ：保存；</li>
 <li>本次安装创建了三个分区，分别是： <code>ESP引导分区</code> 、 <code>/根分区</code> 、 <code>SWAP交换分区</code> ；</li>
 <li>大小分别是2G引导，80G根分区，8G交换分区，分区过程待更新；</li>
 <li>分区类型分别改为 <code>EFI</code> ， <code>Linux system</code> ， <code>Linux SWAP</code> ；</li>
