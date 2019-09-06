@@ -6,10 +6,23 @@
     <description>Recent content in Posts on 天空博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 10 Jul 2019 09:29:47 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 06 Sep 2019 09:58:34 +0800</lastBuildDate>
     
 	<atom:link href="http://www.tiankong.info/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>使用Tesseract实行ORG文字识别</title>
+      <link>http://www.tiankong.info/2019/09/06/%E4%BD%BF%E7%94%A8tesseract%E5%AE%9E%E8%A1%8Corg%E6%96%87%E5%AD%97%E8%AF%86%E5%88%AB/</link>
+      <pubDate>Fri, 06 Sep 2019 09:58:34 +0800</pubDate>
+      
+      <guid>http://www.tiankong.info/2019/09/06/%E4%BD%BF%E7%94%A8tesseract%E5%AE%9E%E8%A1%8Corg%E6%96%87%E5%AD%97%E8%AF%86%E5%88%AB/</guid>
+      <description>Tessseract是一款开源的、免费的ORG识别引擎，由HP开发，谷歌进行维护和更新，支持多种语言（包括中文），识别效果尚可，而且可以进行训练，提高识别效率
+下载地址：
+ https://github.com/UB-Mannheim/tesseract
+https://github.com/UB-Mannheim/tesseract/wiki
+ 待续。。。</description>
+    </item>
     
     <item>
       <title>使用bat批处理判断端口是否开启</title>
