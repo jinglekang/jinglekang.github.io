@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BAE on 天空博客</title>
+    <link>https://www.tiankong.info/tags/bae/</link>
+    <description>Recent content in BAE on 天空博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 31 Dec 2013 10:01:27 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.tiankong.info/tags/bae/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>百度BAE以后不备案不能绑定域名了</title>
+      <link>https://www.tiankong.info/post/2013/12/31/%E7%99%BE%E5%BA%A6bae%E4%BB%A5%E5%90%8E%E4%B8%8D%E5%A4%87%E6%A1%88%E4%B8%8D%E8%83%BD%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E4%BA%86/</link>
+      <pubDate>Tue, 31 Dec 2013 10:01:27 +0000</pubDate>
+      
+      <guid>https://www.tiankong.info/post/2013/12/31/%E7%99%BE%E5%BA%A6bae%E4%BB%A5%E5%90%8E%E4%B8%8D%E5%A4%87%E6%A1%88%E4%B8%8D%E8%83%BD%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E4%BA%86/</guid>
+      <description>&lt;p&gt;最近接到百度的邮件通知，说由于域名管理机构的限制，未进行备案的域名不能进行域名绑定，百度的“自定义绑定域名”功能已经下线，这就意味着一大批使用百度BAE建站的站长面临危机，使用顶级域名的小站长们又该到处找免费空间了。没办法，天朝的备案伤不起，备案还不如找个免费空间容易。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

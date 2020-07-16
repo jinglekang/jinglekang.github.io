@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Steam on 天空博客</title>
+    <link>https://www.tiankong.info/tags/steam/</link>
+    <description>Recent content in Steam on 天空博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 07 Dec 2016 06:45:45 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.tiankong.info/tags/steam/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>安装锁区steam软件的方法</title>
+      <link>https://www.tiankong.info/post/2016/12/07/%E5%AE%89%E8%A3%85%E9%94%81%E5%8C%BAsteam%E8%BD%AF%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Wed, 07 Dec 2016 06:45:45 +0000</pubDate>
+      
+      <guid>https://www.tiankong.info/post/2016/12/07/%E5%AE%89%E8%A3%85%E9%94%81%E5%8C%BAsteam%E8%BD%AF%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <description>&lt;p&gt;对于中国用户来说，有一些steam软件和游戏被锁区，访问会提示“您所在的地区目前不提供此物品”，例如谷歌地球VR和DOTA2等。用户可以通过下面方法安装此软件或游戏，在IE浏览器里输入steam://rungameid/游戏软件ID，然后点允许即可。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
