@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Manjaro on 天空博客</title>
@@ -13,19 +13,19 @@
     
     <item>
       <title>Manjaro安装MySQL数据库的方法</title>
-      <link>http://www.tiankong.info/2018/05/21/manjaro%E5%AE%89%E8%A3%85mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <link>http://www.tiankong.info/post/2018/05/21/manjaro%E5%AE%89%E8%A3%85mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%96%B9%E6%B3%95/</link>
       <pubDate>Mon, 21 May 2018 05:18:07 +0000</pubDate>
       
-      <guid>http://www.tiankong.info/2018/05/21/manjaro%E5%AE%89%E8%A3%85mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <guid>http://www.tiankong.info/post/2018/05/21/manjaro%E5%AE%89%E8%A3%85mysql%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
       <description>&lt;p&gt;Linux的发行版Manjaro大火，在其中安装MySQL有些不同，特此记录&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>更改Manjaro中火狐浏览器为中文语言</title>
-      <link>http://www.tiankong.info/2018/05/21/%E6%9B%B4%E6%94%B9manjaro%E4%B8%AD%E7%81%AB%E7%8B%90%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%BA%E4%B8%AD%E6%96%87%E8%AF%AD%E8%A8%80/</link>
+      <link>http://www.tiankong.info/post/2018/05/21/%E6%9B%B4%E6%94%B9manjaro%E4%B8%AD%E7%81%AB%E7%8B%90%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%BA%E4%B8%AD%E6%96%87%E8%AF%AD%E8%A8%80/</link>
       <pubDate>Mon, 21 May 2018 04:42:44 +0000</pubDate>
       
-      <guid>http://www.tiankong.info/2018/05/21/%E6%9B%B4%E6%94%B9manjaro%E4%B8%AD%E7%81%AB%E7%8B%90%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%BA%E4%B8%AD%E6%96%87%E8%AF%AD%E8%A8%80/</guid>
+      <guid>http://www.tiankong.info/post/2018/05/21/%E6%9B%B4%E6%94%B9manjaro%E4%B8%AD%E7%81%AB%E7%8B%90%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%BA%E4%B8%AD%E6%96%87%E8%AF%AD%E8%A8%80/</guid>
       <description>&lt;p&gt;尝试安装Manjaro后，发现自带火狐浏览器的语言是英文，而且在设置中无法切换，于是在网上找到了教程，再此备注一下。&lt;/p&gt;</description>
     </item>
     

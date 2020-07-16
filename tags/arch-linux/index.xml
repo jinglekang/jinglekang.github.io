@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Arch Linux on 天空博客</title>
@@ -20,7 +20,6 @@
       <description>&lt;blockquote&gt;
 &lt;p&gt;2019-6-30 更新，按照本机实际安装情况更新了教程。&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;p&gt;Arch Linux是个有魅力的Linux发行版，系统简洁优雅，所有的一切都需要自己配置，适合对操作系统有严格要求的人，另外系统采用滚动式更新，优缺点就不说了，这里简单说一下如何简单快速安装Arch Linux。&lt;/p&gt;</description>
     </item>
     

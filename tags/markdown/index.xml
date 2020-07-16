@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Markdown on 天空博客</title>
@@ -18,7 +18,6 @@
       
       <guid>http://www.tiankong.info/custom/markdown-study.html</guid>
       <description>&lt;h2 id=&#34;标题&#34;&gt;标题&lt;/h2&gt;
-
 &lt;pre&gt;&lt;code&gt;# 一级标题
 ## 二级标题
 ### 三级标题

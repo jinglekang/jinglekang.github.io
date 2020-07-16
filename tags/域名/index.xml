@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>域名 on 天空博客</title>
@@ -13,19 +13,19 @@
     
     <item>
       <title>div.ltd域名已经转移到NameSilo了</title>
-      <link>http://www.tiankong.info/2017/08/28/div-ltd%E5%9F%9F%E5%90%8D%E5%B7%B2%E7%BB%8F%E8%BD%AC%E7%A7%BB%E5%88%B0namesilo%E4%BA%86/</link>
+      <link>http://www.tiankong.info/post/2017/08/28/div-ltd%E5%9F%9F%E5%90%8D%E5%B7%B2%E7%BB%8F%E8%BD%AC%E7%A7%BB%E5%88%B0namesilo%E4%BA%86/</link>
       <pubDate>Mon, 28 Aug 2017 01:57:18 +0000</pubDate>
       
-      <guid>http://www.tiankong.info/2017/08/28/div-ltd%E5%9F%9F%E5%90%8D%E5%B7%B2%E7%BB%8F%E8%BD%AC%E7%A7%BB%E5%88%B0namesilo%E4%BA%86/</guid>
+      <guid>http://www.tiankong.info/post/2017/08/28/div-ltd%E5%9F%9F%E5%90%8D%E5%B7%B2%E7%BB%8F%E8%BD%AC%E7%A7%BB%E5%88%B0namesilo%E4%BA%86/</guid>
       <description>&lt;p&gt;放了很久的域名，也没有挂网站，但是不舍得扔，只是解析到Google Cloud服务器，前几天准备测试用，结果发现怎么调整都打不开网站，以为是服务器apache问题，就准备用阿里云的服务器测，不过改dns的时候才发现ns没有生效，原来是万恶的阿里云给暂停了。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>百度BAE以后不备案不能绑定域名了</title>
-      <link>http://www.tiankong.info/2013/12/31/%E7%99%BE%E5%BA%A6bae%E4%BB%A5%E5%90%8E%E4%B8%8D%E5%A4%87%E6%A1%88%E4%B8%8D%E8%83%BD%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E4%BA%86/</link>
+      <link>http://www.tiankong.info/post/2013/12/31/%E7%99%BE%E5%BA%A6bae%E4%BB%A5%E5%90%8E%E4%B8%8D%E5%A4%87%E6%A1%88%E4%B8%8D%E8%83%BD%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E4%BA%86/</link>
       <pubDate>Tue, 31 Dec 2013 10:01:27 +0000</pubDate>
       
-      <guid>http://www.tiankong.info/2013/12/31/%E7%99%BE%E5%BA%A6bae%E4%BB%A5%E5%90%8E%E4%B8%8D%E5%A4%87%E6%A1%88%E4%B8%8D%E8%83%BD%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E4%BA%86/</guid>
+      <guid>http://www.tiankong.info/post/2013/12/31/%E7%99%BE%E5%BA%A6bae%E4%BB%A5%E5%90%8E%E4%B8%8D%E5%A4%87%E6%A1%88%E4%B8%8D%E8%83%BD%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%E4%BA%86/</guid>
       <description>&lt;p&gt;最近接到百度的邮件通知，说由于域名管理机构的限制，未进行备案的域名不能进行域名绑定，百度的“自定义绑定域名”功能已经下线，这就意味着一大批使用百度BAE建站的站长面临危机，使用顶级域名的小站长们又该到处找免费空间了。没办法，天朝的备案伤不起，备案还不如找个免费空间容易。&lt;/p&gt;</description>
     </item>
     

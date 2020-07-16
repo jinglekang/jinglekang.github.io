@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#1b1b1b">
+	<title>使用JAX RS简化REST应用开发 | 天空博客</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="使用JAX RS简化REST应用开发" />
+<meta property="og:description" content="REST 简介
+
+REST 是英文 Representational State Transfer 的缩写，有中文翻译为“具象状态传输”。REST 这个术语是由 Roy Fielding 在他的博士论文 《 Architectural Styles and the Design of Network-based Software Architectures 》中提出的。REST 并非标准，而是一种开发 Web 应用的架构风格，可以将其理解为一种设计模式。REST 基于 HTTP，URI，以及 XML 这些现有的广泛流行的协议和标准，伴随着 REST，HTTP 协议得到了更加正确的使用。
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.tiankong.info/post/2020/02/07/%E4%BD%BF%E7%94%A8jax-rs%E7%AE%80%E5%8C%96rest%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91/" />
+<meta property="article:published_time" content="2020-02-07T21:18:12+08:00" />
+<meta property="article:modified_time" content="2020-02-07T21:18:12+08:00" />
+
+	<link rel="stylesheet" href="/css/bundle.css">
+	<link rel="stylesheet" href="/css/themes/dark-blue.css">
+	<link rel="icon" href="/icons/16.png" sizes="16x16" type="image/png">
+	<link rel="icon" href="/icons/32.png" sizes="32x32" type="image/png">
+		
+</head>
+<body>
+	<header class="header">
+	<a class="logo" href="/">天空博客</a>
+	
+<nav class="main-nav" role="navigation">
+	<button id="toggle" class="main-nav__btn" aria-label="Menu toggle" aria-expanded="false" tabindex="0">
+		<div class="main-nav__btn-box" tabindex="-1">
+			<svg class="main-nav__icon icon-menu" width="18" height="18" viewBox="0 0 18 18">
+				<path class="icon-menu__burger" d="M18 0v3.6H0V0h18zM0 10.8h18V7.2H0v3.6zM0 18h18v-3.6H0V18z"/>
+				<path class="icon-menu__x" d="M11.55 9L18 15.45 15.45 18 9 11.55 2.55 18 0 15.45 6.45 9 0 2.55 2.55 0 9 6.45 15.45 0 18 2.55 11.55 9z"/>
+			</svg>
+		</div>
+	</button>
+	<ul id="menu" class="main-nav__list">
+			<li class="main-nav__item">
+				<a class="main-nav__link" href="/">
+					
+					<span class="main-nav__text">主页</span>
+					
+				</a>
+			</li>
+			<li class="main-nav__item">
+				<a class="main-nav__link" href="/record">
+					
+					<span class="main-nav__text">记录</span>
+					
+				</a>
+			</li>
+			<li class="main-nav__item">
+				<a class="main-nav__link" href="/privacy">
+					
+					<span class="main-nav__text">隐私</span>
+					
+				</a>
+			</li>
+			<li class="main-nav__item">
+				<a class="main-nav__link" href="/links">
+					
+					<span class="main-nav__text">友联</span>
+					
+				</a>
+			</li>
+			<li class="main-nav__item">
+				<a class="main-nav__link" href="/about">
+					
+					<span class="main-nav__text">关于</span>
+					
+				</a>
+			</li>
+	</ul>
+</nav>
+</header>
+	<div class="primary">
+	
+	<main class="main">
+		
+		<div class="single block">
+			<article class="entry">
+				<h1 class="entry__title">使用JAX RS简化REST应用开发</h1>
+				<div class="entry__content"><h3 id="rest-简介">REST 简介</h3>
+<blockquote>
+<p>REST 是英文 Representational State Transfer 的缩写，有中文翻译为“具象状态传输”。REST 这个术语是由 Roy Fielding 在他的博士论文 《 Architectural Styles and the Design of Network-based Software Architectures 》中提出的。REST 并非标准，而是一种开发 Web 应用的架构风格，可以将其理解为一种设计模式。REST 基于 HTTP，URI，以及 XML 这些现有的广泛流行的协议和标准，伴随着 REST，HTTP 协议得到了更加正确的使用。</p>
+</blockquote>
+<p>相较于基于 SOAP 和 WSDL 的 Web 服务，REST 模式提供了更为简洁的实现方案。目前，越来越多的 Web 服务开始采用 REST 风格设计和实现，真实世界中比较著名的 REST 服务包括：Google AJAX 搜索 API、Amazon Simple Storage Service (Amazon S3)等。</p>
+<p>基于 REST 的 Web 服务遵循一些基本的设计原则：</p>
+<ol>
+<li>
+<p>系统中的每一个对象或是资源都可以通过一个唯一的 URI 来进行寻址，URI 的结构应该简单、可预测且易于理解，比如定义目录结构式的 URI。</p>
+</li>
+<li>
+<p>以遵循 RFC-2616 所定义的协议的方式显式地使用 HTTP 方法，建立创建、检索、更新和删除（CRUD：Create, Retrieve, Update and Delete）操作与 HTTP 方法之间的一对一映射：</p>
+<ol>
+<li>若要在服务器上创建资源，应该使用 POST 方法；</li>
+<li>若要检索某个资源，应该使用 GET 方法；</li>
+<li>若要更改资源状态或对其进行更新，应该使用 PUT 方法；</li>
+<li>若要删除某个资源，应该使用 DELETE 方法。</li>
+</ol>
+</li>
+<li>
+<p>URI 所访问的每个资源都可以使用不同的形式加以表示（比如 XML 或者 JSON），具体的表现形式取决于访问资源的客户端，客户端与服务提供者使用一种内容协商的机制（请求头与 MIME 类型）来选择合适的数据格式，最小化彼此之间的数据耦合。</p>
+</li>
+</ol>
+<h3 id="jax-rs----java-api-for-restful-web-services">JAX-RS &ndash; Java API for RESTful Web Services</h3>
+<p>Java EE 6 引入了对 JSR-311 的支持。JSR-311（JAX-RS：Java API for RESTful Web Services）旨在定义一个统一的规范，使得 Java 程序员可以使用一套固定的接口来开发 REST 应用，避免了依赖于第三方框架。同时，JAX-RS 使用 POJO 编程模型和基于标注的配置，并集成了 JAXB，从而可以有效缩短 REST 应用的开发周期。</p>
+<p>JAX-RS 定义的 API 位于 javax.ws.rs 包中，其中一些主要的接口、标注和抽象类如 图 1所示。</p>
+<p>图 1. javax.ws.rs 包概况</p>
+<p><img src="https://www.ibm.com/developerworks/cn/java/j-lo-jaxrs/image001.jpg" alt="img"></p>
+<p>JAX-RS 的具体实现由第三方提供，例如 Sun 的参考实现 Jersey、Apache 的 CXF 以及 JBoss 的 RESTEasy。</p>
+<p>在接下来的文章中，将结合一个记账簿应用向读者介绍 JAX-RS 一些关键的细节。</p>
+<h3 id="示例简介">示例简介</h3>
+<p>记账簿示例应用程序中包含了 3 种资源：账目、用户以及账目种类，用户与账目、账目种类与账目之间都是一对多的关系。记账簿实现的主要功能包括：</p>
+<ol>
+<li>记录某用户在什么时间花费了多少金额在哪个种类上</li>
+<li>按照用户、账目种类、时间或者金额查询记录</li>
+<li>对用户以及账目种类的管理</li>
+</ol>
+<h3 id="resource-类和-resource-方法">Resource 类和 Resource 方法</h3>
+<p>Web 资源作为一个 Resource 类来实现，对资源的请求由 Resource 方法来处理。Resource 类或 Resource 方法被打上了 Path 标注，Path 标注的值是一个相对的 URI 路径，用于对资源进行定位，路径中可以包含任意的正则表达式以匹配资源。和大多数 JAX-RS 标注一样，Path 标注是可继承的，子类或实现类可以继承超类或接口中的 Path 标注。</p>
+<p>Resource 类是 POJO，使用 JAX-RS 标注来实现相应的 Web 资源。Resource 类分为根 Resource 类和子 Resource 类，区别在于子 Resource 类没有打在类上的 Path 标注。Resource 类的实例方法打上了 Path 标注，则为 Resource 方法或子 Resource 定位器，区别在于子 Resource 定位器上没有任何 @GET、@POST、@PUT、@DELETE 或者自定义的 @HttpMethod。清单 1展示了示例应用中使用的根 Resource 类及其 Resource 方法。</p>
+<p>清单 1. 根 Resource 类</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#a6e22e">@Path</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;/&#34;</span><span style="color:#f92672">)</span> 
+<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">BookkeepingService</span> <span style="color:#f92672">{</span> 
+   <span style="color:#f92672">......</span> 
+   <span style="color:#a6e22e">@Path</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;/person/&#34;</span><span style="color:#f92672">)</span> 
+   <span style="color:#a6e22e">@POST</span> 
+   <span style="color:#a6e22e">@Consumes</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;application/json&#34;</span><span style="color:#f92672">)</span> 
+   <span style="color:#66d9ef">public</span> Response <span style="color:#a6e22e">createPerson</span><span style="color:#f92672">(</span>Person person<span style="color:#f92672">)</span> <span style="color:#f92672">{</span> 
+       <span style="color:#f92672">......</span> 
+   <span style="color:#f92672">}</span> 
+ 
+   <span style="color:#a6e22e">@Path</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;/person/&#34;</span><span style="color:#f92672">)</span> 
+   <span style="color:#a6e22e">@PUT</span> 
+   <span style="color:#a6e22e">@Consumes</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;application/json&#34;</span><span style="color:#f92672">)</span> 
+   <span style="color:#66d9ef">public</span> Response <span style="color:#a6e22e">updatePerson</span><span style="color:#f92672">(</span>Person person<span style="color:#f92672">)</span> <span style="color:#f92672">{</span> 
+       <span style="color:#f92672">......</span> 
+   <span style="color:#f92672">}</span> 
+ 
+   <span style="color:#a6e22e">@Path</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;/person/{id:\\d+}/&#34;</span><span style="color:#f92672">)</span> 
+   <span style="color:#a6e22e">@DELETE</span> 
+   <span style="color:#66d9ef">public</span> Response <span style="color:#a6e22e">deletePerson</span><span style="color:#f92672">(</span><span style="color:#a6e22e">@PathParam</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;id&#34;</span><span style="color:#f92672">)</span> 
+   <span style="color:#66d9ef">int</span> id<span style="color:#f92672">)</span> <span style="color:#f92672">{</span> 
+       <span style="color:#f92672">......</span> 
+   <span style="color:#f92672">}</span> 
+ 
+   <span style="color:#a6e22e">@Path</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;/person/{id:\\d+}/&#34;</span><span style="color:#f92672">)</span> 
+   <span style="color:#a6e22e">@GET</span> 
+   <span style="color:#a6e22e">@Produces</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;application/json&#34;</span><span style="color:#f92672">)</span> 
+   <span style="color:#66d9ef">public</span> Person <span style="color:#a6e22e">readPerson</span><span style="color:#f92672">(</span><span style="color:#a6e22e">@PathParam</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;id&#34;</span><span style="color:#f92672">)</span> 
+   <span style="color:#66d9ef">int</span> id<span style="color:#f92672">)</span> <span style="color:#f92672">{</span> 
+       <span style="color:#f92672">......</span> 
+   <span style="color:#f92672">}</span> 
+ 
+   <span style="color:#a6e22e">@Path</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;/persons/&#34;</span><span style="color:#f92672">)</span> 
+   <span style="color:#a6e22e">@GET</span> 
+   <span style="color:#a6e22e">@Produces</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;application/json&#34;</span><span style="color:#f92672">)</span> 
+   <span style="color:#66d9ef">public</span> Person<span style="color:#f92672">[]</span> <span style="color:#a6e22e">readAllPersons</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span> 
+       <span style="color:#f92672">......</span> 
+   <span style="color:#f92672">}</span> 
+ 
+   <span style="color:#a6e22e">@Path</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;/person/{name}/&#34;</span><span style="color:#f92672">)</span> 
+   <span style="color:#a6e22e">@GET</span> 
+   <span style="color:#a6e22e">@Produces</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;application/json&#34;</span><span style="color:#f92672">)</span> 
+   <span style="color:#66d9ef">public</span> Person <span style="color:#a6e22e">readPersonByName</span><span style="color:#f92672">(</span><span style="color:#a6e22e">@PathParam</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;name&#34;</span><span style="color:#f92672">)</span> 
+   String name<span style="color:#f92672">)</span> <span style="color:#f92672">{</span> 
+       <span style="color:#f92672">......</span> 
+<span style="color:#f92672">}</span> 
+<span style="color:#f92672">......</span>
+</code></pre></div><h3 id="参数标注">参数标注</h3>
+<p>JAX-RS 中涉及 Resource 方法参数的标注包括：@PathParam、@MatrixParam、@QueryParam、@FormParam、@HeaderParam、@CookieParam、@DefaultValue 和 @Encoded。这其中最常用的是 @PathParam，它用于将 @Path 中的模板变量映射到方法参数，模板变量支持使用正则表达式，变量名与正则表达式之间用分号分隔。例如对 清单 1中所示的 BookkeepingService 类，如果使用 Get 方法请求资源”/person/jeffyin”，则 readPersonByName 方法将被调用，方法参数 name 被赋值为”jeffyin”；而如果使用 Get 方法请求资源”/person/123”，则 readPerson 方法将被调用，方法参数 id 被赋值为 123。要了解如何使用其它的参数标注 , 请参考 JAX-RS API。</p>
+<p>JAX-RS 规定 Resource 方法中只允许有一个参数没有打上任何的参数标注，该参数称为实体参数，用于映射请求体。例如 清单 1 中所示的 BookkeepingService 类的 createPerson 方法和 updatePerson 方法的参数 person。</p>
+<h3 id="参数与返回值类型">参数与返回值类型</h3>
+<p>Resource 方法合法的参数类型包括：</p>
+<ol>
+<li>原生类型</li>
+<li>构造函数接收单个字符串参数或者包含接收单个字符串参数的静态方法 valueOf 的任意类型</li>
+<li>List<!-- raw HTML omitted -->，Set<!-- raw HTML omitted -->，SortedSet<!-- raw HTML omitted -->（T 为以上的 2 种类型）</li>
+<li>用于映射请求体的实体参数</li>
+</ol>
+<p>Resource 方法合法的返回值类型包括：</p>
+<ol>
+<li>void：状态码 204 和空响应体</li>
+<li>Response：Response 的 status 属性指定了状态码，entity 属性映射为响应体</li>
+<li>GenericEntity：GenericEntity 的 entity 属性映射为响应体，entity 属性为空则状态码为 204，非空则状态码为 200</li>
+<li>其它类型：返回的对象实例映射为响应体，实例为空则状态码为 204，非空则状态码为 200</li>
+</ol>
+<p>对于错误处理，Resource 方法可以抛出非受控异常 WebApplicationException 或者返回包含了适当的错误码集合的 Response 对象。</p>
+<h4 id="context-标注">Context 标注</h4>
+<p>通过 Context 标注，根 Resource 类的实例字段可以被注入如下类型的上下文资源：</p>
+<ol>
+<li>Request、UriInfo、HttpHeaders、Providers、SecurityContext</li>
+<li>HttpServletRequest、HttpServletResponse、ServletContext、ServletConfig</li>
+</ol>
+<p>要了解如何使用第 1 种类型的上下文资源 , 请参考 JAX-RS API。</p>
+<h3 id="crud-操作">CRUD 操作</h3>
+<p>JAX-RS 定义了 @POST、@GET、@PUT 和 @DELETE，分别对应 4 种 HTTP 方法，用于对资源进行创建、检索、更新和删除的操作。</p>
+<h4 id="post-标注">POST 标注</h4>
+<p>POST 标注用于在服务器上创建资源，如 清单 2所示。</p>
+<p>清单 2. POST 标注</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#a6e22e">@Path</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;/&#34;</span><span style="color:#f92672">)</span> 
+<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">BookkeepingService</span> <span style="color:#f92672">{</span> 
+   <span style="color:#f92672">......</span> 
+   <span style="color:#a6e22e">@Path</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;/account/&#34;</span><span style="color:#f92672">)</span> 
+   <span style="color:#a6e22e">@POST</span> 
+   <span style="color:#a6e22e">@Consumes</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;application/json&#34;</span><span style="color:#f92672">)</span> 
+   <span style="color:#66d9ef">public</span> Response <span style="color:#a6e22e">createAccount</span><span style="color:#f92672">(</span>Account account<span style="color:#f92672">)</span> <span style="color:#f92672">{</span> 
+       <span style="color:#f92672">......</span> 
+   <span style="color:#f92672">}</span> 
+<span style="color:#f92672">......</span>
+</code></pre></div><p>如果使用 POST 方法请求资源”/account”，则 createAccount 方法将被调用，JSON 格式的请求体被自动映射为实体参数 account。</p>
+<h4 id="get-标注-待续转载自ibm源地址httpswwwibmcomdeveloperworkscnjavaj-lo-jaxrs">GET 标注 待续，转载自IBM，源地址：https://www.ibm.com/developerworks/cn/java/j-lo-jaxrs/</h4></div>
+				
+			</article>
+		</div>
+	</main>
+	
+<div class="authorbox block">
+	<div class="author">
+		<figure class="author__avatar">
+			<img class="author__img" alt="浮云 avatar" src="/img/avatar.png" height="90" width="90">
+		</figure>
+		<div class="author__body">
+			<div class="author__name">
+				浮云
+			</div>
+			<div class="author__bio">江天一色无纤尘，皎皎空中孤月轮。</div>
+		</div>
+	</div>
+</div>
+	
+
+
+
+	
+
+	</div>
+	<footer class="footer">
+<div class="footer__social social">
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="mailto:service@tiankong.info">
+			<svg class="social__icon" aria-label="Email" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="M299 268l124 106c-4 4-10 7-17 7H106c-7 0-13-3-17-7l124-106 43 38 43-38zm-43 13L89 138c4-4 10-7 17-7h300c7 0 13 3 17 7L256 281zm54-23l121-105v208L310 258zM81 153l121 105L81 361V153z"/></svg>
+		</a>
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="https://github.com/jinglekang">
+			<svg class="social__icon" aria-label="Github" role="img" width="32" height="32" viewBox="0 0 512 512"><path d="M335 499c14 0 12 17 12 17H165s-2-17 12-17c13 0 16-6 16-12l-1-50c-71 16-86-28-86-28-12-30-28-37-28-37-24-16 1-16 1-16 26 2 40 26 40 26 22 39 59 28 74 22 2-17 9-28 16-35-57-6-116-28-116-126 0-28 10-51 26-69-3-6-11-32 3-67 0 0 21-7 70 26 42-12 86-12 128 0 49-33 70-26 70-26 14 35 6 61 3 67 16 18 26 41 26 69 0 98-60 120-117 126 10 8 18 24 18 48l-1 70c0 6 3 12 16 12z"/></svg>
+		</a>
+		<a class="social__link" target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/users/11146079">
+			<svg class="social__icon" aria-label="Stack Overflow" role="img" width="32" height="32" viewBox="0 0 512 512"><g stroke-width="30"><path fill="none" d="M125 297v105h241V297"/><path d="M170 341h150m-144-68l148 31M199 204l136 64m-95-129l115 97M293 89l90 120"/></g></svg>
+		</a>
+</div>
+	<div class="footer__copyright">© 2020 天空博客. <span class="footer__copyright-credits"></span></div>
+</footer>
+<script src="/js/menu.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+
+</body>
+</html>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Donuts Inc on 天空博客</title>
@@ -13,10 +13,10 @@
     
     <item>
       <title>域名无故被serverHold</title>
-      <link>http://www.tiankong.info/2017/12/14/%E5%9F%9F%E5%90%8D%E6%97%A0%E6%95%85%E8%A2%ABserverhold/</link>
+      <link>http://www.tiankong.info/post/2017/12/14/%E5%9F%9F%E5%90%8D%E6%97%A0%E6%95%85%E8%A2%ABserverhold/</link>
       <pubDate>Thu, 14 Dec 2017 03:52:07 +0000</pubDate>
       
-      <guid>http://www.tiankong.info/2017/12/14/%E5%9F%9F%E5%90%8D%E6%97%A0%E6%95%85%E8%A2%ABserverhold/</guid>
+      <guid>http://www.tiankong.info/post/2017/12/14/%E5%9F%9F%E5%90%8D%E6%97%A0%E6%95%85%E8%A2%ABserverhold/</guid>
       <description>&lt;p&gt;前段时间收到腾讯企业邮箱的通知，内容大约是我的备用域名（div.ltd）MX记录没了。MX记录有大半年没改过了，不可能无缘无故消失，吓我还以为域名被盗，赶紧去NameSilo查看，但是没有发现问题，就没有放在心上，连续几天通知我记录丢失，才注意到域名状态是serverHold了。&lt;/p&gt;</description>
     </item>
     
