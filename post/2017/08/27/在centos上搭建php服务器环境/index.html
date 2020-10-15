@@ -106,7 +106,7 @@ yum install httpd httpd-devel
 </code></pre><p>安装完扩展之后需要再次重启apache</p>
 <pre><code>/etc/init.d/httpd restart
 </code></pre><p>测试mysql是否链接成功的php代码</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#75715e">&lt;?php</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#f92672">&lt;?</span><span style="color:#a6e22e">php</span>
     $con <span style="color:#f92672">=</span> <span style="color:#a6e22e">mysql_connect</span>(<span style="color:#e6db74">&#34;10.0.@.@@&#34;</span>,<span style="color:#e6db74">&#34;@@&#34;</span>,<span style="color:#e6db74">&#34;@@&#34;</span>);
     <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>$con){
         <span style="color:#66d9ef">die</span>(<span style="color:#e6db74">&#39;Could not connect: &#39;</span> <span style="color:#f92672">.</span> <span style="color:#a6e22e">mysql_error</span>());
@@ -118,8 +118,8 @@ yum install httpd httpd-devel
         <span style="color:#66d9ef">echo</span> <span style="color:#e6db74">&#34;&lt;br /&gt;&#34;</span>;
     }
     <span style="color:#a6e22e">mysql_close</span>($con);
-<span style="color:#75715e">?&gt;</span>
-</code></pre></div><p>可以把上面的代码传入目录/var/www/html/</p>
+<span style="color:#75715e">?&gt;</span><span style="color:#960050;background-color:#1e0010">
+</span></code></pre></div><p>可以把上面的代码传入目录/var/www/html/</p>
 <p>就可以看到执行情况</p>
 <blockquote>
 <p>转自网络，原文地址：<!-- raw HTML omitted -->在CentOS上搭建PHP服务器环境<!-- raw HTML omitted --></p>
