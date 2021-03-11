@@ -72,7 +72,19 @@
 		
 		<div class="single block">
 			<article class="entry">
+	<div class="entry__meta meta mb">
+	<time class="entry__meta-published meta-published" datetime="2015-12-11T08:45:58Z">2015年12月11日</time>
+<span class="entry__meta-categories meta-categories">
+	<span class="meta-categories__list">Categories:
+		<a class="meta-categories__link" href="/categories/%e7%bd%91%e7%ab%99%e5%bb%ba%e8%ae%be/" rel="category">网站建设</a>
+	</span>
+</span>
+	</div>
 				<h1 class="entry__title">删除自豪地采用WordPress的简单方法</h1>
+<details class="entry__toc toc" >
+	<summary class="toc__title">段落导航</summary>
+	<nav id="TableOfContents"></nav>
+</details>
 				<div class="entry__content"><p>有些人有强迫症，比如我，不喜欢不顺眼的东西，右下角添加版权链接本身应该的，但这句话看着真令人揪心，对我来说还是删了省事，在此感谢WordPress。</p>
 <p>打开后台-外观-编辑，找到footer.php，打开后删除或注释下列代码，轻松解决，也可以改成自己的版权链接。</p>
 <pre><code>&lt;a href=&quot;&lt;?php echo esc_url( __( 'https://wordpress.org/', 'twentyten' ) ); ?&gt;&quot;

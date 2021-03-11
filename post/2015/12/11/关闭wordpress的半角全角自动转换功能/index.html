@@ -72,7 +72,19 @@
 		
 		<div class="single block">
 			<article class="entry">
+	<div class="entry__meta meta mb">
+	<time class="entry__meta-published meta-published" datetime="2015-12-11T08:33:07Z">2015年12月11日</time>
+<span class="entry__meta-categories meta-categories">
+	<span class="meta-categories__list">Categories:
+		<a class="meta-categories__link" href="/categories/%e7%bd%91%e7%ab%99%e5%bb%ba%e8%ae%be/" rel="category">网站建设</a>
+	</span>
+</span>
+	</div>
 				<h1 class="entry__title">关闭WordPress的半角全角自动转换功能</h1>
+<details class="entry__toc toc" >
+	<summary class="toc__title">段落导航</summary>
+	<nav id="TableOfContents"></nav>
+</details>
 				<div class="entry__content"><p>由于WordPress自动把半角转化为全角，导致贴在博客的一些代码复制过去无法使用，造成一些不必要的误解，下面贴出最简单的解决办法，只需添加一行代码。</p>
 <p>找到后台的“外观”“编辑”，在右边找到“模板函数 (functions.php)”，在<code>&lt;?php</code>和<code>?&gt;</code>之间添加下面的代码即可实现。</p>
 <pre><code>remove_filter('the_content', 'wptexturize');

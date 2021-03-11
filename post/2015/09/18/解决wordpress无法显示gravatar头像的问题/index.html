@@ -72,7 +72,19 @@
 		
 		<div class="single block">
 			<article class="entry">
+	<div class="entry__meta meta mb">
+	<time class="entry__meta-published meta-published" datetime="2015-09-18T22:55:01Z">2015年9月18日</time>
+<span class="entry__meta-categories meta-categories">
+	<span class="meta-categories__list">Categories:
+		<a class="meta-categories__link" href="/categories/%e7%bd%91%e7%ab%99%e5%bb%ba%e8%ae%be/" rel="category">网站建设</a>
+	</span>
+</span>
+	</div>
 				<h1 class="entry__title">解决WordPress无法显示Gravatar头像的问题</h1>
+<details class="entry__toc toc" >
+	<summary class="toc__title">段落导航</summary>
+	<nav id="TableOfContents"></nav>
+</details>
 				<div class="entry__content"><p>因为国内的一些政策，Gravatar被屏蔽了，导致无数WordPress网站头像无法显示，并且导致网站迟迟加载不完全，很多人尝试用本地缓存的方法，不过如果博客访问量很高的话，对服务器的负载很大，使用以下方法可以完美解决这个问题。</p>
 <p>利用WordPress自带的外观-编辑功能，找到并打开 functions.php 文件，把以下代码复制放到该文件中：</p>
 <pre><code>function get_ssl_avatar($avatar) {
