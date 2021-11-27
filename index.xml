@@ -6,7 +6,25 @@
     <description>Recent content on 天空博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 15 Jun 2021 10:28:59 +0800</lastBuildDate><atom:link href="https://www.tiankong.info/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Nov 2021 10:19:30 +0800</lastBuildDate><atom:link href="https://www.tiankong.info/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>编译lede教程-未完成</title>
+      <link>https://www.tiankong.info/post/2021/11/27/%E7%BC%96%E8%AF%91lede%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Sat, 27 Nov 2021 10:19:30 +0800</pubDate>
+      
+      <guid>https://www.tiankong.info/post/2021/11/27/%E7%BC%96%E8%AF%91lede%E6%95%99%E7%A8%8B/</guid>
+      <description>操作系统安装（略） 系统要求：Ubuntu 18.04.6 LTS
+切换阿里云镜像，参考：https://developer.aliyun.com/mirror/ubuntu
+备份源文件
+cd /etc/apt/ cp sources.list sources.list.bak 编辑sources.list文件
+nano sources.list 删除默认内容，粘贴以下内容
+deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse 保存（Ctrl+O）并退出（Ctrl+X）
+更新当前操作系统
+apt update apt upgrade  如果是虚拟机，记得安装VMware辅助工具
+ apt install open-vm-tools open-vm-tools-desktop 安装lede编译依赖文件
+apt install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3 python2.</description>
+    </item>
+    
     <item>
       <title>程序员界的孔乙己</title>
       <link>https://www.tiankong.info/post/2021/06/15/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%95%8C%E7%9A%84%E5%AD%94%E4%B9%99%E5%B7%B1/</link>

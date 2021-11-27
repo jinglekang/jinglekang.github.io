@@ -12,7 +12,7 @@
 <meta property="og:description" content="江天一色无纤尘，皎皎空中孤月轮" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.tiankong.info/post/" />
-<meta property="og:updated_time" content="2021-06-15T10:28:59+08:00" />
+<meta property="og:updated_time" content="2021-11-27T10:19:30+08:00" />
 
 	<link rel="stylesheet" href="/css/bundle.css">
 	<link rel="stylesheet" href="/css/themes/dark-blue.css">
@@ -75,6 +75,25 @@
 			
 		</div>
 		<div class="cards">
+			
+				<div class="card card--2col">
+					<article class="entry card__box block">
+	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/post/2021/11/27/%E7%BC%96%E8%AF%91lede%E6%95%99%E7%A8%8B/">编译lede教程-未完成</a></h1>
+	<div class="entry__content">操作系统安装（略） 系统要求：Ubuntu 18.04.6 LTS
+切换阿里云镜像，参考：https://developer.aliyun.com/mirror/ubuntu
+备份源文件
+cd /etc/apt/ cp sources.list sources.list.bak 编辑sources.list文件
+nano sources.list 删除默认内容，粘贴以下内容
+deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse 保存（Ctrl+O）并退出（Ctrl+X）
+更新当前操作系统
+apt update apt upgrade  如果是虚拟机，记得安装VMware辅助工具
+ apt install open-vm-tools open-vm-tools-desktop 安装lede编译依赖文件
+apt install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3 python2.</div>
+	<div class="entry__meta meta mt tar">
+	<time class="entry__meta-published meta-published" datetime="2021-11-27T10:19:30&#43;08:00">2021年11月27日</time>
+	</div>
+</article>
+				</div>
 			
 				<div class="card card--2col">
 					<article class="entry card__box block">
@@ -209,25 +228,6 @@ https://github.com/UB-Mannheim/tesseract/wiki
 <p>上班了，待续。。。</p></div>
 	<div class="entry__meta meta mt tar">
 	<time class="entry__meta-published meta-published" datetime="2019-06-25T13:31:25&#43;08:00">2019年6月25日</time>
-	</div>
-</article>
-				</div>
-			
-				<div class="card card--2col">
-					<article class="entry card__box block">
-	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/post/2019/02/19/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%BC%80%E5%90%AFsamba%E6%9C%8D%E5%8A%A1/">树莓派开启samba服务</a></h1>
-	<div class="entry__content"><p>声明：debian 9.0系统，如未登录root，请自行添加sudo</p>
-<p>首先更新系统</p>
-<pre><code>apt update
-apt upgrade
-</code></pre><p>安装samba程序</p></div>
-	<div class="entry__meta meta mt tar">
-	<time class="entry__meta-published meta-published" datetime="2019-02-19T23:31:42Z">2019年2月19日</time>
-<span class="entry__meta-categories meta-categories">
-	<span class="meta-categories__list">Categories:
-		<a class="meta-categories__link" href="/categories/%e9%bb%98%e8%ae%a4%e5%88%86%e7%b1%bb/" rel="category">默认分类</a>
-	</span>
-</span>
 	</div>
 </article>
 				</div>
