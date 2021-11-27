@@ -79,16 +79,15 @@
 				<div class="card card--2col">
 					<article class="entry card__box block">
 	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="/post/2021/11/27/%E7%BC%96%E8%AF%91lede%E6%95%99%E7%A8%8B/">编译lede教程-未完成</a></h1>
-	<div class="entry__content">操作系统安装（略） 系统要求：Ubuntu 18.04.6 LTS
-切换阿里云镜像，参考：https://developer.aliyun.com/mirror/ubuntu
-备份源文件
-cd /etc/apt/ cp sources.list sources.list.bak 编辑sources.list文件
-nano sources.list 删除默认内容，粘贴以下内容
-deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse 保存（Ctrl+O）并退出（Ctrl+X）
-更新当前操作系统
-apt update apt upgrade  如果是虚拟机，记得安装VMware辅助工具
- apt install open-vm-tools open-vm-tools-desktop 安装lede编译依赖文件
-apt install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3 python2.</div>
+	<div class="entry__content"><h3 id="操作系统安装略">操作系统安装（略）</h3>
+<p>系统要求：Ubuntu 18.04.6 LTS</p>
+<p>切换阿里云镜像，参考：https://developer.aliyun.com/mirror/ubuntu</p>
+<p>备份源文件</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd /etc/apt/
+cp sources.list sources.list.bak
+</code></pre></div><p>编辑sources.list文件</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">nano sources.list
+</code></pre></div></div>
 	<div class="entry__meta meta mt tar">
 	<time class="entry__meta-published meta-published" datetime="2021-11-27T10:19:30&#43;08:00">2021年11月27日</time>
 	</div>

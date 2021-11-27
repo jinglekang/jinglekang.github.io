@@ -9,16 +9,15 @@
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 		<meta property="og:title" content="编译lede教程-未完成" />
-<meta property="og:description" content="操作系统安装（略） 系统要求：Ubuntu 18.04.6 LTS
+<meta property="og:description" content="操作系统安装（略）
+系统要求：Ubuntu 18.04.6 LTS
 切换阿里云镜像，参考：https://developer.aliyun.com/mirror/ubuntu
 备份源文件
-cd /etc/apt/ cp sources.list sources.list.bak 编辑sources.list文件
-nano sources.list 删除默认内容，粘贴以下内容
-deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse 保存（Ctrl&#43;O）并退出（Ctrl&#43;X）
-更新当前操作系统
-apt update apt upgrade  如果是虚拟机，记得安装VMware辅助工具
- apt install open-vm-tools open-vm-tools-desktop 安装lede编译依赖文件
-apt install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3 python2." />
+cd /etc/apt/
+cp sources.list sources.list.bak
+编辑sources.list文件
+nano sources.list
+" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.tiankong.info/post/2021/11/27/%E7%BC%96%E8%AF%91lede%E6%95%99%E7%A8%8B/" />
 <meta property="article:published_time" content="2021-11-27T10:19:30+08:00" />
@@ -157,8 +156,7 @@ make -j<span style="color:#66d9ef">$(($(</span>nproc<span style="color:#66d9ef">
 <p>部分内容来源lede的仓库readme文件</p>
 <blockquote>
 <p><a href="https://github.com/coolsnowwolf/lede">https://github.com/coolsnowwolf/lede</a></p>
-</blockquote>
-</div>
+</blockquote></div>
 				
 			</article>
 		</div>

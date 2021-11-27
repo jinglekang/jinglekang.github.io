@@ -13,16 +13,15 @@
       <pubDate>Sat, 27 Nov 2021 10:19:30 +0800</pubDate>
       
       <guid>https://www.tiankong.info/post/2021/11/27/%E7%BC%96%E8%AF%91lede%E6%95%99%E7%A8%8B/</guid>
-      <description>操作系统安装（略） 系统要求：Ubuntu 18.04.6 LTS
-切换阿里云镜像，参考：https://developer.aliyun.com/mirror/ubuntu
-备份源文件
-cd /etc/apt/ cp sources.list sources.list.bak 编辑sources.list文件
-nano sources.list 删除默认内容，粘贴以下内容
-deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse 保存（Ctrl+O）并退出（Ctrl+X）
-更新当前操作系统
-apt update apt upgrade  如果是虚拟机，记得安装VMware辅助工具
- apt install open-vm-tools open-vm-tools-desktop 安装lede编译依赖文件
-apt install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3 python2.</description>
+      <description>&lt;h3 id=&#34;操作系统安装略&#34;&gt;操作系统安装（略）&lt;/h3&gt;
+&lt;p&gt;系统要求：Ubuntu 18.04.6 LTS&lt;/p&gt;
+&lt;p&gt;切换阿里云镜像，参考：https://developer.aliyun.com/mirror/ubuntu&lt;/p&gt;
+&lt;p&gt;备份源文件&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cd /etc/apt/
+cp sources.list sources.list.bak
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;编辑sources.list文件&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;nano sources.list
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
